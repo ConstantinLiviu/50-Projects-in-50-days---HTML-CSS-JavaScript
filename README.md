@@ -1,4 +1,4 @@
-# 50-Projects-in-50-days---HTML-CSS-JavaScript
+50-Projects-in-50-days---HTML-CSS-JavaScript
 
 The purpose of this repository is to showcase my work as I complete this course: https://www.udemy.com/course/50-projects-50-days/
 
