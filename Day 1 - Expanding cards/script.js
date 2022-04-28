@@ -1,1 +1,1 @@
-alert("merge!");
+alert("ok!");
