@@ -8,7 +8,7 @@
      ✔ create container and center all slides;
      ✔ add background image and make slides flexible;
      ✔ add icon and text at the bottom of each slide;
-     - stylize text and icon;
-     - make slides expandable (js);
+     ✔ stylize text and icon;
+     ✔ make slides expandable (js);
      - set transitions;
      - optimize for mobile;
