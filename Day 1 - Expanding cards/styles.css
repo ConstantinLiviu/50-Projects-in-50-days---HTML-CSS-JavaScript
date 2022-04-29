@@ -16,4 +16,87 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background-color: rgba(0, 0, 0, 0.848);
+}
+
+/* Container */
+
+.container {
+  height: 90vh;
+  width: 90vw;
+  padding: 1%;
+  align-items: center;
+}
+
+/* Panel */
+
+.panel {
+  background-image: url(img/Spring2.jpg);
+  background-size: cover;
+  height: 90%;
+  width: 5%;
+  border-radius: 1.5rem;
+  overflow-x: hidden;
+  align-items: bottom;
+  margin: 0 1rem;
+}
+
+.active {
+  flex-grow: 999999;
+}
+
+/* Bottom Label */
+
+.copy {
+  margin-bottom: 3rem;
+}
+
+.icon {
+  padding-left: 1.5rem;
+}
+
+.fas {
+  background-color: #fff;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 48px;
+  font-size: 3rem;
+}
+
+.fa-cloud-sun {
+  color: #08b402;
+}
+
+.text {
+  margin: auto 0;
+  padding-left: 2rem;
+  color: #fff;
+}
+
+p {
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-shadow: 0.2rem 0.2rem rgba(0, 0, 0, 0.7);
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+/* Utilitary classes */
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
