@@ -31,7 +31,6 @@ body {
 /* Panel */
 
 .panel {
-  background-image: url(img/Spring2.jpg);
   background-size: cover;
   height: 90%;
   width: 5%;
@@ -39,6 +38,25 @@ body {
   overflow-x: hidden;
   align-items: bottom;
   margin: 0 1rem;
+}
+.panel-1 {
+  background-image: url(img/Spring2.jpg);
+}
+
+.panel-2 {
+  background-image: url(img/Summer.jpg);
+}
+
+.panel-3 {
+  background-image: url(img/Autumn.jpg);
+}
+
+.panel-4 {
+  background-image: url(img/Winter.jpg);
+}
+
+.panel-5 {
+  background-image: url(img/FiP.jpg);
 }
 
 .active {
@@ -63,10 +81,23 @@ body {
   text-align: center;
   line-height: 48px;
   font-size: 3rem;
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.7);
 }
 
 .fa-cloud-sun {
   color: #08b402;
+}
+
+.fa-sun {
+  color: rgb(255, 196, 0);
+}
+
+.fa-cloud-rain {
+  color: rgb(216, 50, 9);
+}
+
+.fa-snowflake {
+  color: rgb(75, 170, 165);
 }
 
 .text {
