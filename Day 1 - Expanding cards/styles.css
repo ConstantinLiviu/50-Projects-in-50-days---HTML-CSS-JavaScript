@@ -42,7 +42,7 @@ body {
   align-items: bottom;
   margin: 0 1rem;
   cursor: pointer;
-  transition: all 0.5s ease-in;
+  transition: flex 0.5s ease-in;
 }
 
 .panel-1 {
@@ -142,3 +142,54 @@ p {
 
 /******************************************************************************/
 /* MOBILE */
+
+@media screen and (max-width: 600px) {
+  /* Panel */
+  .panel {
+    /* background-size: cover; */
+    background-position: center;
+    height: 7%;
+    width: 95%;
+    border-radius: 0.7rem;
+    overflow-y: hidden;
+    justify-content: flex-start;
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: flex 0.5s ease-in;
+  }
+
+  .copy {
+    margin-top: 0.7rem;
+  }
+
+  .fas {
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.6rem;
+    font-size: 1.5rem;
+  }
+
+  .text {
+    padding-left: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  p {
+    white-space: pre-wrap;
+    font-size: 1.4rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.95);
+  }
+
+  .title {
+    font-size: 1.8rem;
+    margin-bottom: 0.7rem;
+  }
+
+  /* Utilitary */
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+}
