@@ -10,5 +10,5 @@
      ✔ add icon and text at the bottom of each slide;
      ✔ stylize text and icon;
      ✔ make slides expandable (js);
-     - set transitions;
+     ✔ set transitions;
      - optimize for mobile;

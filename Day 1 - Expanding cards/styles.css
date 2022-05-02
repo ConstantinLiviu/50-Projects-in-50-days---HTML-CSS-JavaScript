@@ -19,6 +19,9 @@ body {
   background-color: rgba(0, 0, 0, 0.848);
 }
 
+/**************************************************************************/
+/* DESKTOP */
+
 /* Container */
 
 .container {
@@ -38,7 +41,10 @@ body {
   overflow-x: hidden;
   align-items: bottom;
   margin: 0 1rem;
+  cursor: pointer;
+  transition: all 0.5s ease-in;
 }
+
 .panel-1 {
   background-image: url(img/Spring2.jpg);
 }
@@ -118,6 +124,8 @@ p {
 .title {
   font-size: 2.5rem;
   font-weight: 900;
+  text-transform: uppercase;
+  font-style: italic;
 }
 
 /* Utilitary classes */
@@ -131,3 +139,6 @@ p {
   flex-direction: column;
   justify-content: flex-end;
 }
+
+/******************************************************************************/
+/* MOBILE */
