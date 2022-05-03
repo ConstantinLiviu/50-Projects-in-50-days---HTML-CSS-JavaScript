@@ -9,7 +9,7 @@
     Project milestones are:
      ✔ create steps list;
      ✔ create buttons;
-     - link steps;
+     ✔ link steps;
      - position all elements as per course design;
      - implement functionality (js);
      - refactor where necessary;
