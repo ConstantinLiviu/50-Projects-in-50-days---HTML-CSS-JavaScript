@@ -1,11 +1,20 @@
+:root {
+  --col-white: #ffffff;
+  --col-gray: #b3b3b3;
+  --col-progress-btns: rgb(0, 159, 233);
+  --bg-col: #f0f0f0;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  /* border: 1px solid red; */
 }
 
 html {
   font-size: 62.5%;
+  background-color: var(--bg-col);
 }
 
 body {
@@ -16,4 +25,79 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
+
+/* Container */
+.container {
+  width: 60%;
+  height: auto;
+  padding: 1rem 2rem;
+}
+
+/* List */
+
+.steps {
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  padding: 1rem 0.5rem;
+  position: relative;
+}
+
+.step {
+  padding: 0.6rem 1.3rem;
+  border: 2px solid var(--col-gray);
+  border-radius: 50%;
+  background-color: var(--col-white);
+  cursor: pointer;
+  font-size: 1.8rem;
+  color: var(--col-gray);
+}
+
+/* Progress bars */
+
+.steps::before {
+  content: "";
+  height: 0.3rem;
+  background-color: var(--col-gray);
+  width: 84%;
+  z-index: -1;
+  position: absolute;
+  top: 2.8rem;
+  left: 3.75rem;
+}
+
+.steps::after {
+  content: "";
+  height: 0.3rem;
+  background-color: var(--col-progress-btns);
+  width: 0%;
+  z-index: -1;
+  position: absolute;
+  top: 2.8rem;
+  left: 3.75rem;
+}
+
+/* Progress buttons */
+.buttons {
+  text-align: center;
+}
+
+.previous {
+  margin-right: 3rem;
+}
+
+/* Utility classes */
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.step-completed {
+  border: 0.25rem solid var(--col-progress-btns);
+  color: #222;
 }
