@@ -7,8 +7,8 @@
     I plan to make it responsive and change the mobile funtionality to changing steps by swiping left/right instead of tapping buttons.
 
     Project milestones are:
-     - create steps list;
-     - create buttons;
+     ✔ create steps list;
+     ✔ create buttons;
      - link steps;
      - position all elements as per course design;
      - implement functionality (js);
