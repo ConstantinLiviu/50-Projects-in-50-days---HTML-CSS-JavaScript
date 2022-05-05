@@ -10,7 +10,7 @@
      ✔ create steps list;
      ✔ create buttons;
      ✔ link steps;
-     - position all elements as per course design;
+     ✔ position all elements as per course design;
      - implement functionality (js);
      - refactor where necessary;
      - create mobile version;
