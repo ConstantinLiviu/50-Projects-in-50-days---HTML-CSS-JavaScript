@@ -28,6 +28,7 @@ body {
 }
 
 /* Container */
+
 .container {
   width: 60%;
   height: auto;
@@ -59,27 +60,45 @@ body {
   content: "";
   height: 0.3rem;
   background-color: var(--col-gray);
-  width: 84%;
+  width: 96%;
   z-index: -1;
   position: absolute;
   top: 2.8rem;
-  left: 3.75rem;
+  left: 2.8rem;
 }
 
 .steps::after {
   content: "";
   height: 0.3rem;
-  background-color: var(--col-progress-btns);
+  background-color: var(--col-progress-btns-btns);
   width: 0%;
   z-index: -1;
   position: absolute;
   top: 2.8rem;
-  left: 3.75rem;
+  left: 2rem;
+  transition: width 5s ease-in;
 }
 
 /* Progress buttons */
+
 .buttons {
   text-align: center;
+  /* border: 1px red solid; */
+}
+
+.btn {
+  padding: 0.7rem 2rem;
+  color: var(--col-white);
+  background-color: var(--col-progress-btns);
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+}
+
+.btn:active {
+  transform: scale(0.95);
 }
 
 .previous {
@@ -100,4 +119,9 @@ body {
 .step-completed {
   border: 0.25rem solid var(--col-progress-btns);
   color: #222;
+}
+
+.disabled {
+  background-color: var(--col-gray);
+  pointer-events: none;
 }
