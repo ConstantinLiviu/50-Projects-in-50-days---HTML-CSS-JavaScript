@@ -3,13 +3,13 @@
   --col-gray: #b3b3b3;
   --col-progress-btns: rgb(0, 159, 233);
   --bg-col: #f0f0f0;
+  --bar-width: 60%;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* border: 1px solid red; */
 }
 
 html {
@@ -56,34 +56,34 @@ body {
 
 /* Progress bars */
 
-.steps::before {
-  content: "";
+.progress-bar {
   height: 0.3rem;
-  background-color: var(--col-gray);
-  width: 96%;
+  background: linear-gradient(
+    to right,
+    var(--col-progress-btns) 0 var(--bar-width),
+    var(--col-gray) var(--bar-width) 99%
+  );
+  width: 99%;
   z-index: -1;
   position: absolute;
-  top: 2.8rem;
-  left: 2.8rem;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 1s ease;
+  /* animation-name: test;
+  animation-duration: 1s; */
 }
 
-.steps::after {
-  content: "";
-  height: 0.3rem;
-  background-color: var(--col-progress-btns-btns);
-  width: 0%;
-  z-index: -1;
-  position: absolute;
-  top: 2.8rem;
-  left: 2rem;
-  transition: width 5s ease-in;
-}
-
+/* @keyframes test {
+  from(linear-gradient(
+    to right,
+    var(--col-progress-btns) 0 var(--bar-width),
+    var(--col-gray) var(--bar-width) 99%
+  );)
+} */
 /* Progress buttons */
 
 .buttons {
   text-align: center;
-  /* border: 1px red solid; */
 }
 
 .btn {
