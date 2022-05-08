@@ -11,8 +11,8 @@
      ✔ create buttons;
      ✔ link steps;
      ✔ position all elements as per course design;
-     - implement functionality (js);
-     - refactor where necessary;
+     ✔ implement functionality (js);
+     ✔ refactor where necessary;
      - create mobile version;
 
     Status:
