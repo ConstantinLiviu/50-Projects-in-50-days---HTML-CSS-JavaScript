@@ -3,7 +3,7 @@
   --col-gray: #b3b3b3;
   --col-progress-btns: rgb(0, 159, 233);
   --bg-col: #f0f0f0;
-  --bar-width: 60%;
+  --bar-width: 0%;
 }
 
 * {
@@ -44,6 +44,17 @@ body {
   position: relative;
 }
 
+.steps::after {
+  content: "";
+  background-color: var(--col-gray);
+  z-index: -2;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 99%;
+  height: 0.3rem;
+}
+
 .step {
   padding: 0.6rem 1.3rem;
   border: 2px solid var(--col-gray);
@@ -58,28 +69,15 @@ body {
 
 .progress-bar {
   height: 0.3rem;
-  background: linear-gradient(
-    to right,
-    var(--col-progress-btns) 0 var(--bar-width),
-    var(--col-gray) var(--bar-width) 99%
-  );
-  width: 99%;
+  background-color: var(--col-progress-btns);
+  width: var(--bar-width);
   z-index: -1;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  transition: all 1s ease;
-  /* animation-name: test;
-  animation-duration: 1s; */
+  transition: width 0.2s ease-in-out;
 }
 
-/* @keyframes test {
-  from(linear-gradient(
-    to right,
-    var(--col-progress-btns) 0 var(--bar-width),
-    var(--col-gray) var(--bar-width) 99%
-  );)
-} */
 /* Progress buttons */
 
 .buttons {
