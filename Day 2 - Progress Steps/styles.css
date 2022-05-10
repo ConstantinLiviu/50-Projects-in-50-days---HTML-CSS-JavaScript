@@ -51,7 +51,7 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: 99%;
+  width: 96%;
   height: 0.3rem;
 }
 
@@ -75,7 +75,7 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  transition: width 0.2s ease-in-out;
+  transition: width 0.15s ease-in-out;
 }
 
 /* Progress buttons */

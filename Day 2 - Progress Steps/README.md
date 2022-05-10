@@ -13,10 +13,11 @@
      ✔ position all elements as per course design;
      ✔ implement functionality (js);
      ✔ refactor where necessary;
-     - create mobile version;
+     ✔ make sure it's responsive;
 
     Status:
-    Project in progress.
+    ~~Project in progress.~~
+    Project completed
 
     Possible updates:
      - add images/diagrams/video/form/tutorial/etc. for each step ending with a "success" message after all steps are completed;

@@ -18,7 +18,7 @@ let progressBarValue = 0;
 
 btnNextEl.addEventListener("click", () => {
   activeStep++;
-  progressBarValue += 33;
+  progressBarValue += 32;
   progressBarRoot.style.setProperty("--bar-width", progressBarValue + "%");
   if (activeStep > 1) {
     btnPrevEl.classList.remove("disabled");
@@ -35,7 +35,7 @@ btnNextEl.addEventListener("click", () => {
 
 btnPrevEl.addEventListener("click", () => {
   activeStep--;
-  progressBarValue -= 33;
+  progressBarValue -= 32;
   progressBarRoot.style.setProperty("--bar-width", progressBarValue + "%");
 
   if (activeStep < 2) {
