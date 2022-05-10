@@ -27,7 +27,7 @@ btnNextEl.addEventListener("click", () => {
   if (activeStep > stepsArr.length - 1) {
     btnNextEl.classList.add("disabled");
   }
-  console.log(activeStep);
+
   stepsArr[activeStep - 1].classList.add("step-completed");
 });
 
@@ -37,6 +37,7 @@ btnPrevEl.addEventListener("click", () => {
   activeStep--;
   progressBarValue -= 33;
   progressBarRoot.style.setProperty("--bar-width", progressBarValue + "%");
+
   if (activeStep < 2) {
     btnPrevEl.classList.add("disabled");
   }
@@ -44,6 +45,6 @@ btnPrevEl.addEventListener("click", () => {
   if (activeStep < stepsArr.length) {
     btnNextEl.classList.remove("disabled");
   }
-  console.log(activeStep);
+
   stepsArr[activeStep].classList.remove("step-completed");
 });
