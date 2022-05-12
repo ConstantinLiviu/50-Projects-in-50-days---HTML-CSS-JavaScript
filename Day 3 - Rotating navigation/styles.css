@@ -17,3 +17,29 @@ body {
   justify-content: center;
   height: 100vh;
 }
+
+/* CONTAINER */
+.container {
+  width: 60%;
+  position: relative;
+}
+/* ARTICLES */
+.main-article > p:first-child::first-letter {
+  font-size: 4.9rem;
+  float: left;
+  font-weight: 600;
+}
+/* PICTURE */
+
+.article-pic {
+  background-image: url("articleimg.jpg");
+  background-size: cover;
+  height: 40vh;
+  width: 100%;
+}
+
+/* ROTATING NAV */
+
+/* MENU */
+
+/* UTILITARY CLASSES */
