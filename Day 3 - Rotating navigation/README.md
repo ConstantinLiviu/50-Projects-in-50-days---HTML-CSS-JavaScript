@@ -7,7 +7,7 @@
     I plan to make it responsive and change the mobile funtionality to changing steps by swiping left/right instead of tapping buttons.
 
     Project milestones are:
-     - create basic structure;
+     ✔ create basic structure;
      - basic styling;
      - add background/hidden elements;
      - add functionality;
@@ -15,8 +15,8 @@
      - ensure responsiveness;
 
     Status:
-    - project in progress;
-    - project completed;
+     ✔ project in progress;
+     X project completed;
 
     Possible updates:
      - infinite scroll down;
