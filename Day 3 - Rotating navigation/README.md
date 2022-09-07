@@ -8,8 +8,8 @@
 
     Project milestones are:
      ✔ create basic structure;
-     - basic styling;
-     - add background/hidden elements;
+     ✔ basic styling;
+     ✔ add background/hidden elements;
      - add functionality;
      - refactor if necessary;
      - ensure responsiveness;
