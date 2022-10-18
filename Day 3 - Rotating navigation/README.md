@@ -10,13 +10,13 @@
      ✔ create basic structure;
      ✔ basic styling;
      ✔ add background/hidden elements;
-     - add functionality;
-     - refactor if necessary;
-     - ensure responsiveness;
+     ✔ add functionality;
+     ✔ refactor if necessary;
+     ✔ ensure responsiveness;
 
     Status:
      ✔ project in progress;
-     X project completed;
+     ✔ project completed;
 
     Possible updates:
      - infinite scroll down;
