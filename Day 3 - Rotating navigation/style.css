@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #333;
+  /* width: 80%;
+  margin: 0 auto;
+  transform-origin: top-left;
+  transform: rotate(-20deg); */
+}
+
+.image img {
+  width: 60%;
+}
+
+.navigation {
+  position: absolute;
+  top: -100px;
+  left: -100px;
+  width: 200px;
+  height: 200px;
+  background: pink;
+  border-radius: 50%;
+  transition: all 0.3s;
+  z-index: 99;
+}
+
+.navigation:hover {
+  transform: rotate(-90deg);
+}
+
+.open,
+.close {
+  font-size: 4rem;
+  color: white;
+  position: absolute;
+}
+
+.open {
+  bottom: 20%;
+  right: 20%;
+}
+
+.close {
+  bottom: 18%;
+  left: 22%;
+  font-size: 5rem;
+}
+
+.page {
+  width: 100%;
+  margin: 0 auto;
+  background: rgb(148, 87, 148);
+  height: 100vh;
+  transform-origin: top left;
+  transition: all 0.3s;
+  transform: rotate(-15deg);
+}
+
+.page-wrapper {
+  width: 60%;
+  margin: 0rem auto 0rem 20rem;
+  padding: 10rem 0;
+}
+
+.page:hover {
+  transform: rotate(-15deg);
+  overflow-x: hidden;
+}
+
+.title {
+  margin-bottom: 2rem;
+  color: goldenrod;
+}
+
+.title h1 {
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title address {
+  font-size: 1.4rem;
+}
+
+.paragraph p {
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: goldenrod;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+.image h3 {
+  color: rgb(5, 38, 128);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.image address {
+  font-size: 1.4rem;
+  padding-top: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(5, 38, 128);
+}
+
+.menu {
+  position: absolute;
+  left: -20rem;
+  bottom: 5rem;
+  transition: all 0.3s;
+}
+
+.menu a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu a .menu-icon {
+  margin-right: 1rem;
+}
+
+.about {
+  margin-left: 3rem;
+}
+
+.contact {
+  margin-left: 6rem;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu li {
+  margin-bottom: 2rem;
+}
