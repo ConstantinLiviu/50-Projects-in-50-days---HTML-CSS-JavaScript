@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --bg-col: #eeeeee;
+  --main-col: #5c2e7e;
+  --sec-col: #4c6793;
+  --nav-bg: #674747;
+}
+
+body {
+  background-color: var(--bg-col);
+}
+
+/* NAVIGATION */
+
+.navigation {
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--nav-bg);
+  /* border-radius: 0 0 0.5rem 0.5rem; */
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  padding: 1rem;
+}
+
+li:first-child {
+  margin-right: auto;
+}
+
+li:nth-child(2) {
+  margin-right: 2rem;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: var(--bg-col);
+  font-family: "Roboto", sans-serif;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+/* MAIN CONTAINER */
+.main-container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.title-container {
+  text-align: center;
+}
+
+.title-container h1 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 6rem;
+  color: var(--main-col);
+}
+
+.title-container p {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  color: var(--sec-col);
+  font-weight: 400;
+}
+
+.projects-container {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.project-item {
+  background-color: var(--main-col);
+  border-radius: 0.5rem;
+  transition: background-image 1s linear 1s;
+}
+
+.project-item:hover {
+  background-image: url("Day 1 - Expanding Cards/img/Spring2.jpg");
+  background-size: cover;
+}
+
+.project-item a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 15rem;
+  text-decoration: none;
+  color: var(--bg-col);
+  font-family: "Roboto", sans-serif;
+}
+
+.project,
+.project-title {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.project-number {
+  font-size: 3rem;
+  line-height: 3;
+}
+
+.project-title {
+  font-size: 1.4rem;
+}
