@@ -20,42 +20,6 @@ body {
   background-color: var(--bg-col);
 }
 
-/* NAVIGATION */
-
-.navigation {
-  width: 100%;
-  margin: 0 auto;
-  background-color: var(--nav-bg);
-  /* border-radius: 0 0 0.5rem 0.5rem; */
-}
-
-ul {
-  list-style: none;
-  display: flex;
-  justify-content: end;
-  padding: 1rem;
-}
-
-li:first-child {
-  margin-right: auto;
-}
-
-li:nth-child(2) {
-  margin-right: 2rem;
-}
-
-li a {
-  text-decoration: none;
-  font-size: 2rem;
-  text-transform: uppercase;
-  color: var(--bg-col);
-  font-family: "Roboto", sans-serif;
-}
-
-li a:hover {
-  text-decoration: underline;
-}
-
 /* MAIN CONTAINER */
 .main-container {
   width: 80%;
@@ -95,12 +59,6 @@ li a:hover {
 .project-item {
   background-color: var(--main-col);
   border-radius: 0.5rem;
-  transition: background-image 1s linear 1s;
-}
-
-.project-item:hover {
-  background-image: url("Day 1 - Expanding Cards/img/Spring2.jpg");
-  background-size: cover;
 }
 
 .project-item a {
@@ -117,11 +75,12 @@ li a:hover {
 .project-title {
   font-size: 1.4rem;
   text-transform: uppercase;
+  margin: auto 0;
 }
 
 .project-number {
-  font-size: 3rem;
-  line-height: 3;
+  font-size: 5rem;
+  /* line-height: 3; */
 }
 
 .project-title {

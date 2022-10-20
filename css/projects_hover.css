@@ -1,0 +1,6 @@
+.project-item .day1:hover {
+  background-image: url("../Day 1 - Expanding cards/img/Spring2.jpg");
+  background-size: cover;
+  border-radius: 0.5rem;
+  color: rgb(250, 246, 37);
+}

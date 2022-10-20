@@ -1,0 +1,32 @@
+.navigation {
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--nav-bg);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  padding: 1rem;
+}
+
+li:first-child {
+  margin-right: auto;
+}
+
+li:nth-child(2) {
+  margin-right: 2rem;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: var(--bg-col);
+  font-family: "Roboto", sans-serif;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
