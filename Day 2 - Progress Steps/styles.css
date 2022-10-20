@@ -27,6 +27,13 @@ body {
   height: 100vh;
 }
 
+/* Navigation */
+
+.navigation {
+  position: absolute;
+  top: 0;
+}
+
 /* Container */
 
 .container {
