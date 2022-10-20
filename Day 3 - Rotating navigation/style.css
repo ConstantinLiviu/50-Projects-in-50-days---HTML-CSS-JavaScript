@@ -11,10 +11,7 @@ html {
 
 body {
   background-color: #333;
-  /* width: 80%;
-  margin: 0 auto;
-  transform-origin: top-left;
-  transform: rotate(-20deg); */
+  overflow-y: hidden;
 }
 
 /* Circle menu */
