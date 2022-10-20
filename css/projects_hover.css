@@ -15,5 +15,6 @@
 }
 
 .project-item .day3:hover {
-  background-image: url("../Day 2 - Progress Steps/img/steps.jpg");
+  background-image: url("../Day 3 - Rotating navigation/img/projecthumb.jpg");
+  color: #fff;
 }
