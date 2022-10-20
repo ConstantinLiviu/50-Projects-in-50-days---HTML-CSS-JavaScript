@@ -9,13 +9,6 @@ html {
   font-size: 62.5%;
 }
 
-:root {
-  --bg-col: #eeeeee;
-  --main-col: #5c2e7e;
-  --sec-col: #4c6793;
-  --nav-bg: #674747;
-}
-
 body {
   background-color: var(--bg-col);
 }
