@@ -1,14 +1,19 @@
+.project-item .day:hover {
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.5rem;
+  color: var(--main-col);
+}
+
 .project-item .day1:hover {
   background-image: url("../Day 1 - Expanding cards/img/Spring2.jpg");
-  background-size: cover;
-  border-radius: 0.5rem;
   color: rgb(250, 246, 37);
 }
 
 .project-item .day2:hover {
   background-image: url("../Day 2 - Progress Steps/img/steps.jpg");
-  background-size: cover;
-  background-position: center;
-  border-radius: 0.5rem;
-  color: var(--main-col);
+}
+
+.project-item .day3:hover {
+  background-image: url("../Day 2 - Progress Steps/img/steps.jpg");
 }
