@@ -4,3 +4,11 @@
   border-radius: 0.5rem;
   color: rgb(250, 246, 37);
 }
+
+.project-item .day2:hover {
+  background-image: url("../Day 2 - Progress Steps/img/steps.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.5rem;
+  color: var(--main-col);
+}
