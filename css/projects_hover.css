@@ -19,6 +19,7 @@
   color: #fff;
 }
 
-.project-item .day3:hover {
-  /* background-image: url("../Day 3 - Rotating navigation/img/projecthumb.jpg"); */
+.project-item .day4:hover {
+  background-image: url("../Day 4 - Hidden Search Widget/img/projecthumb.jpg");
+  color: var(--nav-bg);
 }
