@@ -12,8 +12,56 @@ body {
   font-family: "Roboto", sans-serif;
   overflow: hidden;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background-image: linear-gradient(0deg, #f2d388, #c98474);
+}
+
+.navigation {
+  position: absolute;
+  top: 0;
+}
+
+.search-container {
+  position: relative;
+}
+
+input {
+  background-color: #fff8ea;
+  border: none;
+  font-size: 2rem;
+  padding: 1rem 1.4rem;
+  border-radius: 0.5rem;
+  width: 0rem;
+  visibility: hidden;
+  transition: width 0.3s ease;
+}
+
+button {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 3rem;
+  margin-left: 1rem;
+  color: #fff8ea;
+  top: 3px;
+  left: 2px;
+  transition: transform 0.3s ease;
+}
+
+button:focus,
+input:focus {
+  outline: none;
+}
+
+input.active {
+  width: 30rem;
+  visibility: visible;
+}
+
+input.active + button {
+  transform: translateX(25rem);
+  color: var(--nav-bg);
 }
