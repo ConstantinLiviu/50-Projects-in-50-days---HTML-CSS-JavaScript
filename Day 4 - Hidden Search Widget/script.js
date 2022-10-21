@@ -8,5 +8,6 @@ searchBtn.addEventListener("click", () => {
 inputEl.addEventListener("keypress", (e) => {
   if (e.key === "Enter") {
     window.open(`https://www.google.com/search?q=${inputEl.value}`);
+    inputEl.value = "";
   }
 });
