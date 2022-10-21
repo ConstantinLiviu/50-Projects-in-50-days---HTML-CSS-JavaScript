@@ -1,4 +1,4 @@
-# 2 - Progress steps
+# 2 - Rotating navigation
 
     Version 1.0:
 
