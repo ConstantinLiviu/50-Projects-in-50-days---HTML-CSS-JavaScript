@@ -30,14 +30,45 @@
     <link rel="stylesheet" href="../css/variables.css" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="../css/navigation.css" />
+    <link rel="stylesheet" href="../css/modal.css" />
     <title>HSW</title>
   </head>
 
   <body>
+    <div class="overlay"></div>
+    <section class="modal-readme">
+      <h1 class="title">Hidden Search Widget</h1>
+      <p class="description description-title">Version 1.0:</p>
+      <p class="description">
+        Simple mini project that offers a search bar hidden behind a search
+        font-awesome icon. On click/tap the search field expands and the icon
+        shifts right. On a second click/tap the process reverses.
+      </p>
+      <p class="description">
+        On "Enter" the user is redirected to an actual Google search results
+        page.
+      </p>
+      <p class="description description-title">Major project steps are:</p>
+      <ul class="milestones">
+        <li><span class="completed">✔</span></li>
+      </ul>
+      <p class="description description-title">Project status:</p>
+      <ul class="project-status">
+        <li><span class="in-progress">X</span>work in progress;</li>
+        <li><span class="completed">✔</span>project completed;</li>
+      </ul>
+      <p class="description description-title">Updates ideas:</p>
+      <ul class="updates">
+        <li></li>
+        <li></li>
+      </ul>
+      <p class="version-update last">Version 2.0: TBA</p>
+    </section>
     <section class="navigation">
       <nav>
         <ul>
           <li><a href="../index.html">Home</a></li>
+          <li class="readme"><a href="#">README.md</a></li>
           <li>
             <a
               href="https://github.com/ConstantinLiviu/50-Projects-in-50-days---HTML-CSS-JavaScript/tree/master/Day%204%20-%20Hidden%20Search%20Widget"
@@ -54,6 +85,7 @@
       <button><i class="fas fa-search"></i></button>
     </div>
 
+    <script src="../modal.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
