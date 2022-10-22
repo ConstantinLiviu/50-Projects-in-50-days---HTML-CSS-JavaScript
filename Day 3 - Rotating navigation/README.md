@@ -2,9 +2,7 @@
 
     Version 1.0:
 
-    Simple mini project that contains a series of 4 interconected steps forming a progress bar which responds to buttons being tapped/pressed.
-
-    I plan to make it responsive and change the mobile funtionality to changing steps by swiping left/right instead of tapping buttons.
+    Simple mini project that tilts the page and rotates the menu buttons while sliding in the navigation menu at the bottom left side of the page.
 
     Project milestones are:
      ✔ create basic structure;
@@ -13,14 +11,14 @@
      ✔ add functionality;
      ✔ refactor if necessary;
      ✔ ensure responsiveness;
+     ✔ add functional modal elements;
 
     Status:
      ✔ project in progress;
      ✔ project completed;
 
     Possible updates:
-     - infinite scroll down;
      - add a 360deg dial in order to go through multiple pages/options menu/sidebar elements;
 
     Version 2.0:
-    *TBD/TBA*
+    *TBA*
