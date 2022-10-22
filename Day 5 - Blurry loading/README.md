@@ -7,10 +7,10 @@
     Project milestones are:
      ✔ create page structure;
      ✔ apply styling;
-     ✔ add JS functionality
-      add navbar functionality
-      ensure mobile navbar functionality
-      refactor if necessary
+     ✔ add JS functionality;
+     ✔ add navbar functionality;
+     ✔ ensure mobile navbar functionality;
+     ✔ refactor if necessary;
 
 
     Status:
@@ -18,6 +18,6 @@
         project completed;
 
     Possible upgrades:
-        - replace unblurring process with an animation or a mini-game;
+        - replace unblurring process counter with an animation or a mini-game;
 
     Version 2.0 : TBA
