@@ -21,6 +21,11 @@ body {
 /**************************************************************************/
 /* DESKTOP */
 
+/* desktop icon hidden */
+.ham-menu {
+  display: none;
+}
+
 /* Container */
 
 .container {

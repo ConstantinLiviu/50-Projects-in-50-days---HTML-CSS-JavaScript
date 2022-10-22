@@ -73,6 +73,8 @@ li a:hover {
     font-size: 2rem;
     color: white;
     cursor: pointer;
+    background-color: transparent;
+    box-shadow: none;
   }
 
   nav ul {

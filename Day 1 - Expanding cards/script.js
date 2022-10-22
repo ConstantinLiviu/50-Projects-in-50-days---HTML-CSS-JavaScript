@@ -15,3 +15,11 @@ function collapseCard() {
     panel.classList.remove("active");
   });
 }
+
+//mobile menu
+const homeMenuIcon = document.querySelector(".ham-menu");
+const navList = document.querySelector("nav ul");
+
+homeMenuIcon.addEventListener("click", () => {
+  navList.classList.toggle("hide-ul");
+});
