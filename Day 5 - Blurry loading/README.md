@@ -5,7 +5,7 @@
     A very simple landing page meant to be loaded blurry and unblur progressively until the background image is 100% clear.
 
     Project milestones are:
-      create page structure;
+     ✔ create page structure;
       apply styling;
       add JS functionality
       add navbar functionality
