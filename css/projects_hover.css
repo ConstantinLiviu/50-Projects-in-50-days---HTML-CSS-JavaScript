@@ -23,3 +23,9 @@
   background-image: url("../Day 4 - Hidden Search Widget/img/projecthumb.jpg");
   color: var(--nav-bg);
 }
+
+.project-item .day5:hover {
+  background-image: url("../Day 5 - Blurry loading/img/projecthumb.jpg");
+  color: var(--main-col);
+  color: rgb(250, 246, 37);
+}
