@@ -13,8 +13,42 @@
     ></script>
     <link rel="stylesheet" href="../css/variables.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../css/modal.css" />
   </head>
   <body>
+    <div class="overlay"></div>
+    <section class="modal-readme">
+      <h1 class="title">Rotating navigation</h1>
+      <p class="description description-title">Version 1.0:</p>
+      <p class="description">
+        Simple mini project that tilts the page and rotates the menu buttons
+        while sliding in the navigation menu at the bottom left side of the
+        page.
+      </p>
+      <p class="description description-title">Major project steps are:</p>
+      <ul class="milestones">
+        <li><span class="completed">✔</span>create basic structure;</li>
+        <li><span class="completed">✔</span>basic styling;</li>
+        <li><span class="completed">✔</span>add background/hidden elements;</li>
+        <li><span class="completed">✔</span>add functionality;</li>
+        <li><span class="completed">✔</span>refactor if necessary;</li>
+        <li><span class="completed">✔</span>ensure responsiveness;</li>
+        <li><span class="completed">✔</span>add functional modal elements;</li>
+      </ul>
+      <p class="description description-title">Project status:</p>
+      <ul class="project-status">
+        <li><span class="in-progress">X</span>work in progress;</li>
+        <li><span class="completed">✔</span>project completed;</li>
+      </ul>
+      <p class="description description-title">Updates ideas:</p>
+      <ul class="updates">
+        <li>
+          add a 360deg dial in order to go through multiple pages/options
+          menu/sidebar elements;
+        </li>
+      </ul>
+      <p class="version-update">Version 2.0: TBA</p>
+    </section>
     <section class="navigation">
       <div class="btn-container">
         <span id="open"><i class="fas fa-bars open"></i></span>
@@ -74,6 +108,11 @@
         <li>
           <a class="contact" href="#"
             ><i class="fas fa-envelope menu-icon"></i>Random</a
+          >
+        </li>
+        <li class="readme">
+          <span class="readmebtn"
+            ><i class="fab fa-readme menu-icon"></i>README.md</span
           >
         </li>
       </ul>
