@@ -71,6 +71,7 @@ body {
   padding: 1rem 2rem;
   cursor: pointer;
   display: none;
+  color: var(--main-col);
 }
 
 .refresh:active {
