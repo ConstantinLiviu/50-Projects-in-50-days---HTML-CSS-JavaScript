@@ -15,7 +15,7 @@
 
     Status:
      ✔ project in progress;
-        project completed;
+     ✔   project completed;
 
     Possible upgrades:
         - replace unblurring process counter with an animation or a mini-game;
