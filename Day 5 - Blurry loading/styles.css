@@ -59,4 +59,6 @@ body {
 .text {
   font-size: 10rem;
   color: white;
+  text-shadow: 4px 4px rgba(0, 0, 0, 0.6);
+  opacity: 1;
 }
