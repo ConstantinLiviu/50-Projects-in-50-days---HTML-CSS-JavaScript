@@ -17,3 +17,10 @@ body {
   justify-content: center;
   height: 100vh;
 }
+
+/* NAVIGATION */
+
+.navigation {
+  position: absolute;
+  top: 0;
+}
