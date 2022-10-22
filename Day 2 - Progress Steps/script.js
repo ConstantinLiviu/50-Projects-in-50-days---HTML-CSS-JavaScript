@@ -48,3 +48,11 @@ btnPrevEl.addEventListener("click", () => {
 
   stepsArr[activeStep].classList.remove("step-completed");
 });
+
+//mobile menu icon
+const homeMenuIcon = document.querySelector(".ham-menu");
+const navList = document.querySelector("nav ul");
+
+homeMenuIcon.addEventListener("click", () => {
+  navList.classList.toggle("hide-ul");
+});
