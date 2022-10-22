@@ -6,6 +6,7 @@
   cursor: pointer;
   display: none;
   top: 0;
+  z-index: 10;
 }
 
 .modal-readme {
