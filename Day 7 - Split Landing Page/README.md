@@ -5,7 +5,7 @@
     This project aims at creating a slide-in animation for elements as you scroll down or up the page.
 
     Project milestones are:
-      create page structure;
+     ✔ create page structure;
       apply styling;
       add JS functionality;
       add navbar functionality;
