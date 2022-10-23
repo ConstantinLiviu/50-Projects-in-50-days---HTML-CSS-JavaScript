@@ -14,7 +14,7 @@
 
 
     Status:
-     ✔ project in progress;
-        project completed;
+        project in progress;
+     ✔ project completed;
 
     Version 2.0 : TBA
