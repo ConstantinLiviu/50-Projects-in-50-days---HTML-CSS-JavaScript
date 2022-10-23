@@ -26,6 +26,11 @@
 
 .project-item .day5:hover {
   background-image: url("../Day 5 - Blurry loading/img/projecthumb.jpg");
-  color: var(--main-col);
   color: rgb(250, 246, 37);
+}
+
+.project-item .day6:hover {
+  background-image: url("../Day 6 - Scroll Animation/img/projecthumb.jpg");
+  color: var(--main-col);
+  color: rgb(53, 44, 44);
 }
