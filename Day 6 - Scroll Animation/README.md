@@ -7,7 +7,7 @@
     Project milestones are:
      ✔ create page structure;
      ✔ apply styling;
-      add JS functionality;
+     ✔ add JS functionality;
       add navbar functionality;
       ensure mobile navbar functionality;
       refactor if necessary;
