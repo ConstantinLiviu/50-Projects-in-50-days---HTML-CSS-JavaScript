@@ -11,10 +11,6 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   height: 100vh;
 }
 
@@ -23,4 +19,84 @@ body {
 .navigation {
   position: absolute;
   top: 0;
+  z-index: 99;
+}
+
+.project-container {
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.split {
+  position: relative;
+  height: 100%;
+}
+
+.split.left {
+  background-image: url("img/MC2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-grow: 1;
+  transition: flex-grow 0.5s linear;
+}
+
+.split.left::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgba(39, 85, 59, 0.7);
+}
+
+.split.right {
+  background-image: url("img/L2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-grow: 1;
+  transition: flex-grow 0.5s linear;
+}
+
+.split.right::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 9;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgba(122, 112, 50, 0.7);
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.text h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: white;
+}
+
+.split.left:hover {
+  flex-grow: 4;
+}
+
+.split.right:hover {
+  flex-grow: 4;
 }
