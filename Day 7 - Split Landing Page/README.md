@@ -1,8 +1,8 @@
-# 6 - Scroll Animation
+# 7 - Split Landing Page
 
     Version 1.0:
 
-    This project aims at creating a slide-in animation for elements as you scroll down or up the page.
+    This project splits the page in two, each half having its own background. As one hovers over each half it expands and page elements are changed. The buttons redirect to a YouTube video
 
     Project milestones are:
      ✔ create page structure;
