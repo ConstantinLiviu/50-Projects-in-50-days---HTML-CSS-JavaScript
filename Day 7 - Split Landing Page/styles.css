@@ -145,3 +145,63 @@ body {
 .split.right:hover .quote-right {
   right: 2rem;
 }
+
+/* 1200px screen ************************************************* */
+
+@media screen and (max-width: 1200px) {
+  .text {
+    transform: translate(-50%, -70%);
+  }
+
+  .text h1 {
+    font-size: 3rem;
+  }
+
+  .split.left .text h1 {
+    white-space: unset;
+  }
+
+  .split.left .btn {
+    white-space: nowrap;
+  }
+
+  .split.left:hover .text h1 {
+    font-size: 9rem;
+    white-space: nowrap;
+  }
+
+  .split.right:hover .text h1 {
+    font-size: 8rem;
+  }
+
+  .quote-left {
+    left: -90rem;
+  }
+
+  .quote-right {
+    right: -90rem;
+  }
+}
+
+/* 700px screen ************************************************* */
+
+@media screen and (max-width: 700px) {
+  .project-container {
+    display: block;
+  }
+
+  .split {
+    height: 50%;
+  }
+
+  .split.left:hover .text h1,
+  .split.right:hover .text h1 {
+    font-size: 9rem;
+    white-space: normal;
+  }
+
+  .quote-left {
+    white-space: normal;
+    padding: 15px;
+  }
+}

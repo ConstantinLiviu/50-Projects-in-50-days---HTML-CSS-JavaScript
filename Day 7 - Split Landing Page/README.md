@@ -7,8 +7,8 @@
     Project milestones are:
      ✔ create page structure;
      ✔ desktop styling;
-      1200px styling
-      mobile styling
+     ✔ 1200px styling
+     ✔ mobile styling
       mobile navbar functionality;
 
 
