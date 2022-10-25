@@ -9,10 +9,10 @@
      ✔ desktop styling;
      ✔ 1200px styling;
      ✔ mobile styling;
-      mobile navbar functionality;
+     ✔ mobile navbar functionality;
 
 
 
     Status:
-     ✔ project in progress;
-        project completed;
+         project in progress;
+      ✔ project completed;

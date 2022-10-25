@@ -31,6 +31,10 @@
 
 .project-item .day6:hover {
   background-image: url("../Day 6 - Scroll Animation/img/projecthumb.jpg");
-  color: var(--main-col);
   color: rgb(53, 44, 44);
+}
+
+.project-item .day7:hover {
+  background-image: url("../Day 7 - Split Landing Page/img/projecthumb.jpg");
+  color: white;
 }
