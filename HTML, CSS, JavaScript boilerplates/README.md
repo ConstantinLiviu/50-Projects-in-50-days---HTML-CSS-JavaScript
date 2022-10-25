@@ -8,14 +8,9 @@
      ✔ create page structure;
 
 
-
-    Status:
-         project in progress;
-      ✔ project completed;
-
     Status:
      ✔ project in progress;
-     project completed;
+        project completed;
 
     Possible updates:
      -
