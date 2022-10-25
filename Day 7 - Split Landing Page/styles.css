@@ -91,12 +91,57 @@ body {
   text-transform: uppercase;
   white-space: nowrap;
   color: white;
+  margin-bottom: 2rem;
+  transition: font-size 0.5s linear;
 }
 
 .split.left:hover {
   flex-grow: 4;
 }
 
+.split.left:hover .text h1,
+.split.right:hover .text h1 {
+  font-size: 10rem;
+}
+
 .split.right:hover {
   flex-grow: 4;
+}
+
+.btn {
+  background: var(--bg-col);
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: rgb(138, 0, 0);
+}
+
+.quote {
+  position: absolute;
+  z-index: 999;
+  bottom: 2rem;
+  color: white;
+  font-style: italic;
+  font-size: 3rem;
+}
+
+.quote-left {
+  left: -100vw;
+  transition: left 0.5s linear;
+}
+
+.quote-right {
+  right: -100vw;
+  transition: right 0.5s linear;
+}
+
+.split.left:hover .quote-left {
+  left: 2rem;
+}
+
+.split.right:hover .quote-right {
+  right: 2rem;
 }
