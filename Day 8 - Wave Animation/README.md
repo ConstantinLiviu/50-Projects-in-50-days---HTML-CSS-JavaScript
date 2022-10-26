@@ -6,10 +6,10 @@
 
     Project milestones are:
      ✔ create page structure;
-     ✔   add form styling
-        add waveform effect
-        ensure responsive layout
-        refactor code
+     ✔  add form styling
+     ✔  add waveform effect
+     ✔  ensure responsive layout
+     ✔  refactor code
         add thumbnail
 
     Status:
