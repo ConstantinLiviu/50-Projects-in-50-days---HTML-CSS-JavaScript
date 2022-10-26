@@ -16,7 +16,7 @@
 
 .project-item .day3:hover {
   background-image: url("../Day 3 - Rotating navigation/img/projecthumb.jpg");
-  color: #fff;
+  color: white;
 }
 
 .project-item .day4:hover {
@@ -37,4 +37,9 @@
 .project-item .day7:hover {
   background-image: url("../Day 7 - Split Landing Page/img/projecthumb.jpg");
   color: white;
+}
+
+.project-item .day8:hover {
+  background-image: url("../Day 8 - Wave Animation/img/projecthumb.jpg");
+  color: rgb(53, 44, 44);
 }
