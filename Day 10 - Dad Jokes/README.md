@@ -6,11 +6,11 @@
 
     Project milestones are:
      ✔ create page structure;
-        add styling
-        implement API
-        create responsive layout
-        refactor code
-        add thumbnail
+        add styling;
+        implement API;
+        create responsive layout;
+        refactor code;
+        add thumbnail;
 
     Status:
      ✔ project in progress;
