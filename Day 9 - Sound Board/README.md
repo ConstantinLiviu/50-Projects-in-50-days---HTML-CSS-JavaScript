@@ -7,9 +7,9 @@
     Project milestones are:
      ✔ create page structure;
      ✔  add styling;
-        link sounds;
-     ✔   make page responsive;
-        refactor code
+     ✔  link sounds;
+     ✔  make page responsive;
+     ✔  refactor code
         add thumbnail
 
     Status:
