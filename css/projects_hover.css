@@ -49,3 +49,9 @@
   background-image: url("../Day 9 - Sound Board/img/projecthumb.jpg");
   color: rgb(255, 0, 120);
 }
+
+.project-item .day10:hover {
+  position: relative;
+  background-image: url("../Day 10 - Dad Jokes/img/projecthumb.jpg");
+  color: var(--main-col);
+}

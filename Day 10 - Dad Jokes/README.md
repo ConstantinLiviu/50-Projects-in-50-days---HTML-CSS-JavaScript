@@ -10,11 +10,11 @@
      ✔ implement API;
      ✔ create responsive layout;
      ✔ refactor code;
-        add thumbnail;
+     ✔ add thumbnail;
 
     Status:
-     ✔ project in progress;
-        project completed;
+        project in progress;
+     ✔  project completed;
 
     Possible updates:
      - based on available 3rd party APIs, change the jokes' topic;
