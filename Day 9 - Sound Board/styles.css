@@ -17,7 +17,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
   background-color: #e6cba8;
 }
 
@@ -94,12 +93,18 @@ button:hover {
   }
 }
 
+/* MOBILE */
+
 @media screen and (max-width: 600px) {
   .project-container {
-    margin-top: 12rem;
+    margin: 8rem 0;
     padding: 2rem 4rem;
   }
   .btn-container {
     width: 100%;
+  }
+
+  h1 {
+    font-size: 3rem;
   }
 }
