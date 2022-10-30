@@ -17,6 +17,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 100vh;
   background-color: #e6cba8;
 }
 
@@ -96,6 +97,9 @@ button:hover {
 /* MOBILE */
 
 @media screen and (max-width: 600px) {
+  body {
+    height: unset;
+  }
   .project-container {
     margin: 8rem 0;
     padding: 2rem 4rem;
