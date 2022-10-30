@@ -16,6 +16,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background-color: #f1efdc;
 }
 
 /* NAVIGATION */
@@ -23,4 +24,66 @@ body {
 .navigation {
   position: absolute;
   top: 0;
+}
+
+/* CONTAINER */
+
+.project-container {
+  background-color: #e6d2aa;
+  padding: 4rem 6rem;
+  border-radius: 0.5rem;
+  width: 60%;
+  text-align: center;
+  color: #d36b00;
+}
+
+/* TITLE */
+
+h3 {
+  color: #42032c;
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+}
+
+/* JOKE CONTAINER */
+
+.joke-container {
+  margin-bottom: 4rem;
+  font-size: 1.8rem;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.text {
+  line-height: 3rem;
+}
+
+/* BUTTON */
+
+button {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  color: #f1efdc;
+  font-weight: 600;
+  background-color: #d36b00;
+  cursor: pointer;
+  box-shadow: 0.2rem 0.4rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+
+button:focus {
+  outline: none;
+}
+button:active {
+  transform: scale(0.97);
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 600px) {
+  .project-container {
+    padding: 4rem 2rem;
+    width: 80%;
+  }
 }
