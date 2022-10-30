@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  /* border: 1px solid red; */
 }
 
 html {
@@ -10,12 +13,12 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background-color: #e6cba8;
 }
 
 /* NAVIGATION */
@@ -23,4 +26,80 @@ body {
 .navigation {
   position: absolute;
   top: 0;
+}
+
+/* PROJECT CONTAINER */
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 3rem 6rem;
+  background-color: #eee3cb;
+  border-radius: 0.5rem;
+  width: 80%;
+}
+
+/* TITLE */
+
+.title-container {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+h1 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 5rem;
+  color: brown;
+}
+
+/* BUTTONS */
+
+.btn-container {
+  width: 45%;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+button {
+  width: 100%;
+  padding: 2rem 0;
+  border: none;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: gold;
+  font-size: 2rem;
+  cursor: pointer;
+  background: linear-gradient(
+    135deg,
+    var(--main-col) 0%,
+    var(--main-col) 40%,
+    #ffffff 50%,
+    var(--main-col) 60%,
+    var(--main-col) 100%
+  );
+  background-size: 300%;
+}
+
+button:hover {
+  animation: flash 0.7s;
+}
+@keyframes flash {
+  0% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .project-container {
+    margin-top: 12rem;
+    padding: 2rem 4rem;
+  }
+  .btn-container {
+    width: 100%;
+  }
 }
