@@ -9,12 +9,12 @@
      ✔  add styling;
      ✔  implement functionality;
      ✔  create responsive layout;
-        refactor code;
-        add thumbnail;
+     ✔  refactor code;
+     ✔  add thumbnail;
 
     Status:
-     ✔ project in progress;
-        project completed;
+        project in progress;
+     ✔  project completed;
 
     Possible updates:
      - make it read key events on mobile as well;

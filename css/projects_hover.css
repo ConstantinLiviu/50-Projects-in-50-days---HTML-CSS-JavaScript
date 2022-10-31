@@ -55,3 +55,9 @@
   background-image: url("../Day 10 - Dad Jokes/img/projecthumb.jpg");
   color: var(--main-col);
 }
+
+.project-item .day11:hover {
+  position: relative;
+  background-image: url("../Day 11 - Event KeyCodes/img/projecthumb.jpg");
+  color: brown;
+}
