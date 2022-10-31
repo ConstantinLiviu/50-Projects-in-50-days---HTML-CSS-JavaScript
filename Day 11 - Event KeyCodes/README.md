@@ -7,7 +7,7 @@
     Project milestones are:
      ✔  create page structure;
      ✔  add styling;
-        implement functionality;
+     ✔  implement functionality;
      ✔  create responsive layout;
         refactor code;
         add thumbnail;
