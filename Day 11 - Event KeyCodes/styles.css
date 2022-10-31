@@ -12,10 +12,10 @@ body {
   font-family: "Roboto", sans-serif;
   overflow: hidden;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background-color: #eaeaea;
 }
 
 /* NAVIGATION */
@@ -23,4 +23,70 @@ body {
 .navigation {
   position: absolute;
   top: 0;
+}
+
+/* PROJECT CONTAINERS */
+
+.project-container {
+  text-align: center;
+  background-color: #b2b2b2;
+  border-radius: 0.5rem;
+  padding: 0.5rem 2rem;
+  width: 80%;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 2rem;
+}
+
+/* TITLE */
+
+.instructions {
+  padding: 1rem 2rem;
+  color: var(--main-col);
+  transition: display 0.2s ease-in 0.5s ease-out;
+}
+
+.instructions h3 {
+  font-size: 2.4rem;
+}
+/* INFO FIELDS */
+
+.info-field {
+  width: 30%;
+}
+
+.info-field small {
+  font-size: 1rem;
+  font-style: italic;
+  color: #3c4048;
+  display: inline-block;
+  margin-bottom: 0.3rem;
+}
+
+.info-field h1 {
+  background-color: #3c4048;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  color: #00abb3;
+  border: 0.1rem solid #eaeaea;
+  min-height: 4.6rem;
+}
+
+.hidden {
+  display: none;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 800px) {
+  .info-container {
+    flex-direction: column;
+  }
+  .info-field {
+    width: auto;
+    margin-bottom: 3rem;
+  }
 }

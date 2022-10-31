@@ -6,9 +6,9 @@
 
     Project milestones are:
      ✔  create page structure;
-        add styling;
+     ✔  add styling;
         implement functionality;
-        create responsive layout;
+     ✔  create responsive layout;
         refactor code;
         add thumbnail;
 
@@ -18,6 +18,7 @@
 
     Possible updates:
      - make it read key events on mobile as well;
+     - animation for hidden class toggle;
 
     Version 2.0:
     *TBA*
