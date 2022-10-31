@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FONT AWESOME CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- GOOGLE FONTS IMPORT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/variables.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../css/navigation.css" />
+    <link rel="stylesheet" href="../css/modal.css" />
+    <title>FAQ Collapse</title>
+  </head>
+
+  <body>
+    <div class="overlay"></div>
+    <section class="modal-readme">
+      <h1 class="title"></h1>
+      <p class="description description-title">Version 1.0:</p>
+      <p class="description last"></p>
+      <p class="description description-title">Major project steps are:</p>
+      <ul class="milestones">
+        <li>
+          <span class="completed">✔</span>
+        </li>
+        <li>
+          <span class="completed">✔</span>
+        </li>
+        <li>
+          <span class="completed">✔</span>
+        </li>
+        <li><span class="completed">✔</span></li>
+        <li><span class="completed">✔</span></li>
+        <li><span class="completed">✔</span></li>
+        <li><span class="completed">✔</span></li>
+      </ul>
+      <p class="description description-title">Project status:</p>
+      <ul class="project-status">
+        <li><span class="in-progress">X</span>work in progress;</li>
+        <li><span class="completed">✔</span>project completed;</li>
+      </ul>
+      <p class="description description-title">Updates ideas:</p>
+      <ul class="updates">
+        <li></li>
+        <li></li>
+      </ul>
+      <p class="version-update">Version 2.0: TBA</p>
+    </section>
+    <section class="navigation">
+      <nav>
+        <div class="home-container">
+          <a href="../index.html" class="home-btn">Home</a>
+          <i class="fas fa-bars ham-menu"></i>
+        </div>
+        <ul class="hide-ul">
+          <li class="readme"><a href="#">README.md</a></li>
+          <li>
+            <a href="" target="_blank">Github</a>
+          </li>
+          <li><a href="#">Random Project</a></li>
+        </ul>
+      </nav>
+    </section>
+    <section class="project-container"></section>
+
+    <script src="../nav.js"></script>
+    <script src="../modal.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
