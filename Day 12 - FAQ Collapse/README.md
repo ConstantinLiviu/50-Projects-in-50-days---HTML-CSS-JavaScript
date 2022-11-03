@@ -5,8 +5,8 @@
     The goal of this project is to create a gallery of collapsable FAQ elements. On click, each element will expand/collapse revealing the answer to the question.
 
     Project milestones are:
-    create page structure;
-    add styling;
+     ✔ create page structure;
+     ✔ add styling;
     add JS;
     create responsive layout;
     refactor code;
