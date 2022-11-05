@@ -61,3 +61,9 @@
   background-image: url("../Day 11 - Event KeyCodes/img/projecthumb.jpg");
   color: brown;
 }
+
+.project-item .day12:hover {
+  position: relative;
+  background-image: url("../Day 12 - FAQ Collapse/img/projecthumb.jpg");
+  color: #00f3ff;
+}
