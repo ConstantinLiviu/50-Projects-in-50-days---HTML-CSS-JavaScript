@@ -67,3 +67,9 @@
   background-image: url("../Day 12 - FAQ Collapse/img/projecthumb.jpg");
   color: #00f3ff;
 }
+
+.project-item .day13:hover {
+  position: relative;
+  background-image: url("../Day 13 - Random picker/img/projecthumb.jpg");
+  color: var(--main-col);
+}

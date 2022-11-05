@@ -11,8 +11,8 @@
      ✔ picking "animation";
      ✔ responsive layout;
      ✔ refactor code;
-    add thumbnail;
+     ✔ add thumbnail;
 
     Status:
-     ✔ project in progress;
-    project completed;
+        project in progress;
+     ✔ project completed;
