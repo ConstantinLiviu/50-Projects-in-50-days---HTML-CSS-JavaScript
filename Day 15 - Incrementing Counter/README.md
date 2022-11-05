@@ -5,7 +5,7 @@
     A project that consists of multiple counters that increment to a preset value on page load
 
     Project milestones are:
-    create page structure;
+     ✔ create page structure;
     add styling;
     add functionality;
     responsive layout;
