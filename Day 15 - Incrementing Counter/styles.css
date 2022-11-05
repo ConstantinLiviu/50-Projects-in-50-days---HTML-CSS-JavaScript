@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  /* border: 1px solid red; */
 }
 
 html {
@@ -16,7 +17,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: red;
+  background-color: var(--main-col);
 }
 
 /* NAVIGATION */
@@ -24,4 +25,47 @@ body {
 .navigation {
   position: absolute;
   top: 0;
+}
+
+/* PROJECT CONTAINER */
+
+.project-container {
+  display: flex;
+  width: 80%;
+  padding: 2rem 0;
+  color: white;
+}
+
+/* COUNTER CONTAINERS */
+
+.counter {
+  flex: 1;
+  text-align: center;
+}
+
+.icon {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.digits {
+  font-family: "Roboto Mono", monospace;
+  font-size: 6rem;
+  margin-bottom: 2rem;
+}
+
+.text {
+  font-size: 1.6rem;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 600px) {
+  .project-container {
+    flex-direction: column;
+  }
+
+  .counter {
+    margin: 4rem 0;
+  }
 }
