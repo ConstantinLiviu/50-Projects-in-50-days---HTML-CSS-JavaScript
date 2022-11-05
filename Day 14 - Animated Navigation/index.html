@@ -22,9 +22,9 @@
     />
 
     <link rel="stylesheet" href="../css/variables.css" />
-    <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="../css/navigation.css" />
     <link rel="stylesheet" href="../css/modal.css" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Animated Navigation</title>
   </head>
 
@@ -54,11 +54,8 @@
     </section>
     <section class="navigation">
       <nav>
-        <div class="home-container">
-          <a href="../index.html" class="home-btn">Home</a>
-          <i class="fas fa-bars ham-menu"></i>
-        </div>
-        <ul class="hide-ul">
+        <ul>
+          <li><a href="../index.html" class="home-btn">Home</a></li>
           <li class="readme"><a href="#">README.md</a></li>
           <li>
             <a
@@ -69,9 +66,13 @@
           </li>
           <li><a href="#">Random Project</a></li>
         </ul>
+        <i class="fas fa-times ham-menu"></i>
       </nav>
     </section>
-    <section class="project-container"></section>
+    <section class="project-container">
+      <div class="top-color"></div>
+      <div class="bottom-color"></div>
+    </section>
 
     <script src="../nav.js"></script>
     <script src="../modal.js"></script>
