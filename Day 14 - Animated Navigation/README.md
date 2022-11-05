@@ -7,9 +7,9 @@
     Project milestones are:
      ✔ create page structure;
      ✔ add styling;
-    add transitions;
+     ✔ add transitions;
     add functionality;
-    refactor code;
+     ✔ refactor code;
     add thumbnail;
 
     Status:
