@@ -99,14 +99,35 @@ body {
 }
 
 .answer.active {
-  height: 10rem;
+  height: 8rem;
   opacity: 1;
-  padding: 2rem 1rem;
+  padding: 2rem 1rem 3rem;
   margin-bottom: 2rem;
+}
+
+.convenience-separator-used-for-nothing-at-all-mostly:last-of-type
+  p.answer.active {
+  margin-bottom: 0;
 }
 
 /* MOBILE */
 
-@media screen and (max-width: 890px) {
-  /* asdad */
+@media screen and (max-width: 900px) {
+  .faq {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .convenience-separator-used-for-nothing-at-all-mostly:last-of-type
+    p.answer.active {
+    height: 12rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .convenience-separator-used-for-nothing-at-all-mostly:last-of-type
+    p.answer.active {
+    height: 18rem;
+  }
 }
