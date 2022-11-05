@@ -6,10 +6,10 @@
 
     Project milestones are:
      ✔ create page structure;
-    add styling;
+     ✔ add styling;
     turn options into elements on page function;
     picking "animation";
-    responsive layout;
+     ✔ responsive layout;
     refactor code;
     add thumbnail;
 

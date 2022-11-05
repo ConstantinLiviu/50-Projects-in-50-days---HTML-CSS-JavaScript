@@ -16,7 +16,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: red;
+  background: #fbf3e4;
 }
 
 /* NAVIGATION */
@@ -24,4 +24,89 @@ body {
 .navigation {
   position: absolute;
   top: 0;
+  background: #dfd8ca;
+}
+
+.navigation li a,
+.navigation .ham-menu {
+  color: #105652;
+}
+
+.navigation .home-btn {
+  color: #b91646;
+}
+
+/* PROJECT CONTAINER */
+
+.project-container {
+  width: 60%;
+  border-radius: 0.5rem;
+  padding: 2rem 4rem;
+  text-align: center;
+}
+
+/* TITLE */
+.title {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  font-weight: 300;
+  color: #ac7474;
+}
+
+/* TEXTAREA */
+
+textarea:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+textarea {
+  /* border: none; */
+  width: 80%;
+  border: 0.1rem solid #b91646;
+  border-radius: 0.5rem;
+  resize: none;
+  box-shadow: none;
+  padding: 0.5rem;
+  font-size: 1.4rem;
+  color: #ac7474;
+  font-style: italic;
+  margin-bottom: 3rem;
+}
+
+/* CHOICES */
+.choices {
+  width: 80%;
+  text-align: left;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  overflow-wrap: break-word;
+}
+
+.choices span {
+  display: inline-block;
+  margin-right: 1rem;
+  background-color: #105652;
+  color: #fbf3e4;
+  padding: 1rem 1.2rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.choices span.highlight {
+  background-color: #b91646;
+}
+
+@media screen and (max-width: 600px) {
+  .project-container {
+    width: 80%;
+  }
+
+  .title {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  textarea {
+    height: 30rem;
+  }
 }
