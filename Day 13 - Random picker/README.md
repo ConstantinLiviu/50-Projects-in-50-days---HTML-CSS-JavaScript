@@ -8,9 +8,9 @@
      ✔ create page structure;
      ✔ add styling;
      ✔ turn options into elements on page function;
-    picking "animation";
+     ✔ picking "animation";
      ✔ responsive layout;
-    refactor code;
+     ✔ refactor code;
     add thumbnail;
 
     Status:
