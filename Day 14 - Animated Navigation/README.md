@@ -10,7 +10,7 @@
      ✔ add transitions;
      ✔ reused existing code;
      ✔ refactor code;
-    add thumbnail;
+     ✔ add thumbnail;
 
     Status:
      ✔ project in progress;
