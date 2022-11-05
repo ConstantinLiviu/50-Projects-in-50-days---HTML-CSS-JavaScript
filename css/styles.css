@@ -12,6 +12,13 @@ html {
 body {
   background-color: var(--bg-col);
   overflow-x: hidden;
+  margin-bottom: 5rem;
+}
+
+/* NAVIGATION */
+.navigation {
+  position: sticky;
+  top: 0;
 }
 
 /* MAIN CONTAINER */
