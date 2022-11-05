@@ -8,7 +8,7 @@
      ✔ create page structure;
      ✔ add styling;
      ✔ add transitions;
-    add functionality;
+     ✔ reused existing code;
      ✔ refactor code;
     add thumbnail;
 
