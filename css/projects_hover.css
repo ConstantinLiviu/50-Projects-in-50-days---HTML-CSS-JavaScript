@@ -79,3 +79,9 @@
   background-image: url("../Day 14 - Animated Navigation/img/projecthumb.jpg");
   color: white;
 }
+
+.project-item .day15:hover {
+  position: relative;
+  background-image: url("../Day 15 - Incrementing Counter/img/projecthumb.jpg");
+  color: #d00e0e;
+}
