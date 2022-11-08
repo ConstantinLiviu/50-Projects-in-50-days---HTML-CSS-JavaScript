@@ -17,10 +17,7 @@ body {
   justify-content: center;
   height: 100vh;
   background-color: #001d6e;
-  /* background-color: #7fb5ff; */
-  /* background: #c4ddff; */
   color: #c4ddff;
-  /* color: #c4ddff; */
 }
 
 /* NAVIGATION */
@@ -162,4 +159,35 @@ nav ul li:first-of-type {
 
 .empty > .glass-quantity {
   color: #c4ddff;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 600px) {
+  .project-container {
+    width: 25rem;
+    margin-top: 5rem;
+  }
+
+  .water-cup {
+    height: 30vh;
+  }
+
+  .water-cup::after {
+    height: 12vh;
+    width: 12vh;
+  }
+
+  .percent-completed {
+    font-size: 2rem;
+  }
+
+  .quantity,
+  .remaining {
+    font-size: 1.6rem;
+  }
+
+  .glass-quantity {
+    font-size: 1.4rem;
+  }
 }
