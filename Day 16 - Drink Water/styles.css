@@ -91,8 +91,10 @@ nav ul li:first-of-type {
   align-items: center;
   background-color: #001d6e;
   width: 100%;
-  /* height: 10%; */
+  height: 0;
   font-size: 4rem;
+  visibility: hidden;
+  transition: 0.3s ease-out;
 }
 
 .remaining-water {
@@ -146,6 +148,7 @@ nav ul li:first-of-type {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .glass-quantity {
