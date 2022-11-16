@@ -1,6 +1,6 @@
 :root {
-  --light-main-col: #000;
-  --light-sec-col: #fff;
+  --time-main-col: #000;
+  --time-sec-col: #fff;
 }
 
 * {
@@ -15,10 +15,10 @@ html {
 }
 
 html.dark {
-  --dark-main-col: #fff;
-  --dark-sec-col: #000;
+  --time-main-col: #fff;
+  --time-sec-col: #000;
   background-color: #111;
-  color: var(--main-col);
+  color: var(--time-main-col);
 }
 
 html.dark .toggle::before {
@@ -49,7 +49,7 @@ body {
   background: transparent;
   position: absolute;
   top: 6rem;
-  right: 5rem;
+  right: 2rem;
   color: var(--dark-main-col);
   font-size: 2rem;
   cursor: pointer;
@@ -62,4 +62,89 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+.clock {
+  position: relative;
+  border-radius: 50%;
+  border: 0.2rem solid #e1e1e1;
+  margin-bottom: 2rem;
+  width: 40vh;
+  height: 40vh;
+}
+
+/* CLOCK OBJECTS */
+
+.center-point {
+  position: absolute;
+  width: 0.8rem;
+  height: 0.8rem;
+  background-color: brown;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+}
+
+.needle {
+  background-color: var(--time-main-col);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0.3rem;
+  transition: background-color 0.3s linear;
+  transform-origin: bottom center;
+  transform: translate(-50%, -100%) rotate(0deg);
+  border-radius: 0.8rem 0.8rem 0 0;
+}
+
+.needle.hour {
+  height: 12vh;
+  width: 0.4rem;
+}
+
+.needle.min {
+  height: 16vh;
+}
+
+.needle.sec {
+  height: 18vh;
+  background-color: red;
+  width: 0.2rem;
+}
+
+/* DATE & TIME */
+
+.time {
+  font-size: 8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.date {
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: #e1e1e1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* .monthshort {
+  mobile 
+  white-space: break-spaces;
+} */
+
+.num {
+  text-transform: initial;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 600px) {
+  .toggle {
+    right: 0.8rem;
+  }
 }

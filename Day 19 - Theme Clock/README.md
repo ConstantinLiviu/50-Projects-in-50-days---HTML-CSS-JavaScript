@@ -6,7 +6,7 @@
 
     Project milestones are:
      ✔ create page structure;
-    add styling;
+     ✔ add styling;
      ✔ create dark mode;
     add clock functionality;
     refactor code;
