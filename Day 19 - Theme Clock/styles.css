@@ -21,7 +21,7 @@ html.dark {
   color: var(--main-col);
 }
 
-html.dark .toggle i::before {
+html.dark .toggle::before {
   content: "\f185";
 }
 
@@ -47,12 +47,19 @@ body {
   padding: 0;
   border: none;
   background: transparent;
-}
-.toggle i {
+  position: absolute;
+  top: 6rem;
+  right: 5rem;
   color: var(--dark-main-col);
   font-size: 2rem;
   cursor: pointer;
-  position: absolute;
-  top: 4rem;
-  right: 3rem;
+}
+
+/* CLOCK CONTAINER */
+
+.clock-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
