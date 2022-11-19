@@ -6,10 +6,10 @@
 
     Project milestones are:
      ✔  create page structure;
-     ✔ stylize button;
-     ✔ create ripple effect;
-     add functionality;
-    refactor code;
+     ✔  stylize button;
+     ✔  create ripple effect;
+     ✔  add functionality;
+     ✔  refactor code;
     add thumbnail;
 
     Status:
