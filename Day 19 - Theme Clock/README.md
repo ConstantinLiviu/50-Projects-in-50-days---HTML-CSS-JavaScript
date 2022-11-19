@@ -8,7 +8,7 @@
      ✔ create page structure;
      ✔ add styling;
      ✔ create dark mode;
-    add clock functionality;
+     ✔ add clock functionality;
      ✔ UI is responsive;
      ✔ refactor code;
     add thumbnail;
@@ -22,4 +22,4 @@
      - change themes button;
 
     Version 2.0:
-    *TBA*
+     - I plan to make a different project focusing on clocks. As this project has some design quirks which I won't tackle an upgrade would be pointless.
