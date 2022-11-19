@@ -9,7 +9,8 @@
      ✔ add styling;
      ✔ create dark mode;
     add clock functionality;
-    refactor code;
+     ✔ UI is responsive;
+     ✔ refactor code;
     add thumbnail;
 
     Status:
