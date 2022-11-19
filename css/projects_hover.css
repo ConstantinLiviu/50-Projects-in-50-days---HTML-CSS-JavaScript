@@ -91,3 +91,9 @@
   background-image: url("../Day 16 - Drink Water/img/projecthumb.jpg");
   color: white;
 }
+
+.project-item .day19:hover {
+  position: relative;
+  background-image: url("../Day 19 - Theme Clock/img/projecthumb.jpg");
+  color: #00f3ff;
+}
