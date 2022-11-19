@@ -5,7 +5,7 @@
     Makes use of the Drag and Drop API to allow users to move an image from and to 5 predefined areas on the page;
 
     Project milestones are:
-    create page structure;
+     ✔  create page structure;
     add styling;
     add functionality;
     refactor code;
