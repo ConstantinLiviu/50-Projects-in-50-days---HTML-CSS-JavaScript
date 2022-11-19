@@ -12,11 +12,11 @@
      ✔ sync slider with background;
      ✔ buttons functionality;
      ✔ refactor code;
-    add thumbnail;
+     ✔ add thumbnail;
 
     Status:
-     ✔ project in progress;
-    project completed;
+    project in progress;
+     ✔ project completed;
 
     Possible updates:
      - set autoloop/loop timer;

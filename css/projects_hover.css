@@ -92,6 +92,12 @@
   color: white;
 }
 
+.project-item .day18:hover {
+  position: relative;
+  background-image: url("../Day 18 - Background Slider/img/projecthumb.jpg");
+  color: #00f3ff;
+}
+
 .project-item .day19:hover {
   position: relative;
   background-image: url("../Day 19 - Theme Clock/img/projecthumb.jpg");
