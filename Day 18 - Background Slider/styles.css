@@ -16,7 +16,22 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: red;
+  background: url("img/aurora.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.3s ease-in;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 /* NAVIGATION */
@@ -24,4 +39,111 @@ body {
 .navigation {
   position: absolute;
   top: 0;
+  background: #712727;
+}
+
+/* PROJECT CONTAINER */
+
+.project-container {
+  box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.16),
+    0 0.3rem 0.6rem rgba(0, 0, 0, 0.23);
+  height: 70vh;
+  width: 70vw;
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+/* SLIDER */
+
+.slide {
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+  transition: 0.3s ease-in;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+/* SLIDER NAVIGATION */
+
+button {
+  position: fixed;
+  z-index: 99;
+  background-color: transparent;
+  padding: 1rem 1.5rem;
+  border: 0.2rem solid steelblue;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.left-arrow {
+  left: calc(15vw - 6.5rem);
+}
+
+.right-arrow {
+  right: calc(15vw - 6.5rem);
+}
+
+i {
+  color: steelblue;
+  font-size: 2rem;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 700px) {
+  .project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10rem;
+    height: 50vh;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  .slide {
+    height: 70%;
+    border-radius: 0.5rem;
+  }
+
+  button {
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    top: initial;
+    transform: initial;
+  }
+  .left-arrow {
+    top: 0;
+    left: 0;
+  }
+  .right-arrow {
+    bottom: 0;
+    right: 0;
+  }
+
+  button i::before {
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: white;
+  }
+
+  .right-arrow i::before {
+    content: "Next";
+  }
+
+  .left-arrow i::before {
+    content: "Previous";
+  }
 }
