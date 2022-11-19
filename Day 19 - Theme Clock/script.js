@@ -80,7 +80,7 @@ function time() {
     min,
     0,
     59,
-    0,
+    1,
     360
   )}deg)`;
 
@@ -88,7 +88,7 @@ function time() {
     sec,
     0,
     59,
-    0,
+    1,
     360
   )}deg)`;
 
