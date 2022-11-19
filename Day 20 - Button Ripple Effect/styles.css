@@ -16,7 +16,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: red;
+  background: #111;
 }
 
 /* NAVIGATION */
@@ -24,4 +24,52 @@ body {
 .navigation {
   position: absolute;
   top: 0;
+  background-color: white;
+}
+
+.home-container .home-btn,
+nav > ul > li > a,
+.ham-menu {
+  color: var(--main-col);
+}
+
+/* BUTTON */
+.btn {
+  position: relative;
+  padding: 1.5rem 3rem;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid white;
+  background: purple;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  overflow: hidden;
+}
+
+.btn:focus,
+.btn:active {
+  box-shadow: none;
+  outline: none;
+}
+
+/* RIPPLE EFFECT */
+.circle {
+  position: absolute;
+  top: 3rem;
+  left: 8.5rem;
+  background-color: white;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  animation: scale 0.5s ease-out;
+}
+
+@keyframes scale {
+  to {
+    transform: translate(-50%, -50%) scale(3);
+    opacity: 0;
+  }
 }

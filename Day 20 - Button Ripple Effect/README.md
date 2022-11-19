@@ -6,8 +6,9 @@
 
     Project milestones are:
      ✔  create page structure;
-    stylize button;
-    create ripple effect;
+     ✔ stylize button;
+     ✔ create ripple effect;
+     add functionality;
     refactor code;
     add thumbnail;
 
