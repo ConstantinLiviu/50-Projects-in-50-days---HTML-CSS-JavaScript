@@ -5,7 +5,7 @@
     A button that has a ripple efect which is displayed every time the button is clicked.
 
     Project milestones are:
-    create page structure;
+     ✔  create page structure;
     stylize button;
     create ripple effect;
     refactor code;
