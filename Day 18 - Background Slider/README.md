@@ -9,9 +9,9 @@
      ✔ create page structure;
      ✔ stylize slider;
      ✔ reponsive UI;
-    sync slider with background;
-    buttons functionality;
-    refactor code;
+     ✔ sync slider with background;
+     ✔ buttons functionality;
+     ✔ refactor code;
     add thumbnail;
 
     Status:
