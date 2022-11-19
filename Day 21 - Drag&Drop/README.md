@@ -10,11 +10,11 @@
      ✔  add functionality;
      ✔  responsive UI;
      ✔  refactor code;
-    add thumbnail;
+     ✔  add thumbnail;
 
     Status:
-     ✔ project in progress;
-    project completed;
+    project in progress;
+     ✔ project completed;
 
     Possible updates:
      - turn it into a match images/image puzzle game;

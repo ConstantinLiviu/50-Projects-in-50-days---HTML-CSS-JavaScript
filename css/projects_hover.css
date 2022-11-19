@@ -109,3 +109,9 @@
   background-image: url("../Day 20 - Button Ripple Effect/img/projecthumb.jpg");
   color: #00f3ff;
 }
+
+.project-item .day21:hover {
+  position: relative;
+  background-image: url("../Day 21 - Drag&Drop/img/projecthumb.jpg");
+  color: var(--main-col);
+}
