@@ -103,3 +103,9 @@
   background-image: url("../Day 19 - Theme Clock/img/projecthumb.jpg");
   color: #00f3ff;
 }
+
+.project-item .day20:hover {
+  position: relative;
+  background-image: url("../Day 20 - Button Ripple Effect/img/projecthumb.jpg");
+  color: #00f3ff;
+}
