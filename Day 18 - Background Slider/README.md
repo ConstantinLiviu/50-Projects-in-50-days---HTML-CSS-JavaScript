@@ -6,7 +6,7 @@
 
 
     Project milestones are:
-    create page structure;
+     ✔ create page structure;
     stylize slider;
     sync slider with background;
     buttons functionality;
