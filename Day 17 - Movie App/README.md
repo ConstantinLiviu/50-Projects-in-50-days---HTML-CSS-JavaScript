@@ -6,7 +6,7 @@
 
     Project milestones are:
     - to be added as project progress is achieved;
-    create page structure;
+     ✔  create page structure;
 
     refactor code;
     add thumbnail;
