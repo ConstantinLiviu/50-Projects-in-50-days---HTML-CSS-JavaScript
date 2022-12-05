@@ -97,11 +97,11 @@ function time() {
   monthEl.innerText = `${months[month]}${"\xa0"}`;
 
   dayEl.innerText = `${date} `;
-  if (day > 3) {
+  if (date > 3) {
     numEl.innerText = "th";
-  } else if (day === 3) {
+  } else if (date === 3) {
     numEl.innerText = "rd";
-  } else if (day === 2) {
+  } else if (date === 2) {
     numEl.innerText = "nd";
   } else {
     numEl.innerText = "st";
