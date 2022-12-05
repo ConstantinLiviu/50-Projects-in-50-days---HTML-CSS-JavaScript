@@ -1,3 +1,10 @@
+:root {
+  --prim-col: #232931;
+  --sec-col: #393e46;
+  --green4e: #4ecca3;
+  --grayee: #eee;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,13 +17,8 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background-color: red;
+  margin-top: 4.4rem;
+  background-color: var(--prim-col);
 }
 
 /* NAVIGATION */
@@ -25,3 +27,136 @@ body {
   position: absolute;
   top: 0;
 }
+
+/* HEADER*/
+
+header.form {
+  margin: 5rem 0 1rem;
+  padding: 0.5rem 1rem;
+}
+
+/* SEARCH FIELD */
+
+.search {
+  margin-left: auto;
+  display: block;
+  padding: 1rem 2rem;
+  border-radius: 1.5rem;
+  border: none;
+  margin-left: auto;
+  font-size: 1.6rem;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: var(--main-col);
+}
+
+.search:focus,
+.search:active {
+  outline: 0;
+  background-color: var(--grayee);
+}
+
+.search::placeholder {
+  font-style: italic;
+  letter-spacing: 0.2rem;
+  word-spacing: 10vh;
+  color: var(--prim-col);
+}
+
+/* MOVIES LIST */
+
+.movies-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 2rem;
+  justify-content: left;
+}
+
+/* MOVIE ITEM */
+
+.movie-item {
+  width: 20%;
+  background-color: var(--sec-col);
+  margin: 0 1rem 1rem 0;
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+.movie-poster {
+  width: 100%;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+/* MOVIE INFO */
+
+.movie-info {
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.movie-title {
+  color: var(--green4e);
+  font-size: 2.6rem;
+  letter-spacing: 0.1rem;
+}
+
+.rating {
+  padding: 0.2rem 0.3rem;
+  border-radius: 0.3rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+/* RATING DYNAMIC CLASSES */
+.good {
+  background-color: #54b435;
+  color: #395144;
+}
+
+.meh {
+  background-color: #e14d2a;
+  color: #820000;
+}
+
+.bad {
+  background-color: #c21010;
+  color: #ffc4c4;
+}
+
+/* SYNOPSIS */
+
+.synopsis {
+  background-color: var(--grayee);
+  padding: 2rem 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-height: 100%;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-out;
+}
+
+.synopsis-title {
+  font-size: 2.6rem;
+  margin-bottom: 2rem;
+  color: var(--sec-col);
+}
+
+.synopsis-text {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.movie-item:hover .synopsis {
+  transform: translateY(0);
+}
+
+/* MOBILE */

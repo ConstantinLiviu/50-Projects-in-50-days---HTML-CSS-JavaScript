@@ -7,7 +7,10 @@
     Project milestones are:
     - to be added as project progress is achieved;
      ✔  create page structure;
+     ✔  add styling;
+     ✔  create utility classes;
 
+    responsive design;
     refactor code;
     add thumbnail;
 
