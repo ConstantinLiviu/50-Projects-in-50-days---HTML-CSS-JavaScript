@@ -9,6 +9,8 @@
      ✔  create page structure;
      ✔  add styling;
      ✔  create utility classes;
+     ✔  create API consts;
+
 
     responsive design;
     refactor code;
