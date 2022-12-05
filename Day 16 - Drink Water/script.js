@@ -43,6 +43,8 @@ function updateWaterCup() {
     waterCupEl.style.backgroundColor = "transparent";
     measuresEl.style.height = 0;
     percentageEl.style.borderRadius = "0.2rem 0.2rem 5rem 5rem";
+    measuresEl.style.flexDirection = "column";
+    quantityEl.style.marginRight = "0";
   } else if (full !== 8) {
     percentageEl.style.visibility = "visible";
     measuresEl.style.visibility = "visible";
@@ -52,9 +54,17 @@ function updateWaterCup() {
     quantityEl.innerText = `${2 - (8 - full) * 0.25} L`;
     percentageEl.style.borderRadius = 0;
     measuresEl.style.height = "auto";
+    measuresEl.style.flexDirection = "column";
+    quantityEl.style.marginRight = "0";
+    if (full === 1) {
+      measuresEl.style.flexDirection = "row";
+      quantityEl.style.marginRight = "1.2rem";
+    }
   } else if (full === 8) {
     percentageEl.style.visibility = "hidden";
     quantityEl.innerText = "2 L";
     percentageEl.style.height = 0;
+    measuresEl.style.flexDirection = "column";
+    quantityEl.style.marginRight = "0";
   }
 }
