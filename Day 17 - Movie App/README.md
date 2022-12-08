@@ -10,7 +10,7 @@
      ✔  add styling;
      ✔  create utility classes;
      ✔  create API consts;
-
+     ✔  completed page functionality;
 
     responsive design;
     refactor code;

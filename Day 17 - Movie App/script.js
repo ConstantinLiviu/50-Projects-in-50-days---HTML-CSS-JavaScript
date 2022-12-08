@@ -84,7 +84,7 @@ formEl.addEventListener("submit", (e) => {
   console.log(searchTerms);
 
   if (searchTerms && searchTerms !== " ") {
-    // concat api link with search word
+    // concat api link with search words
     getMovies(SEARCH_API + searchTerms);
 
     searchEl.value = "";
