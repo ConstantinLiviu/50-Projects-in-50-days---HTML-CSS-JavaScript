@@ -11,8 +11,8 @@
      ✔  create utility classes;
      ✔  create API consts;
      ✔  completed page functionality;
+     ✔  responsive design;
 
-    responsive design;
     refactor code;
     add thumbnail;
 
@@ -24,4 +24,6 @@
      - to be determined as project progress is achieved;
 
     Version 2.0:
-    *TBA*
+     - fix photo not loaded cases styling;
+     - fix long title words breaks;
+     - allow for a more complex search system;

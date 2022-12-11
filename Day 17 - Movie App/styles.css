@@ -86,15 +86,15 @@ body {
   cursor: pointer;
 }
 
-.poster-container {
-  min-height: 39.5rem;
+.poster-container,
+.movie-poster {
+  min-height: 45.3rem;
 }
 
 .movie-poster {
   width: 100%;
   border-radius: 0.5rem 0.5rem 0 0;
-  min-height: 39.5rem;
-  font-size: 4rem;
+  font-size: 3rem;
   color: var(--grayee);
 }
 
@@ -119,6 +119,7 @@ body {
   border-radius: 0.3rem;
   font-size: 1.8rem;
   font-weight: 700;
+  text-align: center;
 }
 
 /* RATING DYNAMIC CLASSES */
@@ -151,7 +152,6 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  /* min-height: 50%;*/
   max-height: 50%;
   transform: translateY(101%);
   transition: transform 0.3s ease-out;
@@ -199,6 +199,20 @@ body {
   .movies-list {
     grid-template-columns: repeat(4, 1fr);
   }
+
+  .poster-container,
+  .movie-poster {
+    min-height: 38rem;
+  }
+
+  .movie-poster,
+  .movie-title {
+    font-size: 2rem;
+  }
+
+  .rating {
+    min-width: 4rem;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -208,6 +222,28 @@ body {
 
   .movies-list {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .poster-container,
+  .movie-poster {
+    min-height: 23rem;
+  }
+
+  .movie-poster,
+  .movie-title {
+    font-size: 1.8rem;
+  }
+
+  .movie-title {
+    margin-right: 1rem;
+  }
+
+  .rating {
+    min-width: 3rem;
+  }
+
+  .synopsis-title {
+    font-size: 2rem;
   }
 }
 
@@ -221,6 +257,15 @@ body {
   .movies-list {
     grid-template-columns: repeat(2, 1fr);
   }
+  .poster-container,
+  .movie-poster {
+    min-height: 26rem;
+  }
+
+  .movie-poster,
+  .movie-title {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 399px) {
@@ -232,5 +277,17 @@ body {
   }
   .movies-list {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .poster-container,
+  .movie-poster {
+    min-height: 45rem;
+  }
+
+  .movie-poster {
+    font-size: 3rem;
+  }
+
+  .rating {
+    min-width: 4rem;
   }
 }
