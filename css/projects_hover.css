@@ -92,6 +92,12 @@
   color: white;
 }
 
+.project-item .day17:hover {
+  position: relative;
+  background-image: url("../Day 17 - Movie App/img/projecthumb.jpg");
+  color: rgb(250, 246, 37);
+}
+
 .project-item .day18:hover {
   position: relative;
   background-image: url("../Day 18 - Background Slider/img/projecthumb.jpg");
