@@ -1,7 +1,7 @@
 const API_URL =
   "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=c9a963aede0726fe0999645ae907bd0d&page=1";
 
-const IMG_PATH = "https://image.tmdb.org/t/p/w500/";
+const IMG_PATH = "https://image.tmdb.org/t/p/w500";
 
 const SEARCH_API =
   'https://api.themoviedb.org/3/search/movie?api_key=c9a963aede0726fe0999645ae907bd0d&query="';
@@ -9,6 +9,9 @@ const SEARCH_API =
 const formEl = document.querySelector(".form");
 const searchEl = document.querySelector(".search");
 const moviesListEl = document.querySelector(".movies-list");
+const menuBtnEl = document.querySelector(".ham-menu");
+const menuOptions = document.querySelector("nav ul");
+const bodyEl = document.querySelector("body");
 
 /**
  * Function takes in an api url key in order to retrieve movie related info
@@ -40,8 +43,11 @@ function showMovies(movieData) {
     // add styles
     movieEl.classList.add("movie-item");
     // assign movie item structure
-    movieEl.innerHTML = `
-    <img src="${IMG_PATH + poster_path}" alt="${title}" class="movie-poster" />
+    movieEl.innerHTML = `<div class="poster-container">
+    <img src="${
+      IMG_PATH + poster_path
+    }" alt="Unavailable data" class="movie-poster" />
+    </div>
     <div class="movie-info">
       <h3 class="movie-title">${title}</h3>
       <span class="rating ${avgVoteToRating(
@@ -67,7 +73,9 @@ function showMovies(movieData) {
 function avgVoteToRating(voteResult) {
   if (voteResult >= 8) {
     return "good";
-  } else if (voteResult >= 5) {
+  } else if (voteResult >= 6) {
+    return "so-so";
+  } else if (voteResult >= 4) {
     return "meh";
   } else {
     return "bad";
@@ -90,5 +98,13 @@ formEl.addEventListener("submit", (e) => {
     searchEl.value = "";
   } else {
     window.location.reload;
+  }
+});
+
+menuBtnEl.addEventListener("click", () => {
+  if (menuOptions.classList.contains("hide-ul")) {
+    bodyEl.style.marginTop = "4.4rem";
+  } else {
+    bodyEl.style.marginTop = "18.4rem";
   }
 });
