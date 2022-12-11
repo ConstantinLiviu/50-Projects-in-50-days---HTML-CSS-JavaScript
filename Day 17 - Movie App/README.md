@@ -14,7 +14,7 @@
      ✔  completed page functionality;
      ✔  responsive design;
      ✔  refactor code;
-      add thumbnail;
+     ✔  add thumbnail;
 
     Status:
      project in progress;
