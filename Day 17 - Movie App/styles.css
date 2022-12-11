@@ -193,6 +193,15 @@ body {
 /* MOBILE */
 
 @media screen and (max-width: 1370px) {
+  .modal-readme {
+    max-height: 80vh;
+    overflow-y: scroll;
+  }
+
+  .modal-readme .title {
+    font-size: 2rem;
+  }
+
   .search::placeholder {
     word-spacing: 10vw;
   }
