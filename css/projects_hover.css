@@ -96,6 +96,7 @@
   position: relative;
   background-image: url("../Day 17 - Movie App/img/projecthumb.jpg");
   color: rgb(250, 246, 37);
+  text-shadow: 2px 1px 1px black;
 }
 
 .project-item .day18:hover {
