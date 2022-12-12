@@ -52,7 +52,7 @@ body {
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   column-gap: 1rem;
   row-gap: 1rem;
 }
@@ -86,4 +86,23 @@ body {
 
 .project-title {
   font-size: 1.4rem;
+}
+
+/* MOBILE */
+@media screen and (max-width: 1200px) {
+  .projects-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .projects-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
