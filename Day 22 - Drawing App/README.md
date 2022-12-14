@@ -1,11 +1,11 @@
-# X - PROJECT TITLE
+# 22 - DRAWING APP
 
     Version 1.0:
-    This canvas app offers users a simplified version of MS paint. It has minimal drawing instruments and allows users to reset the drawing area without refreshing the page
+    This canvas app offers users a simplified version of MS paint. It has minimal drawing instruments and allows users to reset the drawing area without refreshing the page.
 
 
     Project milestones are:
-    create page structure;
+     ✔  create page structure;
     basic styling;
     implement tools;
     responsive design;
@@ -18,6 +18,7 @@
 
     Possible updates:
      - save and export drawing;
+     - import drawings;
      - add additional drawing tools;
 
     Version 2.0:
