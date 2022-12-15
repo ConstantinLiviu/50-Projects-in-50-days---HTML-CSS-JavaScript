@@ -6,7 +6,7 @@
 
     Project milestones are:
      ✔  create page structure;
-    basic styling;
+     ✔  basic styling;
     implement tools;
     responsive design;
     refactor code;
@@ -20,6 +20,7 @@
      - save and export drawing;
      - import drawings;
      - add additional drawing tools;
+     - be able to save multiple colors;
 
     Version 2.0:
     *TBA*

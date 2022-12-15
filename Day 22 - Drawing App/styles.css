@@ -1,3 +1,9 @@
+:root {
+  --green90: #628e90;
+  --bluee6: #b4cde6;
+  --beigee6: #f5efe6;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -16,7 +22,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: red;
+  background-color: var(--beigee6);
 }
 
 /* NAVIGATION */
@@ -24,4 +30,68 @@ body {
 .navigation {
   position: absolute;
   top: 0;
+}
+
+/* PROJECT CONTAINER */
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* CANVAS */
+
+.canvas {
+  margin-top: 5rem;
+  width: 160rem;
+  height: 80rem;
+  border: 0.2rem solid var(--green90);
+  border-bottom: 0;
+  background-color: #fff;
+}
+
+.toolbox {
+  background-color: var(--bluee6);
+  border: 0.2rem solid var(--green90);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 2rem;
+  gap: 1rem;
+}
+
+/* BUTTONS */
+
+button,
+input {
+  cursor: pointer;
+  border-radius: 0.5rem;
+  background: #d8d9cf;
+}
+
+span {
+  font-size: 2rem;
+}
+
+button:hover,
+input:hover {
+  background-color: white;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1.4rem;
+  font-weight: 800;
+  border: 0.1rem solid var(--green90);
+}
+
+button:last-of-type {
+  margin-left: auto;
+  color: #f05454;
+  background-color: white;
+}
+
+button:last-of-type:hover {
+  background-color: #161853;
 }
