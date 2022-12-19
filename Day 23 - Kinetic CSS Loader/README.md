@@ -5,7 +5,7 @@
 
 
     Project milestones are:
-    create page structure;
+     ✔  create page structure;
     add styles;
     create animation;
     add thumbnail;
