@@ -122,3 +122,9 @@
   background-image: url("../Day 21 - Drag&Drop/img/projecthumb.jpg");
   color: var(--main-col);
 }
+
+.project-item .day23:hover {
+  position: relative;
+  background-image: url("../Day 23 - Kinetic CSS Loader/img/projecthumb.jpg");
+  color: #00f3ff;
+}

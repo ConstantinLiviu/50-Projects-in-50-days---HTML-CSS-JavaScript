@@ -10,11 +10,11 @@
      ✔  create animation;
      ✔  responsive design;
      ✔  refactor code;
-    add thumbnail;
+     ✔  add thumbnail;
 
     Status:
-     ✔ project in progress;
-    project completed;
+    project in progress;
+     ✔ project completed;
 
     Possible updates:
      - change shapes;
