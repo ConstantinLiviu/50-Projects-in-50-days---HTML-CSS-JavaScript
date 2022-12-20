@@ -16,7 +16,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: red;
+  background-color: #eeedde;
 }
 
 /* NAVIGATION */
@@ -24,4 +24,85 @@ body {
 .navigation {
   position: absolute;
   top: 0;
+}
+
+/* CONTAINER */
+
+.project-container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+/* CARD CONTAINER*/
+.card-container {
+  margin: 0 auto;
+  width: 60%;
+  box-shadow: 0.2rem 0.3rem 0.4rem rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  background-color: #ffccd2;
+}
+
+/* IMAGE CONTAINER */
+.main-img-container {
+  max-width: 100%;
+}
+
+/* MAIN IMAGE */
+
+.main-img {
+  max-width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+/* INFO CONTAINER */
+.info-container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* TITLE CONTAINER */
+.title-container {
+  margin-bottom: 4rem;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #b3541e;
+}
+
+.description {
+  font-size: 1.8rem;
+  color: #495371;
+}
+
+/* ID CONTAINER */
+
+.id-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  margin-right: 5rem;
+}
+
+/* ID INFO */
+.name {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+
+  color: #362222;
+}
+
+.occupation {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #495371;
 }
