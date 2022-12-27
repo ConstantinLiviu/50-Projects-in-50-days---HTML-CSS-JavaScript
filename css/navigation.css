@@ -62,7 +62,8 @@ li a:hover {
   }
 
   .home-btn {
-    width: 100%;
+    /* width: 100%; */
+    width: auto;
     margin: 0 1rem;
     padding-left: 0;
   }
