@@ -48,6 +48,7 @@ body {
   border: 0.2rem solid var(--green90);
   border-bottom: 0;
   background-color: #fff;
+  /* image-rendering: crisp-edges; */
 }
 
 .toolbox {
