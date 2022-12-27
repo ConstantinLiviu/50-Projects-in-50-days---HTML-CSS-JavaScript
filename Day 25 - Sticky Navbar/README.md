@@ -9,7 +9,8 @@
      ✔  update navbar;
      ✔  add styling;
      ✔  responsive design;
-    refactor code;
+     ✔  add functionality;
+     ✔  refactor code;
     add thumbnail;
 
     Status:
