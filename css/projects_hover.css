@@ -128,3 +128,9 @@
   background-image: url("../Day 23 - Kinetic CSS Loader/img/projecthumb.jpg");
   color: #00f3ff;
 }
+
+.project-item .day25:hover {
+  position: relative;
+  background-image: url("../Day 25 - Sticky Navbar/img/projecthumb.jpg");
+  color: #d00e0e;
+}
