@@ -10,11 +10,11 @@
      ✔  responsive design;
      ✔  add functionality;
      ✔  refactor code;
-    add thumbnail;
+     ✔  add thumbnail;
 
     Status:
-     ✔ project in progress;
-    project completed;
+    project in progress;
+     ✔ project completed;
 
     Possible updates:
      - allow users to select which notification type is sent;
