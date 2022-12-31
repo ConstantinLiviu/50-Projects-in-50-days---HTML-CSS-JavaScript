@@ -134,3 +134,9 @@
   background-image: url("../Day 25 - Sticky Navbar/img/projecthumb.jpg");
   color: #d00e0e;
 }
+
+.project-item .day27:hover {
+  position: relative;
+  background-image: url("../Day 27 - Toast Notifications/img/projecthumb.jpg");
+  color: var(--main-col);
+}
