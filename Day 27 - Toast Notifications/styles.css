@@ -16,7 +16,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: red;
+  background-color: #90c8ac;
 }
 
 /* NAVIGATION */
@@ -24,4 +24,39 @@ body {
 .navigation {
   position: absolute;
   top: 0;
+}
+
+/* NOTIFICATIONS BUTTON */
+
+.notifications-btn {
+  background-color: #c4dfaa;
+  padding: 2rem;
+  border-radius: 1rem;
+  color: #576f72;
+  font-size: 2rem;
+  box-shadow: 0.2rem 0.3rem 0.4rem rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.notifications-btn:active {
+  transform: scale(0.95);
+}
+
+/* NOTIFICATIONS CONTAINER */
+
+.notifications-container {
+  position: fixed;
+  bottom: 2rem;
+  right: 3rem;
+}
+
+.notification {
+  padding: 1rem 2rem;
+  background-color: white;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
 }
