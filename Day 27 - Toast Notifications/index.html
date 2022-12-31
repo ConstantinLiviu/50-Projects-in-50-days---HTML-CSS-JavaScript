@@ -31,24 +31,20 @@
   <body>
     <div class="overlay"></div>
     <section class="modal-readme">
-      <h1 class="title"></h1>
+      <h1 class="title">Toast Notifications</h1>
       <p class="description description-title">Version 1.0:</p>
-      <p class="description last"></p>
+      <p class="description last">
+        With the use of a button a user can generate Toast Notifications. There
+        are multiple categories, randomly generated.
+      </p>
       <p class="description description-title">Major project steps are:</p>
       <ul class="milestones">
-        <li>
-          <span class="completed">✔</span>
-        </li>
-        <li>
-          <span class="completed">✔</span>
-        </li>
-        <li>
-          <span class="completed">✔</span>
-        </li>
-        <li><span class="completed">✔</span></li>
-        <li><span class="completed">✔</span></li>
-        <li><span class="completed">✔</span></li>
-        <li><span class="completed">✔</span></li>
+        <li><span class="completed">✔</span>create page structure;</li>
+        <li><span class="completed">✔</span>add styling;</li>
+        <li><span class="completed">✔</span>responsive design;</li>
+        <li><span class="completed">✔</span>add functionality;</li>
+        <li><span class="completed">✔</span>refactor code;</li>
+        <li><span class="completed">✔</span>add thumbnail;</li>
       </ul>
       <p class="description description-title">Project status:</p>
       <ul class="project-status">
@@ -57,8 +53,8 @@
       </ul>
       <p class="description description-title">Updates ideas:</p>
       <ul class="updates">
-        <li></li>
-        <li></li>
+        <li>- allow users to select which notification type is sent;</li>
+        <li>- allow users to change the notification text;</li>
       </ul>
       <p class="version-update">Version 2.0: TBA</p>
     </section>
@@ -71,13 +67,25 @@
         <ul class="hide-ul">
           <li class="readme"><a href="#">README.md</a></li>
           <li>
-            <a href="" target="_blank">Github</a>
+            <a
+              href="https://github.com/ConstantinLiviu/50-Projects-in-50-days---HTML-CSS-JavaScript/tree/master/Day%2027%20-%20Toast%20Notifications"
+              target="_blank"
+              >Github</a
+            >
           </li>
           <li><a href="#">Random Project</a></li>
         </ul>
       </nav>
     </section>
-    <section class="project-container"></section>
+    <section class="project-container">
+      <p class="notifications-btn">Get Notification</p>
+      <div class="notifications-container">
+        <p class="notification">Test 1</p>
+        <p class="notification">Test 2</p>
+        <p class="notification">Test 3</p>
+        <p class="notification">Test 4</p>
+      </div>
+    </section>
 
     <script src="../nav.js"></script>
     <script src="../modal.js"></script>

@@ -1,11 +1,11 @@
-# 27 - Toast Notifications
+# 27 - TOAST NOTIFICATIONS
 
     Version 1.0:
     With the use of a button a user can generate Toast Notifications. There are multiple categories, randomly generated.
 
 
     Project milestones are:
-    create page structure;
+     ✔  create page structure;
     add styling;
     responsive design;
     add functionality;
