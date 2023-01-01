@@ -11,11 +11,11 @@
      ✔  create heart animation;
      ✔  add functionality;
      ✔  refactor code;
-    add thumbnail;
+     ✔  add thumbnail;
 
     Status:
-     ✔ project in progress;
-    project completed;
+    project in progress;
+     ✔  project completed;
 
     Possible updates:
      - allow users to select different reactions(funny, angry, love etc.);
