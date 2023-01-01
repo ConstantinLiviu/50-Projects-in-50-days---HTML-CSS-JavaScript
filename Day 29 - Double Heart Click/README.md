@@ -8,7 +8,7 @@
      ✔  create page structure;
      ✔  add styling;
      ✔  responsive design;
-    create heart animation;
+     ✔  create heart animation;
     add functionality;
     refactor code;
     add thumbnail;

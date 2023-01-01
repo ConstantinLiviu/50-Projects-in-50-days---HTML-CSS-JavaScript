@@ -68,6 +68,29 @@ i {
   cursor: pointer;
 }
 
+/* HEART ANIMATION */
+
+.animated {
+  /* visibility: hidden; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  animation: expand 0.7s linear;
+}
+
+@keyframes expand {
+  from {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  to {
+    transform: translate(-50%, -50%) scale(20);
+    top: 30%;
+    left: 70%;
+    opacity: 0;
+  }
+}
+
 /* MOBILE */
 
 @media screen and (max-width: 700px) {
