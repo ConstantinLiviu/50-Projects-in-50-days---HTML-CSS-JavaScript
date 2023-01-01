@@ -9,8 +9,8 @@
      ✔  add styling;
      ✔  responsive design;
      ✔  create heart animation;
-    add functionality;
-    refactor code;
+     ✔  add functionality;
+     ✔  refactor code;
     add thumbnail;
 
     Status:
