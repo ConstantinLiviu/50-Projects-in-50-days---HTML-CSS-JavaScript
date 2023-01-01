@@ -1,11 +1,11 @@
 # 29 - DOUBLE HEART CLICK
 
     Version 1.0:
-    by double clicking the image you trigger an animation and a counter increase, showing the amount of time the image was liked.
+    By double clicking the image you trigger an animation and a counter increase, showing the amount of time the image was liked.
 
 
     Project milestones are:
-    create page structure;
+     ✔  create page structure;
     add styling;
     responsive design;
     add functionality;
