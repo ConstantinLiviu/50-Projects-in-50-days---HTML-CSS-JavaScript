@@ -50,6 +50,7 @@ body {
   border-radius: 0.5rem;
   padding: 0.5rem 1rem;
   font-size: 2rem;
+  color: #2d4263;
 }
 
 .searchbar:focus {
@@ -58,13 +59,7 @@ body {
 
 .searchbar::placeholder {
   font-style: italic;
-}
-
-.searchbar::before {
-  content: "\f002";
-  font-weight: 600;
-  font-size: 2rem;
-  color: #333;
+  color: rgba(0, 0, 0, 0.3);
 }
 
 /* INFO CONTAINER */
