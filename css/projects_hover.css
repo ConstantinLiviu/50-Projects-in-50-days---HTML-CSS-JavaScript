@@ -140,3 +140,9 @@
   background-image: url("../Day 27 - Toast Notifications/img/projecthumb.jpg");
   color: var(--main-col);
 }
+
+.project-item .day29:hover {
+  position: relative;
+  background-image: url("../Day 29 - Double Heart Click/img/projecthumb.jpg");
+  color: white;
+}
