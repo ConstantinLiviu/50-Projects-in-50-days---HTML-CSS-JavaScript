@@ -70,12 +70,14 @@ i {
 
 /* HEART ANIMATION */
 
-.animated {
-  /* visibility: hidden; */
+.heart-animation {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
+}
+
+.animated {
   animation: expand 0.7s linear;
 }
 
