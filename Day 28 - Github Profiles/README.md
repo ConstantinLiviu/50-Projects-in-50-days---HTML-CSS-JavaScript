@@ -1,7 +1,7 @@
 # 28 - GITHUB PROFILE
 
     Version 1.0:
-    A search bar that fetches information on various Github profile. It uses the Axios API and it displays certain pieces of information regarding a searched users's profile(number of repsitories, followers etc.).
+    A search bar that fetches information on various Github profile. It uses Axios/Github API and it displays certain pieces of information regarding a searched users's profile(number of repsitories, followers etc.).
 
 
     Project milestones are:
