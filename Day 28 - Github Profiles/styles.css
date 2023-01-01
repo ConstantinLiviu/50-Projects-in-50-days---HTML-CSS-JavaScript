@@ -16,7 +16,14 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: red;
+  background-color: #2d4263;
+}
+
+.name,
+.bio,
+.stats p,
+.repo {
+  color: #ecdbba;
 }
 
 /* NAVIGATION */
@@ -24,4 +31,100 @@ body {
 .navigation {
   position: absolute;
   top: 0;
+}
+
+/* PROJECT CONTAINER */
+
+.project-container {
+  width: 40%;
+  background-color: #c84b31;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+/* SEARCH BAR */
+
+.searchbar {
+  width: 100%;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+}
+
+.searchbar:focus {
+  outline: transparent;
+}
+
+.searchbar::placeholder {
+  font-style: italic;
+}
+
+.searchbar::before {
+  content: "\f002";
+  font-weight: 600;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* INFO CONTAINER */
+
+.profile-info-container {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.img-container {
+  width: 25%;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.profile-info {
+  width: 75%;
+}
+
+.name,
+.bio,
+.stats {
+  margin-bottom: 2rem;
+}
+
+.name {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.bio {
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+}
+
+.stats,
+.repos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats,
+.repo {
+  font-size: 1.4rem;
+}
+
+.stats p,
+.repo {
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.stats p {
+  background-color: #2d4263;
+}
+
+.repo {
+  text-decoration: none;
+  background-color: #3f3351;
+  margin-bottom: 0.5rem;
 }
