@@ -68,3 +68,15 @@ body {
   width: 3rem;
   border-radius: 50%;
 }
+
+/* ANIMATION */
+
+.toggle:checked + .label .ball {
+  transform: translateX(4rem);
+  transition: transform 0.2s linear;
+}
+
+.toggle + .label .ball {
+  transform: translateX(0rem);
+  transition: transform 0.2s linear;
+}
