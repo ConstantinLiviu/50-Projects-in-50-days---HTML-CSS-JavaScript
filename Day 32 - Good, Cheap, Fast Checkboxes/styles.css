@@ -16,7 +16,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: red;
+  background-color: #eff5f5;
 }
 
 /* NAVIGATION */
@@ -24,4 +24,47 @@ body {
 .navigation {
   position: absolute;
   top: 0;
+}
+
+/* PROJECT CONTAINER */
+
+/* #D6E4E5 #497174 #EB6440*/
+
+.project-container {
+  width: 40rem;
+  padding: 2rem;
+}
+
+/* TOGGLE CONTAINER */
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+}
+
+/* TOGGLE AND LABEL ELEMENTS */
+.toggle {
+  visibility: hidden;
+}
+
+.label {
+  width: 7rem;
+  height: 3rem;
+  background-color: #d6e4e5;
+  border-radius: 99rem;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.toggle:checked + .label {
+  background-color: #497174;
+}
+
+.ball {
+  background-color: #eb6440;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
 }
