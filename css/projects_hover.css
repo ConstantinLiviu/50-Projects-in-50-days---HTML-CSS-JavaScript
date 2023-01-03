@@ -146,3 +146,9 @@
   background-image: url("../Day 29 - Double Heart Click/img/projecthumb.jpg");
   color: white;
 }
+
+.project-item .day32:hover {
+  position: relative;
+  background-image: url("../Day 32 - Good, Cheap, Fast Checkboxes/img/projecthumb.jpg");
+  color: var(--main-col);
+}
