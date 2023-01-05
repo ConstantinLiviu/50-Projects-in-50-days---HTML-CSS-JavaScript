@@ -1,11 +1,11 @@
 # 36 - HOVERBOARD
 
     Version 1.0:
-    A small project that displays a board of squares which, upon hovering the mouse pointer, light up and fade out.
+    A small project that displays a board of squares which, upon being hovered, light up and fade out.
 
 
     Project milestones are:
-    create page structure;
+     ✔  create page structure;
     add styles;
     add functionality;
     refactor code;
