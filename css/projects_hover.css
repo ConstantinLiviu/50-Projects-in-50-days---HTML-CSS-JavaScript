@@ -147,6 +147,12 @@
   color: white;
 }
 
+.project-item .day30:hover {
+  position: relative;
+  background-image: url("../Day 30 - Auto Text Effect/img/projecthumb.jpg");
+  color: var(--main-col);
+}
+
 .project-item .day32:hover {
   position: relative;
   background-image: url("../Day 32 - Good, Cheap, Fast Checkboxes/img/projecthumb.jpg");
