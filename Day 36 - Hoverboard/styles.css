@@ -16,7 +16,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: red;
+  background-color: #191919;
 }
 
 /* NAVIGATION */
@@ -24,4 +24,29 @@ body {
 .navigation {
   position: absolute;
   top: 0;
+}
+
+/* PROJECT CONTAINER */
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+/* SQUARES */
+
+.square {
+  background-color: #222;
+  box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.7);
+  height: 1rem;
+  width: 1rem;
+  margin: 0.5rem;
+  transition: 1s ease;
+}
+
+.square:hover {
+  transition-duration: 0s;
 }
