@@ -36,7 +36,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 30rem;
+  width: auto;
+  text-align: center;
 }
 
 /* TEXT */
@@ -57,6 +58,7 @@ body {
   border-radius: 0.5rem;
   display: flex;
   box-shadow: 0.2rem 0.3rem 0.4rem rgba(0, 0, 0, 0.2);
+  align-items: center;
 }
 
 label,
