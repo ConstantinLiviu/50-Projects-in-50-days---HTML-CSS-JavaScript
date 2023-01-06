@@ -7,8 +7,8 @@
     Project milestones are:
      ✔  create page structure;
      ✔  add styles;
-    add functionality;
-    refactor code;
+     ✔  add functionality;
+     ✔  refactor code;
     add thumbnail;
 
     Status:
@@ -16,8 +16,10 @@
     project completed;
 
     Possible updates:
-     - larger board with the color sticking to the squares in order to allow users to paint;
+     - custom size board;
+     - option to choose between fading and permanent color;
      - make it work on mobile devices;
+     - allow users to change color pallete;
 
     Version 2.0:
     *TBA*
