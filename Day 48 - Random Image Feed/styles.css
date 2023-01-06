@@ -56,3 +56,30 @@ img {
   box-shadow: 0.3rem 0.4rem 0.5rem rgba(0, 0, 0, 0.35);
   border-radius: 1rem;
 }
+
+/* MOBILE */
+
+@media screen and (max-width: 1200px) {
+  .project-container {
+    width: 100%;
+  }
+
+  .img-container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 4rem;
+    padding: 0 2rem;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .img-container {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 4rem;
+    width: 90%;
+  }
+}
