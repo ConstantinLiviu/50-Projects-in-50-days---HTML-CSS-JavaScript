@@ -1,11 +1,11 @@
 # 48 - RANDOM IMAGE FEED
 
     Version 1.0:
-    Display a random feed of images upon loading the page. Images are sourced from unsplash.com.
+    Display a random feed of images upon loading the page. Images are sourced from unsplash.com. No API is used; images are displayed using a URL.
 
 
     Project milestones are:
-    create page structure;
+     ✔  create page structure;
     add styling;
     responsive design;
     add functionality;
