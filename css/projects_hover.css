@@ -164,3 +164,9 @@
   background-image: url("../Day 36 - Hoverboard/img/projecthumb.jpg");
   color: white;
 }
+
+.project-item .day48:hover {
+  position: relative;
+  background-image: url("../Day 48 - Random Image Feed/img/projecthumb.jpg");
+  color: #d00e0e;
+}
