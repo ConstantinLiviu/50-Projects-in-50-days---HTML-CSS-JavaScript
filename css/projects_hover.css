@@ -158,3 +158,9 @@
   background-image: url("../Day 32 - Good, Cheap, Fast Checkboxes/img/projecthumb.jpg");
   color: var(--main-col);
 }
+
+.project-item .day36:hover {
+  position: relative;
+  background-image: url("../Day 36 - Hoverboard/img/projecthumb.jpg");
+  color: white;
+}
