@@ -8,7 +8,7 @@
     Project milestones are:
      ✔  create page structure;
      ✔  add styiling;
-    responsive design;
+     ✔  responsive design;
     add functionality;
     refactor code;
     add thumbnail;
