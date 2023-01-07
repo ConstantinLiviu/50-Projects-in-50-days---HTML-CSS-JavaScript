@@ -88,3 +88,22 @@ input[type="number"] {
 .digit:valid {
   border: 0.2rem solid #cc704b;
 }
+
+/* MOBILE */
+
+@media screen and (max-width: 500px) {
+  .project-container {
+    width: 80%;
+  }
+  .digits-container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
+  .digit {
+    margin: 0;
+    justify-self: center;
+  }
+}
