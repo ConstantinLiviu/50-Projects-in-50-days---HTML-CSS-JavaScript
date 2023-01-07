@@ -12,11 +12,10 @@ body {
   font-family: "Roboto", sans-serif;
   overflow: hidden;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: red;
+  background-color: #f3e0b5;
 }
 
 /* NAVIGATION */
@@ -24,4 +23,68 @@ body {
 .navigation {
   position: absolute;
   top: 0;
+}
+
+/* PROJECT CONTAINER */
+
+.project-container {
+  background-color: #94b49f;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  border: 0.1rem solid #967e76;
+  text-align: center;
+}
+
+.title,
+.txt {
+  color: #2c3639;
+}
+
+.title {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.txt {
+  font-size: 1.6rem;
+}
+
+.txt:last-of-type {
+  margin-bottom: 3rem;
+}
+
+/* DIGITS CONTAINER */
+
+.digit::-webkit-outer-spin-button,
+.digit::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.digit:focus {
+  outline: transparent;
+}
+
+.digit {
+  text-align: center;
+  width: 6rem;
+  margin-right: 1rem;
+  font-size: 6rem;
+  color: #cc704b;
+  border-radius: 1rem;
+  border: none;
+  border: 0.2rem solid transparent;
+}
+
+.digit::placeholder {
+  font-size: 5rem;
+  color: #cc704b;
+}
+
+.digit:valid {
+  border: 0.2rem solid #cc704b;
 }
