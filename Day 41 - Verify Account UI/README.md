@@ -10,11 +10,11 @@
      ✔  responsive design;
      ✔  add functionality;
      ✔  refactor code;
-    add thumbnail;
+     ✔  add thumbnail;
 
     Status:
-     ✔ project in progress;
-    project completed;
+    project in progress;
+     ✔ project completed;
 
     Possible updates:
      - create a code generator and have the computer verify the code upon input, generating a successful login toast message (accompanied by a simulated login) or an error message prompting to retry;

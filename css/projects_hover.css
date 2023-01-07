@@ -165,6 +165,12 @@
   color: white;
 }
 
+.project-item .day41:hover {
+  position: relative;
+  background-image: url("../Day 41 - Verify Account UI/img/projecthumb.jpg");
+  color: var(--main-col);
+}
+
 .project-item .day48:hover {
   position: relative;
   background-image: url("../Day 48 - Random Image Feed/img/projecthumb.jpg");
