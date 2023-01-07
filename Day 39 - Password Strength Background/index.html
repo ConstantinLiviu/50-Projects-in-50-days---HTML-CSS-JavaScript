@@ -20,6 +20,8 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <!-- TAILWIND CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <link rel="stylesheet" href="../css/variables.css" />
     <link rel="stylesheet" href="styles.css" />
@@ -38,7 +40,8 @@
         Once the password is considered strong enough the image becomes 100%
         clear. In this stage of the project only the length of the password is
         taken into cosideration when determining the strength of the password;
-        this can be improved in the future.
+        this can be improved in the future. This project makes use of Tailwind
+        via a first party cdn.
       </p>
       <p class="description description-title">Major project steps are:</p>
       <ul class="milestones">
@@ -82,7 +85,22 @@
         </ul>
       </nav>
     </section>
-    <section class="project-container"></section>
+    <section
+      class="project-container bg-[#F5F4F4] rounded p-10 text-center shadow-md"
+    >
+      <h1 class="title text-5xl mb-8 text-[#91091E] font-medium">
+        Test your password's strength!
+      </h1>
+      <label for="password" class="text-3xl text-[#C39E5C] font-bold p-5"
+        >Password:</label
+      >
+      <input
+        type="text"
+        id="password"
+        placeholder="Type your password"
+        class="p-1 pl-2 rounded text-[#91091E] text-2xl focus:outline-transparent placeholder-slate-400 placeholder:italic"
+      />
+    </section>
 
     <script src="../nav.js"></script>
     <script src="../modal.js"></script>

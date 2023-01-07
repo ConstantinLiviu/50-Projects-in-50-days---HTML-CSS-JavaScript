@@ -2,10 +2,11 @@
 
     Version 1.0:
     A password strength tester; as users input a password the image unblurs. Once the password is considered strong enough the image becomes 100% clear. In this stage of the project only the length of the password is taken into cosideration when determining the strength of the password; this can be improved in the future.
+    This project makes use of Tailwind via a first party cdn.
 
 
     Project milestones are:
-    create page structure;
+     ✔  create page structure;
     add styiling;
     responsive design;
     add functionality;
