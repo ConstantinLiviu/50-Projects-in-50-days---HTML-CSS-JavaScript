@@ -8,6 +8,7 @@
      ✔  create page structure;
      ✔  add styling;
      ✔  reposnsive design;
+     ✔  add timer animation;
     add functionality;
     refactor code;
     add thumbnail;
