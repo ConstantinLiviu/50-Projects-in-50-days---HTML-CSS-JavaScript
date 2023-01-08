@@ -9,7 +9,7 @@
      ✔  add styling;
      ✔  reposnsive design;
      ✔  add timer animation;
-    add functionality;
+     ✔  add functionality;
     refactor code;
     add thumbnail;
 
