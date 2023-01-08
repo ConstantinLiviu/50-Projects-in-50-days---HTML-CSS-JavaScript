@@ -9,8 +9,8 @@
      ✔  create page structure;
      ✔  add styiling;
      ✔  responsive design;
-    add functionality;
-    refactor code;
+     ✔  add functionality;
+     ✔  refactor code;
     add thumbnail;
 
     Status:
@@ -19,6 +19,9 @@
 
     Possible updates:
      - improve the strength check by taking into account symbols, capital letters and numbers;
+     - show a strength meter to guide users;
+     - add an info tab informing what a strong password consists of;
+     - rewrite the entire project to fully make use of the Tailwind framework;
 
     Version 2.0:
     *TBA*
