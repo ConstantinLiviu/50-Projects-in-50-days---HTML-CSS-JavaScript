@@ -12,11 +12,11 @@ body {
   font-family: "Roboto", sans-serif;
   overflow: hidden;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   height: 100vh;
-  background-color: red;
+  background-color: #f3f3f3;
+  position: relative;
 }
 
 /* NAVIGATION */
@@ -24,4 +24,83 @@ body {
 .navigation {
   position: absolute;
   top: 0;
+}
+
+/* PROJECT CONTAINER */
+
+.project-container {
+  width: 30%;
+  text-align: center;
+
+  margin-bottom: 3rem;
+}
+
+/* TITLE */
+.watermark {
+  color: #b08bbb;
+  opacity: 0.4;
+  font-size: 15rem;
+  margin-bottom: 30rem;
+}
+
+/* INPUT FIELD */
+input,
+.todo {
+  box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.2);
+}
+input {
+  width: 60%;
+  padding: 1rem;
+  border: none;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+
+input:focus {
+  outline: transparent;
+}
+
+input::placeholder {
+  font-style: italic;
+  color: #c0c0c0;
+}
+
+/* INSTRUCTIONS */
+
+.txt {
+  color: #c0c0c0;
+  font-size: 2rem;
+}
+
+/* TODO LISTS */
+
+.todo {
+  position: absolute;
+  width: 40rem;
+}
+
+.todo-left,
+.todo-right {
+  top: 10rem;
+}
+
+.todo-left {
+  left: 2rem;
+}
+
+.todo-right {
+  right: 2rem;
+}
+
+.todo p {
+  border-bottom: 1px solid #c0c0c0;
+  margin-bottom: 0.1rem;
+  background: white;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.todo p:last-child {
+  border-bottom: none;
 }
