@@ -16,7 +16,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: red;
+  background-color: #283148;
 }
 
 /* NAVIGATION */
@@ -24,4 +24,87 @@ body {
 .navigation {
   position: absolute;
   top: 0;
+}
+
+/* PROJECT CONTAINER */
+
+.project-container {
+  background-color: #fff4e3;
+  padding: 3rem 6rem;
+  border-radius: 1rem;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.timer {
+  /* background-color: #c51350; */
+  width: 100%;
+  height: 0.2rem;
+  margin-bottom: 2rem;
+}
+
+/* TEXT */
+
+.quotes {
+  position: absolute;
+  font-size: 3rem;
+  color: #be3030;
+  opacity: 0.5;
+}
+
+.quote-left,
+.quote-right {
+  top: 5rem;
+}
+
+.quote-left {
+  left: 2rem;
+}
+
+.quote-right {
+  right: 2rem;
+}
+
+.testimonial {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #be3030;
+}
+
+/* CUSTOMER INFO */
+
+.customer {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.profile-pic {
+  border-radius: 50%;
+}
+
+.info {
+  margin-left: auto;
+  color: #be3030;
+  text-align: left;
+}
+
+.name,
+.occupation {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.name {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.occupation {
+  font-size: 1.2rem;
 }
