@@ -10,7 +10,6 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
-  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,9 +25,12 @@ body {
 
 /* MOBILE */
 
-@media screen and (max-width: 500px) {
-  .navigation {
+@media screen and (max-width: 600px) {
+  section.navigation {
     padding: 0;
+  }
+  nav ul {
+    padding-left: 1rem;
   }
 
   .project-container {
@@ -42,5 +44,10 @@ body {
 
   input {
     width: 100%;
+  }
+
+  .modal-readme {
+    height: 90vh;
+    overflow-y: scroll;
   }
 }
