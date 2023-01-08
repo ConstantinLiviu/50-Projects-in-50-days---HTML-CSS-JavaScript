@@ -24,6 +24,7 @@ body {
 .navigation {
   position: absolute;
   top: 0;
+  z-index: 99;
 }
 
 /* PROJECT CONTAINER */
@@ -39,7 +40,7 @@ body {
 }
 
 .timer {
-  /* background-color: #c51350; */
+  background-color: #c51350;
   width: 100%;
   height: 0.2rem;
   margin-bottom: 2rem;
@@ -81,15 +82,16 @@ body {
   text-align: center;
   display: flex;
   align-items: center;
-  width: 50%;
+  width: 100%;
+  justify-content: center;
 }
 
 .profile-pic {
   border-radius: 50%;
+  margin-right: 4rem;
 }
 
 .info {
-  margin-left: auto;
   color: #be3030;
   text-align: left;
 }
@@ -107,4 +109,61 @@ body {
 
 .occupation {
   font-size: 1.2rem;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 1200px) {
+  .project-container {
+    width: 80%;
+  }
+  .customer {
+    width: 60%;
+    justify-content: center;
+  }
+  .profile-pic {
+    margin-right: 2rem;
+  }
+  .info {
+    margin: unset;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .project-container {
+    width: 95%;
+    padding: 2rem 4rem;
+  }
+
+  .customer {
+    width: 100%;
+  }
+
+  .quotes {
+    font-size: 2rem;
+  }
+
+  .quote-left {
+    left: 1rem;
+  }
+
+  .quote-right {
+    right: 1rem;
+  }
+
+  .testimonial {
+    font-size: 1.6rem;
+  }
+
+  .profile-pic {
+    width: 10rem;
+  }
+
+  .name {
+    font-size: 1.2rem;
+  }
+
+  .occupation {
+    font-size: 1rem;
+  }
 }
