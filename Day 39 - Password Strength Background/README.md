@@ -11,11 +11,11 @@
      ✔  responsive design;
      ✔  add functionality;
      ✔  refactor code;
-    add thumbnail;
+     ✔  add thumbnail;
 
     Status:
-     ✔ project in progress;
-    project completed;
+    project in progress;
+     ✔ project completed;
 
     Possible updates:
      - improve the strength check by taking into account symbols, capital letters and numbers;
