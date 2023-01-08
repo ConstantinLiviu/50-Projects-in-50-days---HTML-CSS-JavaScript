@@ -10,7 +10,7 @@
      ✔  reposnsive design;
      ✔  add timer animation;
      ✔  add functionality;
-    refactor code;
+     ✔  refactor code;
     add thumbnail;
 
     Status:

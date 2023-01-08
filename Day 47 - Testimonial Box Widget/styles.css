@@ -36,7 +36,9 @@ body {
   width: 40%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   position: relative;
+  min-height: 37rem;
 }
 
 .timer {
@@ -90,7 +92,7 @@ body {
 }
 
 .testimonial {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   font-size: 2rem;
   text-align: center;
   color: #be3030;
@@ -110,6 +112,8 @@ body {
 .profile-pic {
   border-radius: 50%;
   margin-right: 4rem;
+  width: 12rem;
+  height: auto;
 }
 
 .info {
@@ -137,6 +141,7 @@ body {
 @media screen and (max-width: 1200px) {
   .project-container {
     width: 80%;
+    height: 50rem;
   }
   .customer {
     width: 60%;
@@ -154,6 +159,7 @@ body {
   .project-container {
     width: 95%;
     padding: 2rem 4rem;
+    height: 45rem;
   }
 
   .customer {
