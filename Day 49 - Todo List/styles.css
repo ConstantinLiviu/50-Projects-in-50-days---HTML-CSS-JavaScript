@@ -99,11 +99,29 @@ input::placeholder {
   padding: 1rem 2rem;
   font-size: 2rem;
   text-align: left;
+  /* position: relative; */
 }
 
 .todo p:last-child {
   border-bottom: none;
 }
+
+.todo p:hover {
+  cursor: pointer;
+}
+
+/* .todo p:after {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  font-size: 2rem;
+  color: green;
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  z-index: 99;
+  display: none;
+} */
 
 /* MOBILE */
 
@@ -127,7 +145,7 @@ input::placeholder {
   .todo-left {
     position: unset;
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 2rem;
   }
   .todo-right {
     display: none;
