@@ -104,3 +104,36 @@ input::placeholder {
 .todo p:last-child {
   border-bottom: none;
 }
+
+/* MOBILE */
+
+@media screen and (max-width: 600px) {
+  body {
+    align-items: flex-start;
+  }
+  .project-container {
+    margin-top: 5rem;
+    width: 100%;
+  }
+  .watermark {
+    margin-bottom: 0;
+    font-size: 10rem;
+  }
+  input {
+    width: 80%;
+  }
+
+  .instructions {
+    margin-bottom: 2rem;
+  }
+
+  .todo-left {
+    position: unset;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .todo-right {
+    display: none;
+  }
+}
