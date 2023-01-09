@@ -49,7 +49,7 @@ input,
   box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.2);
 }
 input {
-  width: 60%;
+  width: 70%;
   padding: 1rem;
   border: none;
   margin-bottom: 3rem;
@@ -107,33 +107,38 @@ input::placeholder {
 
 /* MOBILE */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
   body {
     align-items: flex-start;
   }
   .project-container {
     margin-top: 5rem;
-    width: 100%;
+    width: 80%;
   }
   .watermark {
     margin-bottom: 0;
-    font-size: 10rem;
+  }
+  .instructions {
+    margin-bottom: 2rem;
   }
   input {
     width: 80%;
   }
-
-  .instructions {
-    margin-bottom: 2rem;
-  }
-
   .todo-left {
     position: unset;
     width: 80%;
     margin: 0 auto;
   }
-
   .todo-right {
     display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .project-container {
+    width: 100%;
+  }
+  .watermark {
+    font-size: 10rem;
   }
 }
