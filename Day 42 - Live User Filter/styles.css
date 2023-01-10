@@ -123,3 +123,30 @@ h2 {
   font-style: italic;
   color: #153462;
 }
+
+/* MOBILE */
+
+@media screen and (max-width: 1200px) {
+  body {
+    align-items: flex-start;
+  }
+  .project-container {
+    width: 60%;
+    margin-top: 10rem;
+  }
+
+  .users-list {
+    max-height: 60rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .project-container {
+    width: 90%;
+    margin-top: 7rem;
+  }
+
+  .users-list {
+    max-height: 45rem;
+  }
+}
