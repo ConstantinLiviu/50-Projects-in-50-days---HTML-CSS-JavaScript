@@ -12,11 +12,10 @@ body {
   font-family: "Roboto", sans-serif;
   overflow: hidden;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: red;
+  background-color: #d6e4e5;
 }
 
 /* NAVIGATION */
@@ -24,4 +23,103 @@ body {
 .navigation {
   position: absolute;
   top: 0;
+}
+
+/* PROJECT CONTAINER */
+
+.project-container {
+  width: 30%;
+  box-shadow: 0.2rem 0.3rem 0.4rem rgba(0, 0, 0, 0.2);
+}
+
+/* HEADER */
+.header {
+  background: #4b56d2;
+  border-radius: 0.5rem 0.5rem 0 0;
+  padding: 2rem 1rem;
+  color: #eff5f5;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.txt {
+  font-size: 1.6rem;
+  margin-bottom: 0.3rem;
+}
+
+.search {
+  width: 100%;
+  border-radius: 1rem;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.6rem;
+  color: #153462;
+}
+
+.search::placeholder {
+  font-style: italic;
+  font-size: 1.4rem;
+}
+
+.search:focus {
+  outline: transparent;
+}
+
+/* USERS LIST */
+
+.users-list {
+  background-color: #eff5f5;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 2rem 1rem 0;
+  border-radius: 0 0 0.5rem 0.5rem;
+  max-height: 60rem;
+  scrollbar-width: thin;
+  scrollbar-color: #153462 transparent;
+}
+
+.users-list::-webkit-scrollbar {
+  width: 0.7rem;
+  background-color: #c9ccd5;
+}
+
+.users-list::-webkit-scrollbar-thumb {
+  background-color: #153462;
+  border-radius: 1rem;
+}
+
+.users-list li {
+  /* margin-bottom: 2rem; */
+  padding: 2rem 0;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.1rem solid #153462;
+}
+
+.users-list li:last-child {
+  border-bottom: none;
+}
+
+.users-list li .profile-pic {
+  width: 10rem;
+  border-radius: 50%;
+  margin-right: 10%;
+}
+
+.name {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #0d4c92;
+}
+
+.location {
+  font-size: 1.4rem;
+  font-style: italic;
+  color: #153462;
 }
