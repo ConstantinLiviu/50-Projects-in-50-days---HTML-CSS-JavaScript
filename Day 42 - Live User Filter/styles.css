@@ -101,6 +101,10 @@ h2 {
   border-bottom: 0.1rem solid #153462;
 }
 
+.users-list li.hide {
+  display: none;
+}
+
 .users-list li:last-child {
   border-bottom: none;
 }
