@@ -113,3 +113,82 @@ i {
 .hide {
   display: none;
 }
+
+/* MOBILE */
+
+@media screen and (max-width: 1200px) {
+  .project-container {
+    width: 60%;
+  }
+  .submit-review-container {
+    padding: 3rem;
+  }
+
+  .options-container {
+    justify-content: space-around;
+  }
+
+  i {
+    font-size: 4rem;
+  }
+
+  .confirmation-container {
+    height: 20.3rem;
+  }
+
+  .confirmation-container > i {
+    font-size: 3rem;
+  }
+
+  .feedback-value,
+  .feedback-value + p,
+  .unhappy p,
+  .neutral p,
+  .satisfied p {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .project-container {
+    width: 90%;
+  }
+  .submit-review-container {
+    padding: 1rem;
+  }
+
+  .options-container {
+    justify-content: space-between;
+  }
+
+  .unhappy,
+  .neutral,
+  .satisfied {
+    min-width: 10rem;
+  }
+
+  .unhappy p,
+  .neutral p,
+  .satisfied p {
+    font-size: 1.4rem;
+  }
+
+  i {
+    font-size: 3rem;
+  }
+
+  .confirmation-container {
+    height: 17.5rem;
+  }
+
+  .confirmation-container > i {
+    font-size: 2rem;
+  }
+
+  .feedback-value,
+  .feedback-value + p {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+}
