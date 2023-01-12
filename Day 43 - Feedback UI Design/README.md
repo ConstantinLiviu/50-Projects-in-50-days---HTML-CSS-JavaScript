@@ -4,7 +4,7 @@
     A simple feedback app that allows users to express their satisfaction level. There are 3 choices and a confirmation message is displayed once a choice is made.
 
     Project milestones are:
-    create page structure;
+     ✔  create page structure;
     add styling;
     responsive design;
     add functionality;
@@ -17,7 +17,7 @@
 
     Possible updates:
      - allow users to send written feedback;
-     - provide an input field to be contacted for additional info;
+     - provide an input field to be contacted for additional info if the review is negative or a suggestions field if the review is neutral;
 
     Version 2.0:
     *TBA*
