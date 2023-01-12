@@ -10,9 +10,9 @@
      ✔  responsive design;
      ✔  get API data;
      ✔  add functionality;
-    refactor code;
-    add thumbnail;
+     ✔  refactor code;
+     ✔  add thumbnail;
 
     Status:
-     ✔ project in progress;
-    project completed;
+    project in progress;
+     ✔  project completed;

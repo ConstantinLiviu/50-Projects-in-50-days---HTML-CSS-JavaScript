@@ -177,6 +177,12 @@
   color: var(--main-col);
 }
 
+.project-item .day42:hover {
+  position: relative;
+  background-image: url("../Day 42 - Live User Filter/img/projecthumb.jpg");
+  color: #d00e0e;
+}
+
 .project-item .day47:hover {
   position: relative;
   background-image: url("../Day 47 - Testimonial Box Widget/img/projecthumb.jpg");
