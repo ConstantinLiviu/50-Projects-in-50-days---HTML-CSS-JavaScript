@@ -16,7 +16,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: red;
+  background-color: #f8ede3;
 }
 
 /* NAVIGATION */
@@ -24,4 +24,92 @@ body {
 .navigation {
   position: absolute;
   top: 0;
+}
+
+/* PROJECT CONTAINER */
+
+.project-container {
+  color: #975c8d;
+  text-align: center;
+  width: 30%;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+/* SUBMIT REVIEW CONTAINER */
+
+.confirmation-container,
+.submit-review-container {
+  background-color: #ffd8a9;
+  padding: 3rem;
+  border-radius: 1rem;
+  box-shadow: 0.2rem 0.3rem 0.4rem rgba(0, 0, 0, 0.2);
+}
+
+/* OPTIONS CONTAINER */
+.options-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.unhappy,
+.neutral,
+.satisfied {
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  min-width: 12rem;
+}
+
+.unhappy:hover,
+.neutral:hover,
+.satisfied:hover {
+  box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  color: #ff7c7c;
+}
+
+.unhappy p,
+.neutral p,
+.satisfied p {
+  font-size: 2rem;
+}
+
+i {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+/* CONFIRMATION CONTAINER */
+
+.confirmation-container {
+  height: 23.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.confirmation-container > i {
+  color: rgba(255, 0, 0, 0.7);
+}
+
+.feedback-value {
+  margin-bottom: 2rem;
+}
+
+.feedback-value span {
+  color: #249101;
+  /* color: #A35638; */
+  /* color: #FF0000; */
+}
+
+.feedback-value,
+.feedback-value + p {
+  font-size: 2rem;
+}
+
+.hide {
+  display: none;
 }
