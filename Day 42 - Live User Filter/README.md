@@ -8,8 +8,8 @@
      ✔  create page structure;
      ✔  add styling;
      ✔  responsive design;
-    get API data;
-    add functionality;
+     ✔  get API data;
+     ✔  add functionality;
     refactor code;
     add thumbnail;
 

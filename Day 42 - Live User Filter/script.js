@@ -30,3 +30,21 @@ async function getUsers() {
     userEl.appendChild(userInfoLi);
   });
 }
+
+/**
+ * Checks for a match between the input field value and the list item user name/location and hides all non-matches
+ * @param {string} string - input field value used as a search parameter
+ *
+ */
+function filterUsers(string) {
+  APIusers.forEach((user) => {
+    if (user.textContent.toLowerCase().includes(string.toLowerCase())) {
+      user.classList.remove("hide");
+    } else {
+      user.classList.add("hide");
+    }
+  });
+}
+
+getUsers();
+searchBarEl.addEventListener("input", (e) => filterUsers(e.target.value));
