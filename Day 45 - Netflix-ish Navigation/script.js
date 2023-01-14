@@ -1,15 +1,15 @@
-// Navigation Basic Functionality
-
 const menuBtnEl = document.querySelector(".menu-btn");
 const menuCloseEl = document.querySelector(".menu-close");
-const navigationSection = document.querySelector(".navigation");
+const navigationSection = document.querySelectorAll(".nav");
 
 menuBtnEl.addEventListener("click", () => {
-  navigationSection.classList.remove("hidden");
+  navigationSection.forEach((nav) => {
+    nav.classList.add("slide-in");
+  });
 });
 
 menuCloseEl.addEventListener("click", () => {
-  navigationSection.classList.add("hidden");
+  navigationSection.forEach((nav) => {
+    nav.classList.remove("slide-in");
+  });
 });
-
-// ////////////////////////////////////////////////////////////////////////
