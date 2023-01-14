@@ -5,7 +5,7 @@
 
     Project milestones are:
      ✔  adjust project navbar for vertical display;
-    create page structure;
+     ✔  create page structure;
     add styles;
     responsive design;
     add functionality;
