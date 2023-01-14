@@ -16,7 +16,6 @@ body {
   justify-content: center;
   height: 100vh;
   background-color: #ffffde;
-  /* background-color: blue; */
 }
 
 /* NAVIGATION */
@@ -33,7 +32,7 @@ body {
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 input {
@@ -53,6 +52,10 @@ label {
   font-size: 5rem;
   margin-bottom: 2rem;
   color: #ff7396;
+  width: 8.5rem;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
 }
 
 /* CHROME & SAFARI */
@@ -121,10 +124,19 @@ input::-ms-thumb {
   .project-container {
     width: 75%;
   }
+
+  label {
+    font-size: 4rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .project-container {
     width: 90%;
+  }
+
+  label {
+    width: 5rem;
+    font-size: 3rem;
   }
 }
