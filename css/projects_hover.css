@@ -183,6 +183,12 @@
   color: #d00e0e;
 }
 
+.project-item .day44:hover {
+  position: relative;
+  background-image: url("../Day 44 - Custom Range Slider/img/projecthumb.jpg");
+  color: var(--main-col);
+}
+
 .project-item .day47:hover {
   position: relative;
   background-image: url("../Day 47 - Testimonial Box Widget/img/projecthumb.jpg");

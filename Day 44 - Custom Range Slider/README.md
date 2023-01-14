@@ -9,8 +9,8 @@
      ✔  add styling;
      ✔  responsive design;
      ✔  add functionality;
-    add thumbnail;
+     ✔  add thumbnail;
 
     Status:
-     ✔ project in progress;
-    project completed;
+    project in progress;
+     ✔ project completed;
