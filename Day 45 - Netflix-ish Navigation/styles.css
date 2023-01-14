@@ -21,7 +21,90 @@ body {
 
 /* NAVIGATION */
 
+.hidden {
+  display: none;
+}
+
+.open-menu {
+  position: absolute;
+  left: 3rem;
+  top: 3rem;
+}
+
+.open-menu i {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
 .navigation {
   position: absolute;
   top: 0;
+  left: 0;
+  width: 20%;
+  background-color: white;
+  height: 100vh;
 }
+
+nav {
+  display: block;
+  padding: 4rem 4rem 4rem 0;
+  height: 100%;
+}
+
+nav ul {
+  display: block;
+  padding: 0;
+  padding-left: 5rem;
+}
+
+nav ul li {
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+nav ul li a {
+  color: black;
+}
+
+nav ul li:last-child {
+  margin: 0;
+}
+
+.logo-container {
+  width: 100%;
+  padding-left: 5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-container i {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #c3c3c3;
+}
+
+.logo {
+  width: 60%;
+}
+
+.home-btn {
+  padding: 0;
+  color: black;
+}
+
+.netflix-life {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.life-list {
+  margin-top: 2rem;
+  font-style: italic;
+}
+
+.life-list li a {
+  font-size: 1.6rem;
+}
+
+/* PROJECT CONTAINER */

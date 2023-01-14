@@ -17,14 +17,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
 
     <link rel="stylesheet" href="../css/variables.css" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="../css/navigation.css" />
     <link rel="stylesheet" href="../css/modal.css" />
+    <link rel="stylesheet" href="../css/navigation.css" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Netflix-ish Navigation</title>
   </head>
 
@@ -55,13 +55,19 @@
         <li><span class="completed">✔</span>project completed;</li>
       </ul>
     </section>
-    <section class="navigation">
+    <div class="open-menu">
+      <i class="fas fa-bars menu-btn"></i>
+    </div>
+    <section class="navigation hidden">
       <nav>
-        <div class="home-container">
-          <a href="../index.html" class="home-btn">Home</a>
-          <i class="fas fa-bars ham-menu"></i>
+        <div class="logo-container">
+          <img src="./img/netflixlogo2.png" alt="netflix-logo" class="logo" />
+          <i class="fas fa-times menu-close"></i>
         </div>
-        <ul class="hide-ul">
+        <ul>
+          <li class="home-container">
+            <a href="../index.html" class="home-btn">Home</a>
+          </li>
           <li class="readme"><a href="#">README.md</a></li>
           <li>
             <a
@@ -71,6 +77,39 @@
             >
           </li>
           <li><a href="#">Random Project</a></li>
+          <li>
+            <a href="https://jobs.netflix.com/teams" target="_blank">Teams</a>
+          </li>
+          <li>
+            <a href="https://jobs.netflix.com/locations" target="_blank"
+              >Locations</a
+            >
+          </li>
+          <li class="netflix-life">
+            Life at Netflix:
+            <ul class="life-list">
+              <li>
+                <a href="https://jobs.netflix.com/culture" target="_blank"
+                  >Netflix Culture Memo</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.comparably.com/companies/netflix/work-life-balance"
+                  target="_blank"
+                  >Work life balance</a
+                >
+              </li>
+              <li>
+                <a href="https://jobs.netflix.com/inclusion" target="_blank"
+                  >Inclusion & Diversity</a
+                >
+              </li>
+              <li>
+                <a href="https://netflixtechblog.com/" target="_blank">Blog</a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </nav>
     </section>
