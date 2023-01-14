@@ -7,9 +7,9 @@
      ✔  adjust project navbar for vertical display;
      ✔  create page structure;
      ✔  add styles;
-    responsive design;
+     ✔  responsive design;
      ✔  add functionality;
-    refactor code;
+     ✔  refactor code;
     add thumbnail;
 
     Status:
