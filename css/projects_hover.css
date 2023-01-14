@@ -189,6 +189,12 @@
   color: var(--main-col);
 }
 
+.project-item .day45:hover {
+  position: relative;
+  background-image: url("../Day 45 - Netflix-ish Navigation/img/projecthumb.jpg");
+  color: #009be5;
+}
+
 .project-item .day47:hover {
   position: relative;
   background-image: url("../Day 47 - Testimonial Box Widget/img/projecthumb.jpg");
