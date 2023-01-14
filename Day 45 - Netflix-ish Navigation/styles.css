@@ -21,14 +21,10 @@ body {
 
 /* NAVIGATION */
 
-.hidden {
-  transform: translateX(-100%);
-}
-
 .open-menu {
   position: absolute;
-  left: 3rem;
-  top: 3rem;
+  left: 2rem;
+  top: 2rem;
 }
 
 .open-menu i {
@@ -41,8 +37,11 @@ body {
   top: 0;
   left: 0;
   width: 25%;
-  height: 100vh;
-  transition: all 0.4s ease-in-out;
+}
+
+.nav {
+  transform: translateX(-100%);
+  transition: transform 0.4s ease-in-out;
 }
 
 nav {
@@ -115,16 +114,44 @@ nav ul li:last-child {
 
 .nav-black {
   background-color: black;
+  transition-delay: 0.4s;
+}
+
+.nav-black.slide-in {
+  transition-delay: 0s;
 }
 
 .nav-red {
   background-color: #db0000;
   width: 96%;
+  transition-delay: 0.2s;
+}
+
+.nav-red.slide-in {
+  transition-delay: 0.2s;
 }
 
 .nav-white {
   background-color: white;
   width: 96%;
+  transition-delay: 0s;
 }
 
+.nav-white.slide-in {
+  transition-delay: 0.4s;
+}
+.slide-in {
+  transform: translateX(0);
+}
 /* PROJECT CONTAINER */
+
+.main-page-logo {
+  margin-bottom: 2rem;
+}
+
+.main-page-title {
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: cursive;
+  opacity: 0.8;
+}
