@@ -16,13 +16,13 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: red;
+  background-color: #f6e7d8;
 }
 
 /* NAVIGATION */
 
 .hidden {
-  display: none;
+  transform: translateX(-100%);
 }
 
 .open-menu {
@@ -40,15 +40,14 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 20%;
-  background-color: white;
+  width: 25%;
   height: 100vh;
+  transition: all 0.4s ease-in-out;
 }
 
 nav {
   display: block;
   padding: 4rem 4rem 4rem 0;
-  height: 100%;
 }
 
 nav ul {
@@ -101,10 +100,31 @@ nav ul li:last-child {
 .life-list {
   margin-top: 2rem;
   font-style: italic;
+  padding-left: 3rem;
 }
 
 .life-list li a {
   font-size: 1.6rem;
+}
+
+.nav-black,
+.nav-red,
+.nav-white {
+  height: 100%;
+}
+
+.nav-black {
+  background-color: black;
+}
+
+.nav-red {
+  background-color: #db0000;
+  width: 96%;
+}
+
+.nav-white {
+  background-color: white;
+  width: 96%;
 }
 
 /* PROJECT CONTAINER */
