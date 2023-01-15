@@ -16,7 +16,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: red;
+  background-color: #f2deba;
 }
 
 /* NAVIGATION */
@@ -24,4 +24,99 @@ body {
 .navigation {
   position: absolute;
   top: 0;
+}
+
+/* PROJECT CONTAINER */
+
+.project-container {
+  width: 30rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
+  background-color: #ca4949;
+  text-align: center;
+  color: #faecd6;
+}
+
+.project-title {
+  font-size: 2.6rem;
+  margin-bottom: 2rem;
+}
+
+/* PASSWORD */
+
+.generated-password {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #9b2222;
+  margin-bottom: 2rem;
+}
+
+.password {
+  font-size: 1.6rem;
+}
+
+i {
+  padding: 0.5rem 1rem;
+  font-size: 2.5rem;
+  color: #9b2222;
+  background-color: #faecd6;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+/* OPTIONS */
+
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+label {
+  font-size: 1.6rem;
+}
+
+#length {
+  width: 4rem;
+  padding: 1rem 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+#length:focus {
+  outline: transparent;
+}
+
+#length {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+input[type="checkbox"] {
+  accent-color: #4e6c50;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+/* BUTTON */
+
+.generate-pass {
+  font-size: 2rem;
+  background-color: #4e6c50;
+  padding: 1rem;
+  color: #f2deba;
+  cursor: pointer;
+  box-shadow: 0.2rem 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+}
+
+.generate-pass:active {
+  transform: scale(0.98);
 }
