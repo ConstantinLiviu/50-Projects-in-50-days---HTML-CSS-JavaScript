@@ -79,12 +79,22 @@
     <section class="project-container">
       <h1 class="project-title">Password Generator</h1>
       <div class="generated-password">
-        <span class="password">Lorem$RW32314</span>
+        <span class="password"></span>
         <i class="fas fa-clipboard"></i>
       </div>
       <div class="option">
         <label for="length">Password Length</label>
-        <input type="number" min="5" max="20" id="length" />
+        <input
+          type="number"
+          id="length"
+          value="5"
+          data-maxlength="2"
+          oninput="this.value=this.value.slice(0,this.dataset.maxlength)"
+          min="5"
+          max="20"
+          required
+          step="1"
+        />
       </div>
       <div class="option">
         <label for="up">Include uppercase letters</label>
