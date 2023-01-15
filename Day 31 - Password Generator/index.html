@@ -76,7 +76,34 @@
         </ul>
       </nav>
     </section>
-    <section class="project-container"></section>
+    <section class="project-container">
+      <h1 class="project-title">Password Generator</h1>
+      <div class="generated-password">
+        <span class="password">Lorem$RW32314</span>
+        <i class="fas fa-clipboard"></i>
+      </div>
+      <div class="option">
+        <label for="length">Password Length</label>
+        <input type="number" min="5" max="20" id="length" />
+      </div>
+      <div class="option">
+        <label for="up">Include uppercase letters</label>
+        <input type="checkbox" id="up" checked="" />
+      </div>
+      <div class="option">
+        <label for="low">Include lowercase letters</label>
+        <input type="checkbox" id="low" checked="" />
+      </div>
+      <div class="option">
+        <label for="num">Include numbers</label>
+        <input type="checkbox" id="num" checked="" />
+      </div>
+      <div class="option">
+        <label for="sym">Include symbols</label>
+        <input type="checkbox" id="sym" checked="" />
+      </div>
+      <div class="generate-pass">Generate Password</div>
+    </section>
 
     <script src="../nav.js"></script>
     <script src="../modal.js"></script>
