@@ -83,7 +83,8 @@
 .project-item .day15:hover {
   position: relative;
   background-image: url("../Day 15 - Incrementing Counter/img/projecthumb.jpg");
-  color: #d00e0e;
+  color: #fbff00;
+  text-shadow: 2px 2px black;
 }
 
 .project-item .day16:hover {
