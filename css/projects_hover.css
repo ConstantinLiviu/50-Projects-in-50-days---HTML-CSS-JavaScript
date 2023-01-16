@@ -154,6 +154,13 @@
   color: var(--main-col);
 }
 
+.project-item .day31:hover {
+  position: relative;
+  background-image: url("../Day 31 - Password Generator/img/projecthumb.jpg");
+  color: rgb(250, 246, 37);
+  text-shadow: 2px 1px 1px black;
+}
+
 .project-item .day32:hover {
   position: relative;
   background-image: url("../Day 32 - Good, Cheap, Fast Checkboxes/img/projecthumb.jpg");
