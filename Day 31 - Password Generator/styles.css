@@ -29,7 +29,7 @@ body {
 /* PROJECT CONTAINER */
 
 .project-container {
-  width: 30rem;
+  width: 33rem;
   padding: 2rem;
   border-radius: 0.5rem;
   box-shadow: 0.2rem 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
@@ -53,6 +53,7 @@ body {
   align-items: center;
   background-color: #9b2222;
   margin-bottom: 2rem;
+  position: relative;
 }
 
 .password {
@@ -66,6 +67,17 @@ i {
   background-color: #faecd6;
   border-radius: 0.5rem;
   cursor: pointer;
+}
+
+.copied {
+  position: absolute;
+  right: -4rem;
+  font-size: 1.4rem;
+  color: #fdf7ed;
+  background-color: #4e6c50;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  top: -1rem;
 }
 
 /* OPTIONS */
@@ -99,6 +111,12 @@ label {
   -moz-appearance: textfield;
 }
 
+#length::-webkit-outer-spin-button,
+#length::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 input[type="checkbox"] {
   accent-color: #4e6c50;
   height: 1.5rem;
@@ -111,7 +129,7 @@ input[type="checkbox"] {
   font-size: 2rem;
   background-color: #4e6c50;
   padding: 1rem;
-  color: #f2deba;
+  color: #fdf7ed;
   cursor: pointer;
   box-shadow: 0.2rem 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
   border-radius: 0.5rem;
