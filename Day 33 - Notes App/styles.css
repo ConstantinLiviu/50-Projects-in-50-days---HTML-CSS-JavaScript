@@ -114,3 +114,40 @@ textarea:focus {
 textarea::-webkit-scrollbar {
   display: none;
 }
+
+/* MOBILE */
+
+@media screen and (max-width: 1600px) {
+  .project-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .project-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .note-container {
+    width: 30rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .project-container {
+    grid-template-columns: 1fr;
+    width: auto;
+  }
+
+  .add-note-container {
+    right: 50%;
+    transform: translate(50%);
+  }
+
+  .add-note-container:active {
+    transform: translate(50%) scale(0.98);
+  }
+
+  .note-container {
+    width: 30rem;
+  }
+}
