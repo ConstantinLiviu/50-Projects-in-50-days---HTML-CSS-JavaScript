@@ -11,8 +11,7 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
   background-color: #bfeaf5;
   position: relative;
 }
@@ -24,9 +23,21 @@ body {
   top: 0;
 }
 
+/* UTILITY */
+
+.add-note-btn,
+.remove-note {
+  cursor: pointer;
+}
+
+.add-note-btn,
+.note {
+  box-shadow: 0.2rem 0.3rem 0.4rem rgba(0, 0, 0, 0.2);
+}
+
 /* ADD BUTTON */
 
-.add-note-container {
+.add-note-btn {
   position: fixed;
   right: 2rem;
   top: 6rem;
@@ -39,30 +50,23 @@ body {
   text-transform: uppercase;
 }
 
-.add-note-container:active {
+.add-note-btn:active {
   transform: scale(0.98);
 }
 
-.add-note-container i {
+.add-note-btn i {
   font-size: 1.3rem;
   margin-right: 0.5rem;
 }
 
-/* UTILITY */
-
-.add-note-container,
-.header i {
-  cursor: pointer;
+.scrolled {
+  color: #fbfacd;
+  background-color: #7f669d;
 }
 
-.add-note-container,
-.note-container {
-  box-shadow: 0.2rem 0.3rem 0.4rem rgba(0, 0, 0, 0.2);
-}
+/* NOTES GRID */
 
-/* NOTES CONTAINER */
-
-.project-container {
+.notes-grid {
   margin-top: 12rem;
   margin-bottom: 4rem;
   display: grid;
@@ -73,11 +77,13 @@ body {
 
 /* NOTE */
 
-.note-container {
+.note {
   display: flex;
   flex-direction: column;
   width: 35rem;
 }
+
+/* HEADER */
 
 .header {
   padding: 1rem 0;
@@ -85,17 +91,19 @@ body {
   text-align: right;
 }
 
-.header i {
+.remove-note {
   margin-right: 1rem;
   font-size: 1.4rem;
   color: #243763;
 }
 
-.header i:hover {
+.remove-note:hover {
   color: #ee4343;
 }
 
-textarea {
+/* BODY */
+
+.note-body {
   width: 100%;
   resize: none;
   border: none;
@@ -107,47 +115,43 @@ textarea {
   scrollbar-width: none;
 }
 
-textarea:focus {
-  outline: transparent;
+.note-body::-webkit-scrollbar {
+  display: none;
 }
 
-textarea::-webkit-scrollbar {
-  display: none;
+.note-body:focus {
+  outline: transparent;
 }
 
 /* MOBILE */
 
 @media screen and (max-width: 1600px) {
-  .project-container {
+  .notes-grid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media screen and (max-width: 1200px) {
-  .project-container {
+  .notes-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  .note-container {
+  .note {
     width: 30rem;
   }
 }
 
 @media screen and (max-width: 700px) {
-  .project-container {
+  .notes-grid {
     grid-template-columns: 1fr;
     width: auto;
   }
 
-  .add-note-container {
+  .add-note-btn {
     right: 50%;
     transform: translate(50%);
   }
 
-  .add-note-container:active {
+  .add-note-btn:active {
     transform: translate(50%) scale(0.98);
-  }
-
-  .note-container {
-    width: 30rem;
   }
 }
