@@ -10,13 +10,11 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background-color: red;
+  background-color: #bfeaf5;
+  position: relative;
 }
 
 /* NAVIGATION */
@@ -24,4 +22,95 @@ body {
 .navigation {
   position: absolute;
   top: 0;
+}
+
+/* ADD BUTTON */
+
+.add-note-container {
+  position: fixed;
+  right: 2rem;
+  top: 6rem;
+  background-color: #ade792;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  color: #243763;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.add-note-container:active {
+  transform: scale(0.98);
+}
+
+.add-note-container i {
+  font-size: 1.3rem;
+  margin-right: 0.5rem;
+}
+
+/* UTILITY */
+
+.add-note-container,
+.header i {
+  cursor: pointer;
+}
+
+.add-note-container,
+.note-container {
+  box-shadow: 0.2rem 0.3rem 0.4rem rgba(0, 0, 0, 0.2);
+}
+
+/* NOTES CONTAINER */
+
+.project-container {
+  margin-top: 12rem;
+  margin-bottom: 4rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 3rem;
+  row-gap: 2rem;
+}
+
+/* NOTE */
+
+.note-container {
+  display: flex;
+  flex-direction: column;
+  width: 35rem;
+}
+
+.header {
+  padding: 1rem 0;
+  background-color: #ade792;
+  text-align: right;
+}
+
+.header i {
+  margin-right: 1rem;
+  font-size: 1.4rem;
+  color: #243763;
+}
+
+.header i:hover {
+  color: #ee4343;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+  border: none;
+  background-color: #f3ecb0;
+  padding: 1rem;
+  font-size: 2rem;
+  height: 30rem;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+textarea:focus {
+  outline: transparent;
+}
+
+textarea::-webkit-scrollbar {
+  display: none;
 }
