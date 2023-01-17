@@ -5,10 +5,13 @@
 
 
     Project milestones are:
-    create page structure;
+     ✔  create page structure;
     add styling;
     responsive design;
     add functionality;
     enable local storage;
     refactor code;
     add thumbnail;
+
+     ✔ project in progress;
+    project completed;
