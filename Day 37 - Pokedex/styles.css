@@ -10,13 +10,12 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
-  overflow: hidden;
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  background-color: red;
+  background: linear-gradient(90deg, #ceedc7, #fcf9be);
 }
 
 /* NAVIGATION */
@@ -24,4 +23,82 @@ body {
 .navigation {
   position: absolute;
   top: 0;
+}
+
+/* PROJECT CONTAINER */
+
+.project-container {
+  width: 80%;
+  margin-top: 10rem;
+}
+
+/* CARDS */
+
+.cards-grid {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+  background: linear-gradient(120deg, #ffdca9, #d9d7f1);
+}
+
+/* CARD */
+
+.pokemon-card {
+  background-color: #eee;
+  border-radius: 0.5rem;
+  padding: 2rem 1rem;
+  text-align: center;
+  box-shadow: 0.2rem 0.3rem 0.4rem rgba(0, 0, 0, 0.15);
+}
+
+.img-container {
+  width: 15rem;
+  height: 15rem;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 0.1rem solid #aaa;
+  box-shadow: 0.2rem 0.3rem 0.4rem rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.img-container:hover {
+  transform: scale(1.1);
+}
+
+img {
+  max-width: 100%;
+}
+
+.number {
+  font-size: 1.6rem;
+  font-style: italic;
+  color: #e4f58e;
+  background-color: #668a49;
+  width: min-content;
+  margin: 0 auto;
+  padding: 0.3rem 1rem;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+}
+
+.name {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #d57e7e;
+}
+
+.type {
+  font-size: 1.4rem;
+  color: #d57e7e;
+  font-weight: 600;
+}
+
+.element {
+  color: #609067;
 }
