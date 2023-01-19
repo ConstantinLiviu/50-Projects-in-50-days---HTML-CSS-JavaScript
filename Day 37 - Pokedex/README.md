@@ -8,7 +8,7 @@
      ✔  create page structure;
      ✔  add styling;
      ✔  responsive design;
-    enable API usage;
+     ✔  enable API usage;
     add functionality;
     refactor code;
     add thumbnail;
