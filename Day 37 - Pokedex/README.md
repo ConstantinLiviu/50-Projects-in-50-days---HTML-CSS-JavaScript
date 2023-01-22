@@ -9,8 +9,8 @@
      ✔  add styling;
      ✔  responsive design;
      ✔  enable API usage;
-    add functionality;
-    refactor code;
+     ✔  add functionality;
+     ✔  refactor code;
     add thumbnail;
 
     Status:
