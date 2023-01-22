@@ -13,6 +13,9 @@ export const cardsBg = {
   flying: "#2B3467",
   fighting: "#434242",
   normal: "#F3EFE0",
+  flying: "#7bd0e0",
+  ice: "#b4cffa",
+  ghost: "#CBEDD5",
+  steel: "#4682B4",
+  dark: "#2D033B",
 };
-export const typeColor = [];
-export const elementIcons = [];
