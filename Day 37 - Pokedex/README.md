@@ -11,11 +11,11 @@
      ✔  enable API usage;
      ✔  add functionality;
      ✔  refactor code;
-    add thumbnail;
+     ✔  add thumbnail;
 
     Status:
-     ✔ project in progress;
-    project completed;
+    project in progress;
+     ✔ project completed;
 
     Possible updates:
      - generate a modal on click that expands the card and provides additional info on the pokemon in question;
