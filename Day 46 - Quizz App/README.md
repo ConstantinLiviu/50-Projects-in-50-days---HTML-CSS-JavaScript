@@ -8,7 +8,7 @@
      ✔  create page structure;
      ✔  add styling;
      ✔  responsive design;
-    add quiz info;
+     ✔  add quiz info;
     add functionality;
     refactor code;
     add thumbnail;
