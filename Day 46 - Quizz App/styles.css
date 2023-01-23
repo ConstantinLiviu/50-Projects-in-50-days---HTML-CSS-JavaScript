@@ -27,7 +27,7 @@ body {
 
 /* PROJECT CONTAINER */
 .project-container {
-  width: 30%;
+  width: 40%;
   text-align: center;
   background: #f7f6de;
   border-radius: 1rem;
@@ -35,21 +35,23 @@ body {
 
 /* TITLE */
 
-.title {
+.question-txt {
   font-size: 3rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin: 2rem 0;
   color: #6e2142;
+  height: 7rem;
+  padding: 0 2rem;
 }
 
 /* ANSWER */
 
 .answer-container {
   margin-bottom: 3rem;
+  height: 15rem;
 }
 
 .answer {
-  margin-left: 45%;
+  margin-left: 40%;
   text-align: left;
   margin-bottom: 1rem;
   display: flex;
@@ -60,11 +62,21 @@ input[type="radio"] {
   width: 1.5rem;
   height: 1.5rem;
   margin-right: 0.5rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 2px solid #dbc8ac;
+  background-color: #eddbc0;
+  border-radius: 50%;
+}
+
+input[type="radio"]:checked {
+  background-color: #d3756b;
 }
 
 label {
   color: #943855;
-  font-size: 1.4rem;
+  font-size: 2rem;
   cursor: pointer;
 }
 
@@ -85,4 +97,33 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #cc5c5c;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 1200px) {
+  .project-container {
+    width: 60%;
+  }
+
+  .question-txt {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    overflow-y: auto;
+  }
+  .project-container {
+    width: 90%;
+  }
+
+  .answer {
+    margin-left: 20%;
+  }
+
+  .question-txt {
+    margin-bottom: 4rem;
+  }
 }
