@@ -186,6 +186,13 @@
   color: #d00e0e;
 }
 
+.project-item .day40:hover {
+  position: relative;
+  background-image: url("../Day 40 - 3D Background Boxes/img/projecthumb.jpg");
+  color: white;
+  text-shadow: 2px 1px 1px black;
+}
+
 .project-item .day41:hover {
   position: relative;
   background-image: url("../Day 41 - Verify Account UI/img/projecthumb.jpg");
