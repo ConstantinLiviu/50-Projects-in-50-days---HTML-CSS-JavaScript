@@ -8,16 +8,10 @@
      ✔  add styling;
      ✔  responsive design;
      ✔  add functionality;
-    local storage functionality;
-    refactor code;
+     ✔  local storage functionality;
+     ✔  refactor code;
     add thumbnail;
 
     Status:
      ✔ project in progress;
     project completed;
-
-    Possible updates:
-     - make it fully functional on mobile devices as well;
-
-    Version 2.0:
-    *TBA*
