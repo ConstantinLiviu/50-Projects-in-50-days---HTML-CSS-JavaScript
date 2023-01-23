@@ -24,6 +24,7 @@ body {
 .navigation {
   position: absolute;
   top: 0;
+  z-index: 2;
 }
 
 /* PROJECT CONTAINER */
@@ -67,9 +68,14 @@ input::placeholder {
 
 /* INSTRUCTIONS */
 
-.txt {
+.txt,
+.txt-mobile {
   color: #c0c0c0;
   font-size: 2rem;
+}
+
+.txt-mobile {
+  display: none;
 }
 
 /* TODO LISTS */
@@ -99,7 +105,7 @@ input::placeholder {
   padding: 1rem 2rem;
   font-size: 2rem;
   text-align: left;
-  /* position: relative; */
+  position: relative;
 }
 
 .todo p:last-child {
@@ -110,24 +116,30 @@ input::placeholder {
   cursor: pointer;
 }
 
-/* .todo p:after {
-  content: "\f00c";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 600;
+.todo p i {
   font-size: 2rem;
   color: green;
   position: absolute;
   top: -1rem;
   right: -1rem;
   z-index: 99;
+}
+
+.todo p.done {
+  background-color: rgba(4, 171, 33, 0.17);
+  color: green;
+}
+
+.hidden {
   display: none;
-} */
+}
 
 /* MOBILE */
 
 @media screen and (max-width: 1200px) {
   body {
     align-items: flex-start;
+    overflow-y: auto;
   }
   .project-container {
     margin-top: 5rem;
@@ -149,6 +161,13 @@ input::placeholder {
   }
   .todo-right {
     display: none;
+  }
+  .txt {
+    display: none;
+  }
+
+  .txt-mobile {
+    display: block;
   }
 }
 
