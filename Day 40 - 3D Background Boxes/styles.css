@@ -16,7 +16,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: red;
+  background-color: #fbf2cf;
 }
 
 /* NAVIGATION */
@@ -24,4 +24,121 @@ body {
 .navigation {
   position: absolute;
   top: 0;
+}
+
+/* BUTTON */
+.btn-container {
+  background-color: #fa7070;
+  padding: 2rem 4rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  box-shadow: 0.3rem 0.3rem 0.4rem rgba(0, 0, 0, 0.3);
+  width: min-content;
+  white-space: nowrap;
+  position: fixed;
+  top: 8rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.btn-container:active {
+  transform: scale(0.98) translateX(-50%);
+}
+
+.switch-btn {
+  font-size: 2rem;
+  color: #fbf8f1;
+  text-transform: uppercase;
+}
+
+.switch-btn i {
+  margin-left: 1rem;
+}
+
+/* BOXES CONTAINER */
+.boxes-container {
+  height: 50rem;
+  width: 50rem;
+  display: grid;
+  grid-template-columns: repeat(4, 12.5rem);
+  grid-template-rows: repeat(4, 12.5rem);
+  position: relative;
+  transition: 0.4s ease;
+}
+
+.boxes-container-shadow-right,
+.boxes-container-shadow-bottom {
+  content: "";
+  position: absolute;
+  z-index: -1;
+}
+
+.boxes-container-shadow-right {
+  background: linear-gradient(180deg, #fffda2, #ffab76);
+  width: 1rem;
+  height: 100%;
+  top: 0.5rem;
+  right: -1rem;
+  transform: skewY(45deg);
+}
+
+.boxes-container-shadow-bottom {
+  background: linear-gradient(90deg, #fffda2, #ffab76);
+  width: 100%;
+  height: 1rem;
+  bottom: -1rem;
+  right: -0.5rem;
+  transform: skewX(45deg);
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.boxes-container.expanded {
+  height: 60rem;
+  width: 60rem;
+  gap: 3rem;
+}
+
+.boxes-container.expanded .box {
+  transform: rotateZ(360deg);
+}
+
+.box {
+  background-image: url("https://media.giphy.com/media/39fj7g99qyD72/giphy.gif");
+  background-size: 50rem 50rem;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: transform 0.4s ease;
+}
+
+.box::before,
+.box::after {
+  content: "";
+  position: absolute;
+}
+
+.boxes-container.expanded .box::before {
+  background: linear-gradient(180deg, #fffda2, #ffab76);
+}
+
+.boxes-container.expanded .box:after {
+  background: linear-gradient(90deg, #fffda2, #ffab76);
+}
+
+.box::before {
+  top: 0.5rem;
+  right: -1rem;
+  height: 100%;
+  width: 1rem;
+  transform: skewY(45deg);
+}
+
+.box::after {
+  bottom: -1rem;
+  right: -0.5rem;
+  height: 1rem;
+  width: 100%;
+  transform: skewX(45deg);
 }
