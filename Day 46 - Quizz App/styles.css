@@ -31,11 +31,16 @@ body {
   text-align: center;
   background: #f7f6de;
   border-radius: 1rem;
+  height: 34rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* TITLE */
 
-.question-txt {
+.question-txt,
+.end-quiz {
   font-size: 3rem;
   margin: 2rem 0;
   color: #6e2142;
@@ -46,12 +51,12 @@ body {
 /* ANSWER */
 
 .answer-container {
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
   height: 15rem;
 }
 
 .answer {
-  margin-left: 40%;
+  margin-left: 45%;
   text-align: left;
   margin-bottom: 1rem;
   display: flex;
@@ -80,9 +85,30 @@ label {
   cursor: pointer;
 }
 
+.results {
+  font-size: 3rem;
+  flex-grow: 1;
+  /* display: flex;
+  flex-direction: column; */
+  margin-top: 5rem;
+  color: #6e2142;
+}
+
+.result,
+.questions-no {
+  font-weight: 600;
+}
+.result {
+  color: #3c6255;
+}
+.questions-no {
+  color: #cc5c5c;
+}
+
 /* SUBMIT BUTTON */
 
-input[type="submit"] {
+input[type="submit"],
+.restart {
   width: 100%;
   padding: 1.5rem;
   border-radius: 0 0 1rem 1rem;
@@ -95,10 +121,19 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-input[type="submit"]:hover {
-  background-color: #cc5c5c;
+.restart {
+  color: #ffd56f;
+  background-color: #3c6255;
 }
 
+input[type="submit"]:hover {
+  background-color: #e97474;
+}
+
+.restart:hover {
+  color: #3d5656;
+  background-color: #ff7b54;
+}
 /* MOBILE */
 
 @media screen and (max-width: 1200px) {
