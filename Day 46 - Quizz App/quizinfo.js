@@ -5,7 +5,7 @@ export const quizzArr = [
     answer2: "Morocco",
     answer3: "India",
     answer4: "Greece",
-    correctAnsewer: "answer4",
+    correctAnswer: "answer4",
   },
   {
     question: "What is the word for a female raccoon?",
@@ -13,7 +13,7 @@ export const quizzArr = [
     answer2: "A Lioness",
     answer3: "A Sow",
     answer4: "A Hembra",
-    correctAnsewer: "answer3",
+    correctAnswer: "answer3",
   },
   {
     question:
@@ -22,7 +22,7 @@ export const quizzArr = [
     answer2: "1960",
     answer3: "1977",
     answer4: "1945",
-    correctAnsewer: "answer1",
+    correctAnswer: "answer1",
   },
   {
     question: "A loss of memory is known as what?",
@@ -30,7 +30,7 @@ export const quizzArr = [
     answer2: "Amnesia",
     answer3: "Kleptomania",
     answer4: "Insomnia",
-    correctAnsewer: "answer2",
+    correctAnswer: "answer2",
   },
   {
     question: "To What Is The Process Of Vulcanisation Applied?",
@@ -38,7 +38,7 @@ export const quizzArr = [
     answer2: "Rubber",
     answer3: "Iron",
     answer4: "Wood",
-    correctAnsewer: "answer2",
+    correctAnswer: "answer2",
   },
   {
     question:
@@ -47,7 +47,7 @@ export const quizzArr = [
     answer2: "Wraith",
     answer3: "Poltergeist",
     answer4: "Banshee",
-    correctAnsewer: "answer4",
+    correctAnswer: "answer4",
   },
   {
     question: "Which of these countries borders Nigeria?",
@@ -55,7 +55,7 @@ export const quizzArr = [
     answer2: "Equatorial Guinea",
     answer3: "Chad",
     answer4: "Togo",
-    correctAnsewer: "answer3",
+    correctAnswer: "answer3",
   },
   {
     question:
@@ -64,7 +64,7 @@ export const quizzArr = [
     answer2: "Gérard Depardieu",
     answer3: "Shah Rukh Khan",
     answer4: "Keanu Reeves",
-    correctAnsewer: "answer4",
+    correctAnswer: "answer4",
   },
   {
     question: "What Is The Male Part Of A Flower Called?",
@@ -72,7 +72,7 @@ export const quizzArr = [
     answer2: "Style",
     answer3: "Filament",
     answer4: "Stamen",
-    correctAnsewer: "answer4",
+    correctAnswer: "answer4",
   },
   {
     question: "In Edward Lear's poem, which bird sang to the pussycat?",
@@ -80,6 +80,6 @@ export const quizzArr = [
     answer2: "The Swan",
     answer3: "The Robin",
     answer4: "The Albatross",
-    correctAnsewer: "answer1",
+    correctAnswer: "answer1",
   },
 ];
