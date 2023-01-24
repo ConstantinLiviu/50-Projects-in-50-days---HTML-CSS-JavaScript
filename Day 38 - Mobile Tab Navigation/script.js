@@ -13,10 +13,6 @@ overlayEl.addEventListener("click", () => {
   overlayEl.style.display = "none";
 });
 
-document.querySelector(".fa-readme").addEventListener("click", () => {
-  console.log("tralala");
-});
-
 // pictures info array
 
 const picArr = [
