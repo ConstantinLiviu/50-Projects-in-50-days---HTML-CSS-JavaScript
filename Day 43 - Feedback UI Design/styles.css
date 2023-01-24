@@ -56,25 +56,24 @@ h2 {
   margin-bottom: 2rem;
 }
 
-.unhappy,
-.neutral,
-.satisfied {
+.review {
   border-radius: 0.5rem;
   padding: 1rem 2rem;
   min-width: 12rem;
 }
 
-.unhappy:hover,
-.neutral:hover,
-.satisfied:hover {
+.review:active {
+  transform: scale(0.98);
+}
+
+.review:hover,
+.active {
   box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.25);
   cursor: pointer;
   color: #ff7c7c;
 }
 
-.unhappy p,
-.neutral p,
-.satisfied p {
+.review p {
   font-size: 2rem;
 }
 
@@ -118,12 +117,6 @@ i {
 
 .feedback-value {
   margin-bottom: 2rem;
-}
-
-.feedback-value span {
-  color: #249101;
-  /* color: #A35638; */
-  /* color: #FF0000; */
 }
 
 .feedback-value,
