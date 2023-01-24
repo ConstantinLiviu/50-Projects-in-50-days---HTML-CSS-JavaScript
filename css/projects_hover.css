@@ -53,7 +53,6 @@
 .project-item .day10:hover {
   position: relative;
   background-image: url("../Day 10 - Dad Jokes/img/projecthumb.jpg");
-  color: var(--main-col);
 }
 
 .project-item .day11:hover {
@@ -71,7 +70,6 @@
 .project-item .day13:hover {
   position: relative;
   background-image: url("../Day 13 - Random picker/img/projecthumb.jpg");
-  color: var(--main-col);
 }
 
 .project-item .day14:hover {
@@ -121,7 +119,6 @@
 .project-item .day21:hover {
   position: relative;
   background-image: url("../Day 21 - Drag&Drop/img/projecthumb.jpg");
-  color: var(--main-col);
 }
 
 .project-item .day23:hover {
@@ -139,7 +136,6 @@
 .project-item .day27:hover {
   position: relative;
   background-image: url("../Day 27 - Toast Notifications/img/projecthumb.jpg");
-  color: var(--main-col);
 }
 
 .project-item .day29:hover {
@@ -151,7 +147,6 @@
 .project-item .day30:hover {
   position: relative;
   background-image: url("../Day 30 - Auto Text Effect/img/projecthumb.jpg");
-  color: var(--main-col);
 }
 
 .project-item .day31:hover {
@@ -164,7 +159,6 @@
 .project-item .day32:hover {
   position: relative;
   background-image: url("../Day 32 - Good, Cheap, Fast Checkboxes/img/projecthumb.jpg");
-  color: var(--main-col);
 }
 
 .project-item .day36:hover {
@@ -203,7 +197,6 @@
 .project-item .day41:hover {
   position: relative;
   background-image: url("../Day 41 - Verify Account UI/img/projecthumb.jpg");
-  color: var(--main-col);
 }
 
 .project-item .day42:hover {
@@ -212,10 +205,14 @@
   color: #d00e0e;
 }
 
+.project-item .day43:hover {
+  position: relative;
+  background-image: url("../Day 43 - Feedback UI Design/img/projecthumb.jpg");
+}
+
 .project-item .day44:hover {
   position: relative;
   background-image: url("../Day 44 - Custom Range Slider/img/projecthumb.jpg");
-  color: var(--main-col);
 }
 
 .project-item .day45:hover {
@@ -247,5 +244,4 @@
 .project-item .day49:hover {
   position: relative;
   background-image: url("../Day 49 - Todo List/img/projecthumb.jpg");
-  color: var(--main-col);
 }
