@@ -9,8 +9,8 @@
      ✔  add styling;
      ✔  modal adjustment;
      ✔  responsive design;
-    add functionality;
-    refactor code;
+     ✔  add functionality;
+     ✔  refactor code;
     add thumbnail;
 
     Status:
