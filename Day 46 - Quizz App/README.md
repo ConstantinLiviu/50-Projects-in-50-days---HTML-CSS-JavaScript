@@ -9,8 +9,8 @@
      ✔  add styling;
      ✔  responsive design;
      ✔  add quiz info;
-    add functionality;
-    refactor code;
+     ✔ add functionality;
+     ✔  refactor code;
     add thumbnail;
 
     Status:
