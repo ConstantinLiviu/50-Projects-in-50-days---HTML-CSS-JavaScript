@@ -8,7 +8,7 @@
      ✔  create page structure;
      ✔  add styling;
      ✔  modal adjustment;
-    responsive design;
+     ✔  responsive design;
     add functionality;
     refactor code;
     add thumbnail;
