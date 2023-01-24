@@ -218,6 +218,13 @@
   text-shadow: 1px 1px 1px black;
 }
 
+.project-item .day46:hover {
+  position: relative;
+  background-image: url("../Day 46 - Quizz App/img/projecthumb.jpg");
+  color: #0c4a0e;
+  text-shadow: 1px 1px 1px blue;
+}
+
 .project-item .day47:hover {
   position: relative;
   background-image: url("../Day 47 - Testimonial Box Widget/img/projecthumb.jpg");

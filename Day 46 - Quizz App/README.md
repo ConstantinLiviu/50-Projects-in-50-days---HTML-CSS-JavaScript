@@ -11,11 +11,11 @@
      ✔  add quiz info;
      ✔ add functionality;
      ✔  refactor code;
-    add thumbnail;
+     ✔  add thumbnail;
 
     Status:
-     ✔ project in progress;
-    project completed;
+    project in progress;
+     ✔ project completed;
 
     Possible updates:
      - use an API for access to a quiz questions database;
