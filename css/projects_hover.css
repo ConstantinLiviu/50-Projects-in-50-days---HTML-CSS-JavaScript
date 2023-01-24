@@ -180,6 +180,13 @@
   text-shadow: 2px 1px 1px black;
 }
 
+.project-item .day38:hover {
+  position: relative;
+  background-image: url("../Day 38 - Mobile Tab Navigation/img/projecthumb.jpg");
+  color: rgb(250, 246, 37);
+  text-shadow: 2px 1px 1px black;
+}
+
 .project-item .day39:hover {
   position: relative;
   background-image: url("../Day 39 - Password Strength Background/img/projecthumb.jpg");
