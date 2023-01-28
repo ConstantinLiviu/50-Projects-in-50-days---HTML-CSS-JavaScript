@@ -73,17 +73,39 @@
       </nav>
     </section>
     <section class="project-container">
-      <div class="counter-container">
+      <div class="custom-setup-container">
+        <h1 class="custom-setup-title expanded">
+          Custom countdown<i class="fas fa-chevron-down"></i>
+        </h1>
         <div class="user-input-container">
-          <input type="text" class="starting-num" />
-          <textarea
-            name=""
-            id=""
-            cols="30"
-            rows="10"
-            class="user-messages"
-          ></textarea>
+          <div class="number-container">
+            <label for="starting-num">Set the countdown start number</label>
+            <input
+              type="number"
+              class="starting-num"
+              id="starting-num"
+              value="3"
+              step="1"
+              min="2"
+              max="99"
+              data-maxlength="2"
+              oninput="this.value=this.value.slice(0,this.dataset.maxlength)"
+            />
+          </div>
+          <div class="textarea-container">
+            <label for="user-messages"
+              >Input the messages you want displayed during the countdown and
+              separate them with a coma</label
+            >
+            <textarea
+              name=""
+              id="user-messages"
+              class="user-messages"
+            ></textarea>
+          </div>
         </div>
+      </div>
+      <div class="counter-container">
         <div class="nums-container">
           <p class="active">3</p>
           <p>2</p>
@@ -91,12 +113,12 @@
           <p>0</p>
         </div>
         <h2 class="prep-msg"></h2>
-      </div>
-      <div class="msg">
-        <h1>GO!</h1>
-        <button class="restart">
-          New countdown <i class="fas fa-redo"></i>
-        </button>
+        <div class="msg">
+          <h1>GO!</h1>
+          <button class="restart">
+            New countdown <i class="fas fa-redo"></i>
+          </button>
+        </div>
       </div>
     </section>
 
