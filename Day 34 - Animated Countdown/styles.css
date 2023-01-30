@@ -75,6 +75,7 @@ body {
 
 .counter-container {
   background-color: #deb6ab;
+  align-items: center;
 }
 
 .number-container {
@@ -114,4 +115,8 @@ body {
   resize: none;
   width: 100%;
   color: #553939;
+}
+
+.msg {
+  text-align: center;
 }
