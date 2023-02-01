@@ -71,12 +71,6 @@ body {
 .custom-setup-title:hover {
   cursor: pointer;
 }
-/* COUNTER CONTAINER */
-
-.counter-container {
-  background-color: #deb6ab;
-  align-items: center;
-}
 
 .number-container {
   display: flex;
@@ -117,6 +111,121 @@ body {
   color: #553939;
 }
 
-.msg {
+/* COUNTER CONTAINER */
+
+.counter-container {
+  background-color: #deb6ab;
+  align-items: center;
+  height: 25rem;
+  justify-content: space-between;
+}
+
+.nums-container {
+  margin-bottom: 2rem;
+  position: relative;
+  width: 100%;
+}
+
+.nums-container p {
+  font-size: 6rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) rotate(120deg);
+  transform-origin: bottom center;
+  opacity: 0;
+}
+
+.nums-container p.active {
+  transform: translateX(-50%) rotate(0deg);
+  opacity: 1;
+  animation: count 0.5s ease-in-out;
+}
+
+.nums-container p.counted {
+  transform: translateX(-50%) rotate(0deg);
+  opacity: 1;
+  animation: countOut 0.5s ease-in-out;
+}
+
+@keyframes count {
+  0% {
+    transform: translateX(-50%) rotate(120deg);
+    opacity: 0;
+  }
+  30% {
+    transform: translateX(-50%) rotate(-20deg);
+    opacity: 1;
+  }
+  60% {
+    transform: translateX(-50%) rotate(20deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes countOut {
+  0% {
+    transform: translateX(-50%) rotate(0deg);
+    opacity: 1;
+  }
+  60% {
+    transform: translateX(-50%) rotate(20deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) rotate(-120deg);
+    opacity: 0;
+  }
+}
+
+.prep-msg {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  opacity: 0;
+  text-transform: uppercase;
+}
+
+.prep-msg.animated {
+  animation: show 0.8s ease;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* RESTART BUTTON */
+
+.restart-container {
+  width: 100%;
   text-align: center;
+}
+
+.restart {
+  padding: 1.5rem 3rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #f1a661;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0.2rem 0.3rem 0.4rem rgba(0, 0, 0, 0.2);
+}
+
+.restart i {
+  margin-left: 1rem;
+}
+
+.restart:active {
+  transform: scale(0.98);
 }
