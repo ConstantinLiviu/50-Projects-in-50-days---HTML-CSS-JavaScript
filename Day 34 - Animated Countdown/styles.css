@@ -83,6 +83,10 @@ body {
   font-size: 2rem;
 }
 
+.textarea-container label {
+  margin-bottom: 2rem;
+}
+
 .starting-num,
 .user-messages {
   background-color: #fdeedc;
@@ -228,4 +232,54 @@ body {
 
 .restart:active {
   transform: scale(0.98);
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 1200px) {
+  .project-container {
+    padding-bottom: 4rem;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    overflow-y: auto;
+  }
+
+  .custom-setup-container {
+    padding-top: 1rem;
+    margin-bottom: 5rem;
+  }
+
+  .custom-setup-title {
+    font-size: 2.4rem;
+    margin-bottom: 5rem;
+  }
+
+  .custom-setup-container.expanded {
+    padding-top: 2rem;
+  }
+
+  .custom-setup-container.expanded .custom-setup-title {
+    margin-bottom: 2rem;
+  }
+
+  .user-messages {
+    height: 10rem;
+  }
+
+  .prep-msg {
+    opacity: 1;
+    font-size: 1.4rem;
+  }
+
+  .nums-container {
+    margin-bottom: 4rem;
+  }
+
+  .restart {
+    font-size: 1.4rem;
+  }
 }
