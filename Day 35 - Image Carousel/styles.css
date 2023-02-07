@@ -16,7 +16,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: red;
+  background-color: #f5e8c7;
 }
 
 /* NAVIGATION */
@@ -24,4 +24,66 @@ body {
 .navigation {
   position: absolute;
   top: 0;
+}
+
+/* PROJECT CONTAINER */
+
+.project-container {
+  background-color: #ecccb2;
+  padding: 2rem;
+  width: 70rem;
+  border-radius: 1rem;
+}
+
+/* IMAGE CONTAINER */
+
+.image-container {
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+
+img {
+  border-radius: 1rem;
+}
+
+/* CAROUSEL NAVIGATION */
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.previous,
+.next {
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  background-color: #ac7088;
+  color: #f5e8c7;
+  box-shadow: 0.2rem 0.3rem 0.4rem rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.previous:active,
+.next:active {
+  transform: scale(0.98);
+}
+
+.previous:hover,
+.next:hover {
+  background-color: #7e4c60;
+}
+
+.previous {
+  padding: 1rem 2rem;
+}
+
+.next {
+  padding: 1rem 3.5rem;
+}
+
+/* UTILITARY */
+
+.mobile {
+  display: none;
 }
