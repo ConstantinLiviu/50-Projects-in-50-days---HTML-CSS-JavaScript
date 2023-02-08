@@ -8,9 +8,9 @@
      ✔  create page structure;
      ✔  add styling;
      ✔  adaptive design;
-    add functionality;
+     ✔  add functionality;
      ✔  enable autoplay;
-    refactor code;
+     ✔  refactor code;
     add thumbnail;
 
     Status:
