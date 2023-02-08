@@ -7,7 +7,7 @@
     Project milestones are:
      ✔  create page structure;
      ✔  add styling;
-    responsive design;
+    adaptive design;
     add functionality;
     enable autoplay;
     refactor code;

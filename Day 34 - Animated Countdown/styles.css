@@ -148,7 +148,7 @@ body {
 .nums-container p.counted {
   transform: translateX(-50%) rotate(0deg);
   opacity: 1;
-  animation: countOut 0.5s ease-in-out;
+  animation: countOut 0.5s ease-in-out forwards;
 }
 
 @keyframes count {
@@ -193,7 +193,7 @@ body {
 }
 
 .prep-msg.animated {
-  animation: show 0.8s ease;
+  animation: show 0.4s ease;
 }
 
 @keyframes show {
