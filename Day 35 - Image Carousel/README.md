@@ -9,7 +9,7 @@
      ✔  add styling;
      ✔  adaptive design;
     add functionality;
-    enable autoplay;
+     ✔  enable autoplay;
     refactor code;
     add thumbnail;
 
