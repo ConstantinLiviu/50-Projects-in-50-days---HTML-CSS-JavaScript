@@ -11,7 +11,7 @@
      ✔  add functionality;
      ✔  enable autoplay;
      ✔  refactor code;
-    add thumbnail;
+     ✔  add thumbnail;
 
     Status:
      ✔ project in progress;
