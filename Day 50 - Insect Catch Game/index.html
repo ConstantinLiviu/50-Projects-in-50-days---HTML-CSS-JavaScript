@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&:wght@400;700&display=swap"
       rel="stylesheet"
     />
 
@@ -39,7 +39,7 @@
         score by one.
       </p>
       <p class="description last">
-        There are two game modes - Growing beard and Time Attack; a beat your
+        There are two game modes - Extermination and Time Attack; a beat your
         own best score (saved in local storage) with no time limit and a limited
         time round.
       </p>
@@ -67,6 +67,7 @@
           <i class="fas fa-bars ham-menu"></i>
         </div>
         <ul class="hide-ul">
+          <li class="new-game-link"><a href="#game">New game</a></li>
           <li class="readme"><a href="#">README.md</a></li>
           <li>
             <a
@@ -79,7 +80,28 @@
         </ul>
       </nav>
     </section>
-    <section class="project-container"></section>
+    <section class="project-container">
+      <div class="opening-screen game-screen">
+        <h1>Catch the insect</h1>
+        <div class="start-game-btn"><a href="#game">Start</a></div>
+      </div>
+
+      <div class="game-type game-screen" id="game">
+        <h1>Choose game type</h1>
+        <div class="genocide game-mode"><a href="#field">Exterminate</a></div>
+        <div class="time-attack game-mode">
+          <a href="#field">Time attack</a>
+        </div>
+      </div>
+
+      <div class="playing-field game-screen" id="field">
+        <div class="timer">Time: <span></span></div>
+        <div class="score-container">
+          <p class="current-score">Score: <span></span></p>
+          <p class="personal-best">Personal best: <span></span></p>
+        </div>
+      </div>
+    </section>
 
     <script src="../nav.js"></script>
     <script src="../modal.js"></script>
