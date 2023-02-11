@@ -6,22 +6,132 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 4.4rem;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  background-color: red;
+  background-color: #fada9d;
 }
 
 /* NAVIGATION */
 
 .navigation {
-  position: absolute;
+  position: fixed;
   top: 0;
+  z-index: 2;
+}
+
+/* UTILITY */
+
+.game-screen {
+  height: 100vh;
+  width: 99vw;
+  display: flex;
+}
+
+h1 {
+  font-family: "Righteous", cursive;
+  font-size: 8rem;
+  margin-bottom: 3rem;
+  color: #9ea1d4;
+}
+
+/* OPENING SCREEN CONTAINER */
+
+.opening-screen {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-game-btn {
+  padding: 1rem 2rem;
+  width: fit-content;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  background-color: #7f669d;
+  box-shadow: 0.3rem 0.3rem 0.4rem rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-size: 2.5rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.start-game-btn:hover {
+  background-color: #59476e;
+  color: rgba(255, 255, 180);
+}
+
+.start-game-btn:active {
+  transform: scale(0.95);
+}
+
+/* GAME TYPE CONTAINER */
+
+.game-type {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.modes-container {
+  display: flex;
+  gap: 2rem;
+  width: 30%;
+}
+
+.game-mode {
+  width: 50%;
+  text-align: center;
+  border-radius: 0.5rem;
+  padding: 4rem;
+  font-size: 3rem;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0.3rem 0.3rem 0.4rem rgba(0, 0, 0, 0.2);
+  background: linear-gradient(-45deg, #7f669d 40%, white 0 60%, #7f669d 0)
+      right/320% 100% no-repeat,
+    linear-gradient(-45deg, #7f669d 40%, white 0 60%, #7f669d 0) right/320% 100%
+      no-repeat;
+  -webkit-background-clip: text, padding-box;
+  background-clip: text, padding-box;
+}
+
+.game-mode:hover {
+  background-position: left;
+  transition: 0.4s;
+}
+
+.game-mode:active {
+  transform: scale(0.98);
+}
+
+/* FIELD CONTAINER */
+
+.playing-field {
+  padding: 2rem;
+  justify-content: space-between;
+}
+
+.timer,
+.score-container {
+  font-size: 2rem;
+  color: #7f669d;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.timer span,
+.score-container span {
+  color: #b3219a;
+}
+
+.score-container {
+  padding-right: 5rem;
 }
