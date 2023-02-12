@@ -8,7 +8,7 @@
     Project milestones are:
      ✔  create page structure;
      ✔  add styling;
-    reponsive design;
+     ✔  reponsive design;
     add functionality;
     enable local storage;
     create multiple game types;

@@ -61,6 +61,7 @@ h1 {
   font-size: 2.5rem;
   color: #fff;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .start-game-btn:hover {
@@ -83,7 +84,7 @@ h1 {
 .modes-container {
   display: flex;
   gap: 2rem;
-  width: 30%;
+  width: 40%;
 }
 
 .game-mode {
@@ -134,4 +135,54 @@ h1 {
 
 .score-container {
   padding-right: 5rem;
+}
+
+/* MOBILE */
+@media screen and (max-width: 1366px) {
+  .modes-container {
+    width: 70%;
+  }
+
+  .start-game-btn {
+    font-size: 2rem;
+  }
+
+  .game-mode {
+    padding: 1rem;
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 6rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    color: #9ea1d4;
+  }
+
+  .start-game-btn {
+    font-size: 1.5rem;
+  }
+
+  .modes-container {
+    width: 90%;
+  }
+
+  .game-mode {
+    padding: 2rem;
+    font-size: 2rem;
+  }
+
+  .playing-field {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .timer {
+    margin-bottom: 2rem;
+  }
 }
