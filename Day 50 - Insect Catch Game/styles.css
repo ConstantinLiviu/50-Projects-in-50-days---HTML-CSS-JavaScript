@@ -163,9 +163,7 @@ h1 {
   width: 6rem;
   height: 6rem;
   position: absolute;
-  /* left: 20px;
-  top: 80px;
-  transform: rotate(245deg); */
+  cursor: pointer;
 }
 
 /* MOBILE */
@@ -224,7 +222,5 @@ h1 {
   .bug-model {
     width: 4rem;
     height: 4rem;
-    /* left: 20px;
-    top: 120px; */
   }
 }
