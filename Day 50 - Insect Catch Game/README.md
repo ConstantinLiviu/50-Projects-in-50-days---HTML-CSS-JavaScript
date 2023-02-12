@@ -10,9 +10,8 @@
      ✔  add styling;
      ✔  reponsive design;
      ✔  add functionality;
-    enable local storage;
-    create multiple game types;
-    refactor code;
+     ✔  enable local storage;
+     ✔  create multiple game types;
     add thumbnail;
 
     Status:
