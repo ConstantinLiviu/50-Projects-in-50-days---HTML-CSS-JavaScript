@@ -118,6 +118,7 @@ h1 {
 .playing-field {
   padding: 2rem;
   justify-content: space-between;
+  position: relative;
 }
 
 .timer,
@@ -135,6 +136,17 @@ h1 {
 
 .score-container {
   padding-right: 5rem;
+}
+
+.bug-model {
+  background-image: url("img/fly_PNG3946.png");
+  background-size: cover;
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  /* left: 20px;
+  top: 80px;
+  transform: rotate(245deg); */
 }
 
 /* MOBILE */
@@ -184,5 +196,12 @@ h1 {
 
   .timer {
     margin-bottom: 2rem;
+  }
+
+  .bug-model {
+    width: 4rem;
+    height: 4rem;
+    /* left: 20px;
+    top: 120px; */
   }
 }
