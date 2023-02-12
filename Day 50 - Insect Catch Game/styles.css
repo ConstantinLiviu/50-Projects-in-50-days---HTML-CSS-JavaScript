@@ -42,6 +42,10 @@ h1 {
   color: #9ea1d4;
 }
 
+.hide {
+  display: none;
+}
+
 /* OPENING SCREEN CONTAINER */
 
 .opening-screen {
@@ -64,12 +68,14 @@ h1 {
   text-transform: uppercase;
 }
 
-.start-game-btn:hover {
+.start-game-btn:hover,
+.game-start:hover {
   background-color: #59476e;
   color: rgba(255, 255, 180);
 }
 
-.start-game-btn:active {
+.start-game-btn:active,
+.game-start:active {
   transform: scale(0.95);
 }
 
@@ -119,6 +125,19 @@ h1 {
   padding: 2rem;
   justify-content: space-between;
   position: relative;
+}
+
+.game-start {
+  position: absolute;
+  top: 6rem;
+  left: 2rem;
+  font-size: 2rem;
+  background: #7f669d;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0.3rem 0.3rem 0.4rem rgba(0, 0, 0, 0.2);
 }
 
 .timer,
@@ -192,6 +211,10 @@ h1 {
   .playing-field {
     flex-direction: column;
     justify-content: flex-start;
+  }
+
+  .game-start {
+    top: 12rem;
   }
 
   .timer {
