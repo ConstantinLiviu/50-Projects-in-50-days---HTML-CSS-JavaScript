@@ -12,7 +12,7 @@
      ✔  add functionality;
      ✔  enable local storage;
      ✔  create multiple game types;
-    add thumbnail;
+     ✔  add thumbnail;
 
     Status:
      ✔ project in progress;

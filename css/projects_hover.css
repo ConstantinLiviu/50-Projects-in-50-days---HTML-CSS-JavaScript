@@ -252,3 +252,8 @@
   position: relative;
   background-image: url("../Day 49 - Todo List/img/projecthumb.jpg");
 }
+
+.project-item .day50:hover {
+  position: relative;
+  background-image: url("../Day 50 - Insect Catch Game/img/projecthumb.jpg");
+}
