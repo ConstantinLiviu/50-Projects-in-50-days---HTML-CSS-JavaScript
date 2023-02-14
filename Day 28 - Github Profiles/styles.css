@@ -91,13 +91,13 @@ img {
 }
 
 .name {
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-transform: uppercase;
 }
 
 .bio {
   margin-bottom: 2rem;
-  font-size: 1.6rem;
+  font-size: 2.4rem;
 }
 
 .stats,
@@ -108,7 +108,7 @@ img {
 
 .stats,
 .repo {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
 }
 
 .stats p,
@@ -153,6 +153,10 @@ img {
   .project-container {
     width: 90%;
     padding: 1rem;
+  }
+
+  .searchbar {
+    font-size: 2.5rem;
   }
 
   .name {
