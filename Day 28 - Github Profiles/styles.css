@@ -40,6 +40,9 @@ body {
   background-color: #c84b31;
   padding: 2rem;
   border-radius: 1rem;
+  max-height: 7.5rem;
+  transition: max-height 0.4s ease-in-out;
+  overflow-y: hidden;
 }
 
 /* SEARCH BAR */
@@ -70,6 +73,24 @@ body {
   gap: 2rem;
   align-items: center;
 }
+
+/* .reload {
+  animation: reload 0.8s;
+}
+
+@keyframes reload {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+} */
 
 .img-container {
   width: 25%;
@@ -125,6 +146,13 @@ img {
   text-decoration: none;
   background-color: #3f3351;
   margin-bottom: 0.5rem;
+}
+
+/* UTILITY */
+
+.project-container.expand {
+  /* height: 36.3rem; */
+  max-height: 40rem;
 }
 
 /* MOBILE */
