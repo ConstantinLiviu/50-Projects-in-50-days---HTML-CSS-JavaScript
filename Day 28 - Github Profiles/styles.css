@@ -74,24 +74,6 @@ body {
   align-items: center;
 }
 
-/* .reload {
-  animation: reload 0.8s;
-}
-
-@keyframes reload {
-  0% {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-} */
-
 .img-container {
   width: 25%;
 }
@@ -151,7 +133,6 @@ img {
 /* UTILITY */
 
 .project-container.expand {
-  /* height: 36.3rem; */
   max-height: 40rem;
 }
 
