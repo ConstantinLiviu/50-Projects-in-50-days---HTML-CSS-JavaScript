@@ -75,7 +75,7 @@ body {
 }
 
 .img-container:hover {
-  transform: scale(1.1);
+  transform: scale(1.6) translate(-5%, 10%) rotateZ(-10deg);
 }
 
 img {
