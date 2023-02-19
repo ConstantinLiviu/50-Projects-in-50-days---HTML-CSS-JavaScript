@@ -9,7 +9,7 @@
      ✔  add styling;
      ✔  responsive design;
      ✔  add functionality;
-    refactor code;
+     ✔  refactor code;
     add thumbnail;
 
     Status:
