@@ -3,6 +3,12 @@
   background-position: center;
   border-radius: 0.5rem;
   color: var(--main-col);
+  text-shadow: 1px 1px 1px black;
+}
+
+.font-change {
+  font-weight: 500;
+  text-shadow: none !important;
 }
 
 .project-item .day1:hover {
@@ -31,7 +37,7 @@
 
 .project-item .day6:hover {
   background-image: url("../Day 6 - Scroll Animation/img/projecthumb.jpg");
-  color: rgb(53, 44, 44);
+  color: black;
 }
 
 .project-item .day7:hover {
@@ -41,7 +47,7 @@
 
 .project-item .day8:hover {
   background-image: url("../Day 8 - Wave Animation/img/projecthumb.jpg");
-  color: rgb(53, 44, 44);
+  color: black;
 }
 
 .project-item .day9:hover {
@@ -191,8 +197,7 @@
 .project-item .day38:hover {
   position: relative;
   background-image: url("../Day 38 - Mobile Tab Navigation/img/projecthumb.jpg");
-  color: rgb(250, 246, 37);
-  text-shadow: 2px 1px 1px black;
+  color: rgb(40, 126, 255);
 }
 
 .project-item .day39:hover {
@@ -204,8 +209,7 @@
 .project-item .day40:hover {
   position: relative;
   background-image: url("../Day 40 - 3D Background Boxes/img/projecthumb.jpg");
-  color: white;
-  text-shadow: 2px 1px 1px black;
+  color: #19eaff;
 }
 
 .project-item .day41:hover {
@@ -233,14 +237,12 @@
   position: relative;
   background-image: url("../Day 45 - Netflix-ish Navigation/img/projecthumb.jpg");
   color: #009be5;
-  text-shadow: 1px 1px 1px black;
 }
 
 .project-item .day46:hover {
   position: relative;
   background-image: url("../Day 46 - Quizz App/img/projecthumb.jpg");
-  color: #0c4a0e;
-  text-shadow: 1px 1px 1px blue;
+  color: rgb(0 220 255);
 }
 
 .project-item .day47:hover {
