@@ -93,7 +93,7 @@ function noMatch(msg) {
 function addRepos(repos) {
   const reposEl = document.querySelector(".repos");
 
-  repos.slice(0, 5).forEach((repo) => {
+  repos.slice(0, 6).forEach((repo) => {
     const repoEl = document.createElement("a");
     repoEl.classList.add("repo");
     repoEl.href = repo.html_url;
