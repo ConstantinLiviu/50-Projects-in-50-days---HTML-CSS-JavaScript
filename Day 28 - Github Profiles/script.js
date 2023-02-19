@@ -54,13 +54,14 @@ function userProfile(user) {
 }
 
 function noMatch(msg) {
-  const cardHTML = document.createElement("div");
-  cardHTML.innerHTML = `<div>
-  <h1>
+  if (!projectContainerEl.classList.contains("expand")) {
+    projectContainerEl.classList.add("expand");
+  }
+  profileInfoEl.innerHTML = `<div>
+  <h1 class="error-msg">
   ${msg}
   </h1>  
   </div>`;
-  projectContainerEl.appendChild(cardHTML);
 }
 
 formEl.addEventListener("submit", (e) => {
