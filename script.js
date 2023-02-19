@@ -1,6 +1,14 @@
-const homeMenuIcon = document.querySelector(".ham-menu");
-const navList = document.querySelector("nav ul");
+const textStyle = document.querySelectorAll(".day");
 
-homeMenuIcon.addEventListener("click", () => {
-  navList.classList.toggle("hide-ul");
+textStyle.forEach((day) => {
+  day.addEventListener("mouseenter", () => {
+    if (day.classList.contains("adjust")) {
+      day.classList.add("font-change");
+    }
+  });
+  day.addEventListener("mouseleave", () => {
+    if (day.classList.contains("font-change")) {
+      day.classList.remove("font-change");
+    }
+  });
 });
