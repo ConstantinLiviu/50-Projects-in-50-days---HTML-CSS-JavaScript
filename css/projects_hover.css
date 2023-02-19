@@ -138,6 +138,13 @@
   background-image: url("../Day 27 - Toast Notifications/img/projecthumb.jpg");
 }
 
+.project-item .day28:hover {
+  position: relative;
+  background-image: url("../Day 28 - Github Profiles/img/projecthumb.jpg");
+  color: white;
+  text-shadow: 2px 1px 1px black;
+}
+
 .project-item .day29:hover {
   position: relative;
   background-image: url("../Day 29 - Double Heart Click/img/projecthumb.jpg");
