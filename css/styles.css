@@ -17,7 +17,8 @@ body {
 
 /* NAVIGATION */
 .navigation {
-  position: sticky;
+  /* position: sticky; */
+  position: absolute;
   top: 0;
   z-index: 2;
 }
@@ -26,7 +27,7 @@ body {
 .main-container {
   width: 80%;
   margin: 0 auto;
-  padding-top: 2rem;
+  padding-top: 5rem;
 }
 
 .title-container {
