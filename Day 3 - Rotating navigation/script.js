@@ -1,3 +1,5 @@
+import { randomProjectsArr } from "../random-project-links-array.js";
+
 const openEl = document.getElementById("open");
 const closeEl = document.getElementById("close");
 const navigationCircle = document.querySelector(".navigation");
@@ -6,6 +8,7 @@ const menuEl = document.querySelector(".menu");
 const readmeBtn = document.querySelector(".readmebtn");
 const overlayEl = document.querySelector(".overlay");
 const modalEl = document.querySelector(".modal-readme");
+const randomLink = document.querySelector(".random");
 
 openEl.addEventListener("click", () => {
   navigationCircle.classList.add("rotate");
@@ -27,4 +30,9 @@ readmeBtn.addEventListener("click", () => {
 overlayEl.addEventListener("click", () => {
   overlayEl.style.display = "none";
   modalEl.style.display = "none";
+});
+
+randomLink.addEventListener("click", (e) => {
+  e.preventDefault();
+  window.location.href = `${randomProjectsArr[Math.floor(Math.random() * 51)]}`;
 });
