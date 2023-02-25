@@ -1,6 +1,9 @@
+import { randomProjectsArr } from "../random-project-links-array.js";
+
 const navEl = document.querySelector(".navigation");
 const navbarLink = document.querySelectorAll(".navBarBtn");
 const mobileNav = document.querySelector(".navigation nav ul");
+const randomLink = document.querySelector(".random");
 
 navbarLink.forEach((link) => {
   link.addEventListener("click", () => {
@@ -28,3 +31,8 @@ function changeNav() {
     navEl.classList.remove("scrolled");
   }
 }
+
+randomLink.addEventListener("click", (e) => {
+  e.preventDefault();
+  window.location.href = `${randomProjectsArr[Math.floor(Math.random() * 51)]}`;
+});
