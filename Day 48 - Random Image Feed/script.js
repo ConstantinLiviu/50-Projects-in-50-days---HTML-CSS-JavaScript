@@ -10,7 +10,7 @@ for (i = 0; i < imgTotal; i++) {
 
 /**
  * Randomly generates width and height to be used as image size
- * @returns sets the size of the image that's being displayed
+ * @returns a string representing the image size
  */
 function imgSize() {
   return `${Math.floor(Math.random() * 10) + 300}x${
