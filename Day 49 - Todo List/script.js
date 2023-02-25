@@ -87,7 +87,6 @@ function updateToDoList() {
 
   // loop through taks and get task text and not/completed status as boolean
   pArr.forEach((paragraph) => {
-    console.log(paragraph.textContent);
     tasksListArr.push({
       content: paragraph.textContent,
       status: paragraph.classList.contains("done"),
