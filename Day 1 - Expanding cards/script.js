@@ -1,5 +1,8 @@
+import { randomProjectsArr } from "../random-project-links-array.js";
+
 // Select panels
 const panelEl = document.querySelectorAll(".panel");
+const randomLink = document.querySelector(".random");
 
 // un/assigns active class
 panelEl.forEach((panel) => {
@@ -23,3 +26,13 @@ const navList = document.querySelector("nav ul");
 homeMenuIcon.addEventListener("click", () => {
   navList.classList.toggle("hide-ul");
 });
+
+if (location.hostname === "127.0.0.1") {
+  randomLink.href = `${
+    randomProjectsArr[Math.floor(Math.random() * randomProjectsArr.length)]
+  }`;
+} else {
+  randomLink.href = `.${
+    randomProjectsArr[Math.floor(Math.random() * randomProjectsArr.length)]
+  }`;
+}
