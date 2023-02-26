@@ -11,6 +11,12 @@ homeMenuIcon.addEventListener("click", () => {
   console.log(randomProjectsArr);
 });
 
-randomProjectEl.href = `${
-  randomProjectsArr[Math.floor(Math.random() * randomProjectsArr.length)]
-}`;
+if (location.hostname === "127.0.0.1") {
+  randomProjectEl.href = `${
+    randomProjectsArr[Math.floor(Math.random() * randomProjectsArr.length)]
+  }`;
+} else {
+  randomProjectEl.href = `50-Projects-in-50-days---HTML-CSS-JavaScript${
+    randomProjectsArr[Math.floor(Math.random() * randomProjectsArr.length)]
+  }`;
+}
