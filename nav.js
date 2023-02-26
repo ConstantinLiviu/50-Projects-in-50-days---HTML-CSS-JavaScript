@@ -11,6 +11,6 @@ homeMenuIcon.addEventListener("click", () => {
   console.log(randomProjectsArr);
 });
 
-randomProjectEl.href = `..${
+randomProjectEl.href = `${
   randomProjectsArr[Math.floor(Math.random() * randomProjectsArr.length)]
 }`;
