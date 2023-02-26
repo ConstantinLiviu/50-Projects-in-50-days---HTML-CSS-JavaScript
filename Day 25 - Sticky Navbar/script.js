@@ -34,5 +34,7 @@ function changeNav() {
 
 randomLink.addEventListener("click", (e) => {
   e.preventDefault();
-  window.location.href = `${randomProjectsArr[Math.floor(Math.random() * 51)]}`;
+  window.location.href = `${
+    randomProjectsArr[Math.floor(Math.random() * randomProjectsArr.length)]
+  }`;
 });

@@ -1,7 +1,10 @@
+import { randomProjectsArr } from "../random-project-links-array.js";
+
 // modal adjustment
 const modalBtn = document.querySelector(".readme a");
 const overlayEl = document.querySelector(".overlay");
 const modalEl = document.querySelector(".modal-readme");
+const randomLink = document.querySelector(".random");
 
 modalBtn.addEventListener("click", () => {
   modalEl.style.display = "block";
@@ -54,4 +57,11 @@ iconEl.forEach((icon, i) => {
     copyrightURL.setAttribute("href", picArr[i][1]);
     imgContainerEl.style.backgroundImage = picArr[i][2];
   });
+});
+
+randomLink.addEventListener("click", (e) => {
+  e.preventDefault(e);
+  window.location.href = `${
+    randomProjectsArr[Math.floor(Math.random() * randomProjectsArr.length)]
+  }`;
 });
