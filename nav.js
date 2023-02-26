@@ -12,8 +12,7 @@ homeMenuIcon.addEventListener("click", () => {
 });
 
 randomProjectEl.addEventListener("click", (e) => {
-  e.preventDefault();
-  window.location.href = `${
+  randomProjectEl.href = `${
     randomProjectsArr[Math.floor(Math.random() * randomProjectsArr.length)]
   }`;
 });
