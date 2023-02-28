@@ -17,9 +17,12 @@ menuCloseEl.addEventListener("click", () => {
   });
 });
 
-randomLink.addEventListener("click", (e) => {
-  e.preventDefault();
-  window.location.href = `${
+if (location.hostname === "127.0.0.1") {
+  randomLink.href = `/${
     randomProjectsArr[Math.floor(Math.random() * randomProjectsArr.length)]
   }`;
-});
+} else {
+  randomLink.href = `./${
+    randomProjectsArr[Math.floor(Math.random() * randomProjectsArr.length)]
+  }`;
+}

@@ -16,7 +16,7 @@ if (location.hostname === "127.0.0.1") {
     randomProjectsArr[Math.floor(Math.random() * randomProjectsArr.length)]
   }`;
 } else {
-  randomProjectEl.href = `../${
+  randomProjectEl.href = `./${
     randomProjectsArr[Math.floor(Math.random() * randomProjectsArr.length)]
   }`;
 }
