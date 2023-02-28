@@ -12,11 +12,11 @@ homeMenuIcon.addEventListener("click", () => {
 });
 
 if (location.hostname === "127.0.0.1") {
-  randomProjectEl.href = `${
+  randomProjectEl.href = `/${
     randomProjectsArr[Math.floor(Math.random() * randomProjectsArr.length)]
   }`;
 } else {
-  randomProjectEl.href = `.${
+  randomProjectEl.href = `./${
     randomProjectsArr[Math.floor(Math.random() * randomProjectsArr.length)]
   }`;
 }
