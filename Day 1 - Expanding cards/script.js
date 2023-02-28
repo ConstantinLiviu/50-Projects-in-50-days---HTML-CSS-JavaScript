@@ -27,6 +27,8 @@ homeMenuIcon.addEventListener("click", () => {
   navList.classList.toggle("hide-ul");
 });
 
-randomLink.href = `.${
+randomLink.href = `..${
   randomProjectsArr[Math.floor(Math.random() * randomProjectsArr.length)]
 }`;
+
+// sterge toate / din links array
