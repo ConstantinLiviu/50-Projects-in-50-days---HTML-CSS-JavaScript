@@ -1,6 +1,6 @@
 export const randomProjectsArr = [
-  "/Day 1 - Expanding cards/index.html",
-  "/Day 2 - Progress Steps/index.html",
+  "Day 1 - Expanding cards/index.html",
+  "Day 2 - Progress Steps/index.html",
   "/Day 3 - Rotating navigation/index.html",
   "/Day 4 - Hidden Search Widget/index.html",
   "/Day 5 - Blurry loading/index.html",
