@@ -8,15 +8,18 @@ const randomProjectEl = document.querySelector(
 
 homeMenuIcon.addEventListener("click", () => {
   navList.classList.toggle("hide-ul");
-  console.log(randomProjectsArr);
 });
 
 if (location.hostname === "127.0.0.1") {
   randomProjectEl.href = `/${
     randomProjectsArr[Math.floor(Math.random() * randomProjectsArr.length)]
   }`;
-} else {
+} else if (location.href.split("/").length > 3) {
   randomProjectEl.href = `./${
+    randomProjectsArr[Math.floor(Math.random() * randomProjectsArr.length)]
+  }`;
+} else {
+  randomProjectEl.href = `../${
     randomProjectsArr[Math.floor(Math.random() * randomProjectsArr.length)]
   }`;
 }
