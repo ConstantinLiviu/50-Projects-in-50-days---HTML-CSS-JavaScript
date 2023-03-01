@@ -30,5 +30,3 @@ homeMenuIcon.addEventListener("click", () => {
 randomLink.href = `../${
   randomProjectsArr[Math.floor(Math.random() * randomProjectsArr.length)]
 }`;
-
-// sterge toate / din links array
