@@ -32,9 +32,6 @@ overlayEl.addEventListener("click", () => {
   modalEl.style.display = "none";
 });
 
-randomLink.addEventListener("click", (e) => {
-  e.preventDefault();
-  window.location.href = `${
-    randomProjectsArr[Math.floor(Math.random() * randomProjectsArr.length)]
-  }`;
-});
+randomLink.href = `../${
+  randomProjectsArr[Math.floor(Math.random() * randomProjectsArr.length)]
+}`;

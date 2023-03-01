@@ -10,6 +10,10 @@ homeMenuIcon.addEventListener("click", () => {
   navList.classList.toggle("hide-ul");
 });
 
+/**********************************************************************************************************************/
+
+// For any change here a manual change is required for projects 3, 25, 38, 45;
+
 if (location.hostname === "127.0.0.1") {
   randomProjectEl.href = `/${
     randomProjectsArr[Math.floor(Math.random() * randomProjectsArr.length)]
@@ -23,3 +27,4 @@ if (location.hostname === "127.0.0.1") {
     randomProjectsArr[Math.floor(Math.random() * randomProjectsArr.length)]
   }`;
 }
+/**********************************************************************************************************************/
