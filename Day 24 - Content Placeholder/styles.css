@@ -179,7 +179,15 @@ body {
 
 /* MOBILE */
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1490px) {
+  .project-container {
+    width: 80%;
+  }
+
+  .card-container {
+    width: 60%;
+  }
+
   .id-container {
     gap: 2rem;
   }
@@ -190,12 +198,6 @@ body {
 
   .occupation {
     width: 8rem;
-  }
-}
-
-@media screen and (max-width: 830px) {
-  .card-container {
-    width: 80%;
   }
 }
 
