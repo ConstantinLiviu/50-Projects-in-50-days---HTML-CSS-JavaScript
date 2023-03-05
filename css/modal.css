@@ -105,3 +105,11 @@ span.in-progress {
 .last {
   margin-bottom: 2rem !important;
 }
+
+/* MOBILE */
+
+@media screen and (max-width: 600px) {
+  .modal-readme {
+    width: 95vw;
+  }
+}
