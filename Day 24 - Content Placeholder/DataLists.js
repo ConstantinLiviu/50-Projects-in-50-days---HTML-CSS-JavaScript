@@ -18,7 +18,7 @@ export const cardTitles = [
   "Speed and safety is the name of the game",
   "There are no problems, only puzzles to be solved",
   "Seeing the big picture is the key to success",
-  "Making everyone feel save is no small feat",
+  "Making everyone feel safe is no small feat",
   "Go big or go home!",
 ];
 
@@ -42,6 +42,6 @@ export const occupation = [
   "Driver",
   "Engineer",
   "Manager",
-  "Police",
+  "Police officer",
   "Tennis player",
 ];
