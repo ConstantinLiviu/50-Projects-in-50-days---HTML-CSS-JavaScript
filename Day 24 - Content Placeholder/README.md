@@ -10,10 +10,10 @@
      ✔  responsive design;
      ✔  create loading animation;
     add loading effect functionality;
-    add button functionality;
+     ✔  add button functionality;
     refactor code;
     add thumbnail;
 
     Status:
-    project in progress;
-     ✔ project completed;
+     ✔ project in progress;
+    project completed;
