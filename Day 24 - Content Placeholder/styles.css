@@ -70,11 +70,8 @@ body {
 
 /* MAIN IMAGE */
 
-.main-img {
-  object-fit: cover;
-  border-radius: 1rem 1rem 0 0;
-  height: 100%;
-  width: 100%;
+.main-img-container {
+  background-size: cover;
 }
 
 /* INFO CONTAINER */
