@@ -130,3 +130,10 @@ body {
   background-color: var(--col-gray);
   pointer-events: none;
 }
+
+/* MOBILE */
+@media screen and (max-width: 600px) {
+  .container {
+    width: 95%;
+  }
+}
