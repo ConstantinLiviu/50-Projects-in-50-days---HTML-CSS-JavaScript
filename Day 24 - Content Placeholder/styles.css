@@ -63,7 +63,6 @@ body {
 
 /* IMAGE CONTAINER */
 .main-img-container {
-  /* max-width: 100%; */
   height: 20rem;
   border-radius: 1rem 1rem 0 0;
 }
@@ -89,21 +88,21 @@ body {
   text-align: center;
 }
 
-.title,
-.description {
+.card-title,
+.card-description {
   border-radius: 1rem;
 }
-.title {
+.card-title {
   font-size: 3rem;
   margin-bottom: 1rem;
   color: #b3541e;
-  height: 3.7rem;
+  min-height: 7.5rem;
 }
 
-.description {
+.card-description {
   font-size: 1.8rem;
   color: #495371;
-  height: 2.2rem;
+  height: 4.5rem;
 }
 
 /* ID CONTAINER */
@@ -112,11 +111,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 5rem;
-  width: 100%;
-}
-
-.profile-pic {
+  gap: 3rem;
   width: 100%;
 }
 
@@ -126,7 +121,7 @@ body {
   height: 15rem;
   width: 15rem;
   border-radius: 50%;
-  overflow: auto;
+  background-size: cover;
 }
 
 .name,
@@ -135,22 +130,22 @@ body {
 }
 
 .name {
-  font-size: 1.6rem;
+  font-size: 2.6rem;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 1rem;
-  height: 1.8rem;
-  width: 20rem;
+  height: 3rem;
+  width: 25rem;
   color: #362222;
 }
 
 .occupation {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   font-weight: 300;
   color: #495371;
-  height: 1.6rem;
+  height: 2rem;
   display: inline-block;
-  width: 10rem;
+  width: 12rem;
 }
 
 .bg-animation {
@@ -190,11 +185,8 @@ body {
   }
 
   .name {
-    width: 12rem;
-  }
-
-  .occupation {
-    width: 8rem;
+    width: 21rem;
+    font-size: 2rem;
   }
 }
 
@@ -209,6 +201,12 @@ body {
     height: 8rem;
     width: 8rem;
   }
+  .name {
+    height: 2.4rem;
+  }
+  .occupation {
+    font-size: 1.6rem;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -219,5 +217,12 @@ body {
   .profile-pic-container {
     height: 6rem;
     width: 6rem;
+  }
+  .name {
+    font-size: 1.6rem;
+    width: 15rem;
+  }
+  .occupation {
+    font-size: 1.4rem;
   }
 }
