@@ -1,4 +1,4 @@
-const imgSrc = [
+export const imgSrc = [
   "driver.jpg",
   "engineer.jpg",
   "manager.jpg",
@@ -6,7 +6,7 @@ const imgSrc = [
   "tennis.jpg",
 ];
 
-const profileImgSrc = [
+export const profileImgSrc = [
   "https://randomuser.me/api/portraits/men/79.jpg",
   "https://randomuser.me/api/portraits/men/96.jpg",
   "https://randomuser.me/api/portraits/men/26.jpg",
@@ -14,7 +14,7 @@ const profileImgSrc = [
   "https://randomuser.me/api/portraits/men/70.jpg",
 ];
 
-const cardTitles = [
+export const cardTitles = [
   "Speed and safety is the name of the game",
   "There are no problems, only puzzles to be solved",
   "Seeing the big picture is the key to success",
@@ -22,7 +22,7 @@ const cardTitles = [
   "Go big or go home!",
 ];
 
-const cardSubTitles = [
+export const cardSubTitles = [
   "When you're in a hurry you want things done fast. But one must not get reckless in the process",
   "Each situation has its own challenges. That's what we do here, figure out the best way to deal with it.",
   "There are no two days alike. One has to be bold and have a sharp mind.",
@@ -30,7 +30,7 @@ const cardSubTitles = [
   "This isn't a sport, it's a battle! And it's not for the faint of heart!",
 ];
 
-const names = [
+export const names = [
   "Michael Johnson",
   "Donovan Campbell",
   "Tyrone Williams",
@@ -38,4 +38,10 @@ const names = [
   "John Brown",
 ];
 
-const occupation = ["Driver", "Engineer", "Manager", "Police", "Tennis player"];
+export const occupation = [
+  "Driver",
+  "Engineer",
+  "Manager",
+  "Police",
+  "Tennis player",
+];
