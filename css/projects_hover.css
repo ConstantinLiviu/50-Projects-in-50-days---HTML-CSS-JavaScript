@@ -133,6 +133,11 @@
   color: #00f3ff;
 }
 
+.project-item .day24:hover {
+  position: relative;
+  background-image: url("../Day 24 - Content Placeholder/img/projecthumb.jpg");
+}
+
 .project-item .day25:hover {
   position: relative;
   background-image: url("../Day 25 - Sticky Navbar/img/projecthumb.jpg");
