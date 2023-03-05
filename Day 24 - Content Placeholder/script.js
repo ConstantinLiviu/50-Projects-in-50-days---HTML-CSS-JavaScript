@@ -20,12 +20,24 @@ dataBtn.addEventListener("click", () => {
   animatedEls.forEach((e) => {
     e.classList.remove("bg-animation");
   });
+
   const index = Math.floor(Math.random() * 5);
   imgContainerEl.style.backgroundImage = `url('img/${imgSrc[index]}')`;
   titleEl.textContent = `${cardTitles[index]}`;
-  console.log(cardSubTitles[index]);
   descriptionEl.textContent = `${cardSubTitles[index]}`;
   profilePicEl.style.backgroundImage = `url('${profileImgSrc[index]}')`;
   idNameEl.textContent = `${names[index]}`;
   occupationEl.textContent = `${occupation[index]}`;
+
+  setTimeout(() => {
+    imgContainerEl.style.backgroundImage = "";
+    titleEl.textContent = "";
+    descriptionEl.textContent = "";
+    profilePicEl.style.backgroundImage = "";
+    idNameEl.textContent = "";
+    occupationEl.textContent = "";
+    animatedEls.forEach((e) => {
+      e.classList.add("bg-animation");
+    });
+  }, 5000);
 });
