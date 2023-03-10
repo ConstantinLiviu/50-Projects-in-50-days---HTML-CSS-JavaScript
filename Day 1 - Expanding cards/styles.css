@@ -148,9 +148,20 @@ p {
 /* MOBILE */
 
 @media screen and (max-width: 600px) {
+  body {
+    overflow-y: auto;
+  }
+
+  .navigation {
+    position: absolute;
+    top: 0;
+  }
+
+  .container {
+    margin-top: 5rem;
+  }
   /* Panel */
   .panel {
-    /* background-size: cover; */
     background-position: center;
     height: 7%;
     width: 95%;
