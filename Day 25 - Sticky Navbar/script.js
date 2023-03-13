@@ -3,15 +3,18 @@ import { randomProjectsArr } from "../random-project-links-array.js";
 const navEl = document.querySelector(".navigation");
 const navbarLink = document.querySelectorAll(".navBarBtn");
 const mobileNav = document.querySelector(".navigation nav ul");
+const hameMenuBtn = document.querySelector(".ham-menu");
+const homeBtn = document.querySelector(".home-btn");
 const randomLink = document.querySelector(".random");
+
+hameMenuBtn.addEventListener("click", () => {
+  mobileNav.classList.toggle("hide-ul");
+});
 
 navbarLink.forEach((link) => {
   link.addEventListener("click", () => {
     navbarLink.forEach((link) => {
       link.classList.remove("active-link");
-      if (window.innerWidth < 601) {
-        mobileNav.classList.add("hide-ul");
-      }
     });
     link.classList.add("active-link");
   });

@@ -294,6 +294,11 @@ nav li:hover a,
 }
 
 @media screen and (max-width: 600px) {
+  nav li:hover a,
+  .navigation div:hover a {
+    color: var(--bg-col);
+  }
+
   .service {
     justify-content: center;
     flex-wrap: wrap;
