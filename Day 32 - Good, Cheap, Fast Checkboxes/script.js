@@ -9,7 +9,6 @@ toggleArr.forEach((toggle) => {
 
 function twoOutofThree(activeSlider) {
   if (toggleGood.checked && toggleCheap.checked && toggleFast.checked) {
-    console.log("merge");
     if (toggleGood === activeSlider) {
       toggleFast.checked = false;
     }
