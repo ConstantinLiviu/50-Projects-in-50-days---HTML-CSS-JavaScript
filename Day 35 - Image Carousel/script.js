@@ -35,7 +35,6 @@ window.addEventListener("resize", () => {
 function carouselLoopDesktop(step) {
   carouselEl.scrollLeft += step;
   i++;
-  console.log(i);
   if (i > 3) {
     i = 0;
     carouselEl.scrollLeft = 0;
