@@ -57,6 +57,12 @@ i {
   color: #e0144c;
 }
 
+.times {
+  width: 5rem;
+  display: inline-block;
+  text-align: left;
+}
+
 /* IMG */
 
 .image {
