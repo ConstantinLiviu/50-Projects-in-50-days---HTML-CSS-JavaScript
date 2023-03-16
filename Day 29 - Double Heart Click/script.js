@@ -1,6 +1,7 @@
 const imgEl = document.querySelector(".image");
 const animationEl = document.querySelector(".heart-animation");
 const counterEl = document.querySelector(".counter");
+const timesSpan = document.querySelector(".times");
 
 let counter = 0;
 
@@ -14,4 +15,5 @@ imgEl.addEventListener("dblclick", (e) => {
   setTimeout(() => {
     animationEl.classList.remove("animated");
   }, 800);
+  timesSpan.textContent = `${counter > 1 ? "times" : "time"}`;
 });
