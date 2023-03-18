@@ -6,8 +6,6 @@ const nextBtnEl = document.querySelector(".next");
 const prevBtnEl = document.querySelector(".prev");
 const slidesLength = imgSliderEl.querySelectorAll(".img-slider-item").length;
 
-console.log(slidesLength);
-
 let slideInView = 0;
 
 nextBtnEl.addEventListener("click", () => {});
