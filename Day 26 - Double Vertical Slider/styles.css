@@ -58,7 +58,7 @@ body {
 } */
 
 .title,
-.description {
+.slider-content {
   width: 75%;
   color: var(--bg-col);
 }
@@ -68,7 +68,7 @@ body {
   font-size: 4rem;
 }
 
-.description {
+.slider-content {
   font-size: 2rem;
 }
 
@@ -93,7 +93,7 @@ body {
   transform: translateX(-50%);
   cursor: pointer;
   display: flex;
-  z-index: 99;
+  z-index: 98;
 }
 
 .next,
