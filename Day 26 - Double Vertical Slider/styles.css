@@ -53,10 +53,6 @@ body {
   position: absolute;
 }
 
-/* .items-container {
-  height: 100vh;
-} */
-
 .title,
 .slider-content {
   width: 75%;
@@ -132,6 +128,11 @@ body {
 
 .img-slider {
   width: 70%;
+}
+
+.img-container {
+  height: 100vh;
+  transition: all 0.3s ease;
 }
 
 .img-slider-item {
