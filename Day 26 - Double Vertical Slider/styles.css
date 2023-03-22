@@ -132,7 +132,8 @@ body {
 
 .img-container {
   height: 100vh;
-  transition: all 0.3s ease;
+  transform: translateY(0);
+  transition: all 0.6s ease;
 }
 
 .img-slider-item {
@@ -140,15 +141,17 @@ body {
 }
 
 .img-slider-item.item1 {
-  background-image: url(img/bg1.jpg);
+  background-image: url("img/bg1.jpg");
 }
 
 .img-slider-item.item2 {
-  background-image: url(img/bg2.jpg);
+  background-image: url("img/bg2.jpg");
 }
+
 .img-slider-item.item3 {
-  background-image: url(img/bg3.jpg);
+  background-image: url("img/bg3.jpg");
 }
+
 .img-slider-item.item4 {
-  background-image: url(img/bg4.jpg);
+  background-image: url("img/bg4.jpg");
 }
