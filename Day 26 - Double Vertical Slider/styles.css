@@ -69,15 +69,15 @@ body {
 }
 
 .text-slider-item.item2 {
-  background-color: orange;
+  background-color: green;
 }
 
 .text-slider-item.item3 {
-  background-color: orange;
+  background-color: rgb(73, 73, 236);
 }
 
 .text-slider-item.item4 {
-  background-color: orange;
+  background-color: rgb(250, 54, 54);
 }
 
 /* BUTTONS */
